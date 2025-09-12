@@ -140,7 +140,7 @@ export const routes: NavItem[] = [
 	},
 	{
 		name: 'NƯỚC HOA CHIẾT',
-		href: '/extract',
+		href: '/perfume-extract',
 		submenu: [
 			{ name: 'Nước hoa chiết Nam', href: '/perfume?sex=men' },
 			{ name: 'Nước hoa chiết Nữ', href: '/perfume?sex=women' },
