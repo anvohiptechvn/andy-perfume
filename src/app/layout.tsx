@@ -5,6 +5,8 @@ import { NuqsAdapter } from 'nuqs/adapters/react';
 
 import { ReactQueryProvider } from '@/providers/query-client';
 
+import BaseLayout from '@/components/layouts';
+
 import './globals.css';
 
 const roboto = Roboto({
@@ -26,7 +28,9 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`${roboto.className} font-roboto antialiased`}>
 				<NuqsAdapter>
-					<ReactQueryProvider>{children}</ReactQueryProvider>
+					<ReactQueryProvider>
+						<BaseLayout>{children}</BaseLayout>
+					</ReactQueryProvider>
 				</NuqsAdapter>
 			</body>
 		</html>
