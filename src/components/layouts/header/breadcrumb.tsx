@@ -16,18 +16,22 @@ const BreadcrumbContainer = ({ items }: { items: Crumb[] }) => {
 				{items.map((item, index) => {
 					const isLast = index === items.length - 1;
 					return (
-						<BreadcrumbItem key={item.label}>
+						<React.Fragment key={item.label}>
 							{!isLast ? (
 								<>
-									<BreadcrumbLink asChild>
-										<Link href={item.href || '#'}>{item.label}</Link>
-									</BreadcrumbLink>
+									<BreadcrumbItem>
+										<BreadcrumbLink asChild>
+											<Link href={item.href || '#'}>{item.label}</Link>
+										</BreadcrumbLink>
+									</BreadcrumbItem>
 									<BreadcrumbSeparator />
 								</>
 							) : (
-								<BreadcrumbPage>{item.label}</BreadcrumbPage>
+								<BreadcrumbItem>
+									<BreadcrumbPage>{item.label}</BreadcrumbPage>
+								</BreadcrumbItem>
 							)}
-						</BreadcrumbItem>
+						</React.Fragment>
 					);
 				})}
 			</BreadcrumbList>
