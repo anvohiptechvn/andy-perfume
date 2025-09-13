@@ -1,13 +1,14 @@
 'use client';
 
+import { useMemo } from 'react';
 import { usePathname } from 'next/navigation';
 
 import TopHeader from './top-header';
 import Navbar from './navbar';
 import BreadcrumbContainer, { Crumb } from './breadcrumb';
+import SlideNotice from './slide-notice';
 
-import { NavItem, routes } from '@/constants/navbar';
-import { useMemo } from 'react';
+import { routes } from '@/constants/navbar';
 
 const Header = () => {
 	const pathName = usePathname();
@@ -51,6 +52,7 @@ const Header = () => {
 		<header className="w-full bg-white">
 			<TopHeader />
 			<Navbar />
+			<SlideNotice />
 
 			{pathName !== '/' && (
 				<div className="hidden bg-[#f9f9f9] px-4 py-3 md:block">
