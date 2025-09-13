@@ -1,5 +1,5 @@
 const AboutPage = () => {
-	return <div>AboutPage</div>;
+	return <div className="container mx-auto px-4">AboutPage</div>;
 };
 
 export default AboutPage;

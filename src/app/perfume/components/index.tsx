@@ -1,5 +1,5 @@
 const PerfumePage = () => {
-	return <div>PerfumePage</div>;
+	return <div className="container mx-auto px-4">PerfumePage</div>;
 };
 
 export default PerfumePage;
