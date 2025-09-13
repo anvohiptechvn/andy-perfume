@@ -1,5 +1,5 @@
 const BrandPage = () => {
-	return <div>BrandPage</div>;
+	return <div className="container mx-auto">BrandPage</div>;
 };
 
 export default BrandPage;
