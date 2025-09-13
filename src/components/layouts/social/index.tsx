@@ -23,7 +23,7 @@ interface SocialLink {
 
 const Social = () => {
 	return (
-		<div className="fixed right-4 bottom-6 z-50 hidden flex-col items-end gap-3 md:flex">
+		<div className="fixed right-4 bottom-6 z-50 flex flex-col items-end gap-3">
 			{(socialLinks as SocialLink[]).map((item) => (
 				<a
 					key={item.ariaLabel}
