@@ -53,7 +53,7 @@ const Header = () => {
 			<Navbar />
 
 			{pathName !== '/' && (
-				<div className="bg-[#f9f9f9] px-4 py-3">
+				<div className="hidden bg-[#f9f9f9] px-4 py-3 md:block">
 					<div className="container mx-auto px-4">
 						<BreadcrumbContainer items={breadcrumbRoutes} />
 					</div>

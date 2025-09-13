@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Menu } from 'lucide-react';
 import { usePathname } from 'next/navigation';
 
 import { routes } from '@/constants/navbar';
@@ -11,10 +11,16 @@ const Navbar = () => {
 	const pathName = usePathname();
 
 	return (
-		<nav className="container mx-auto px-12">
-			<ul className="relative flex w-full justify-between py-3">
+		<nav className="container mx-auto pr-4 md:pr-12 md:pl-4">
+			<ul className="relative flex w-full items-center justify-between">
+				<Link href="/" className="text-2xl font-bold text-gray-800 transition-colors hover:text-blue-600">
+					<img src="/images/logo/perfume.png" alt="Logo" className="w-16 md:w-24" />
+				</Link>
+
+				<Menu size={24} className="block md:hidden" />
+
 				{routes.map((route) => (
-					<li key={route.name} className={cn('group', route.submenu && route.submenu.length < 5 ? 'relative' : '')}>
+					<li key={route.name} className={cn('group hidden md:block', route.submenu && route.submenu.length < 5 ? 'relative' : '')}>
 						<Link
 							href={route.href}
 							className={cn(

@@ -1,0 +1,182 @@
+[
+	{
+		"id": 1,
+		"name": "Dior Sauvage EDP",
+		"price": {
+			"from": 375000,
+			"to": 3850000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373"
+	},
+	{
+		"id": 2,
+		"name": "Chanel Bleu De Chanel EDP",
+		"price": {
+			"from": 415000,
+			"to": 4250000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267"
+	},
+	{
+		"id": 3,
+		"name": "Tom Ford Ombré Leather EDP",
+		"price": {
+			"from": 575000,
+			"to": 4500000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+	},
+	{
+		"id": 4,
+		"name": "Jean Paul Gaultier Le Male Le Parfum",
+		"price": {
+			"from": 325000,
+			"to": 3550000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/7fc45450-aa20-4fe8-ad4e-cd3a92b0d1d8.jpg?v=1636958118433"
+	},
+	{
+		"id": 5,
+		"name": "Giorgio Armani Acqua Di Giò Pour Homme EDT",
+		"price": {
+			"from": 295000,
+			"to": 2250000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/539c44ff-b879-4f18-891a-38cc6138919a.jpg?v=1664977991380"
+	},
+	{
+		"id": 6,
+		"name": "Creed Aventus For Men EDP",
+		"price": {
+			"from": 795000,
+			"to": 7800000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/19bdcdbc-e405-4f18-89a0-8ba031e7269b.jpg?v=1651150099320"
+	},
+	{
+		"id": 7,
+		"name": "Yves Saint Laurent La Nuit De L'Homme EDT",
+		"price": {
+			"from": 325000,
+			"to": 2750000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/6f4ab6a0-b7b7-473d-98da-4a56730a1273.jpg?v=1647936625680"
+	},
+	{
+		"id": 8,
+		"name": "Versace Pour Homme EDT",
+		"price": {
+			"from": 265000,
+			"to": 2180000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/f41e5318-f894-4c74-9dbb-b929c460bc09.jpg?v=1657259579817"
+	},
+	{
+		"id": 9,
+		"name": "Maison Margiela Replica Jazz Club EDT",
+		"price": {
+			"from": 385000,
+			"to": 3100000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/replica-jazz-club-memory-in-a-fragrance-1675232372483.jpg?v=1675233121107"
+	},
+	{
+		"id": 10,
+		"name": "Versace Eros For Men EDT",
+		"price": {
+			"from": 285000,
+			"to": 2150000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ver-eros-1-jpeg.jpg?v=1648381743267"
+	},
+	{
+		"id": 11,
+		"name": "Roja Dove Elysium Pour Homme Parfum Cologne",
+		"price": {
+			"from": 775000,
+			"to": 6400000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/45260e04-ebd9-4939-9a07-56c9afaada65.jpg?v=1649824225163"
+	},
+	{
+		"id": 12,
+		"name": "Xerjoff Naxos EDP",
+		"price": {
+			"from": 685000,
+			"to": 5900000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/z5060797143584-df5751a5bbe47a368970cf49da49e7c8-1704950206214.jpg?v=1704950211377"
+	},
+	{
+		"id": 13,
+		"name": "Xerjoff Casamorati Mefisto EDP",
+		"price": {
+			"from": 675000,
+			"to": 5900000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/z3943387934495-50dcbf8ff15ba063766c539f90f78d57-1670481769853.jpg?v=1670481922927"
+	},
+	{
+		"id": 14,
+		"name": "Roja Dove Oceania Parfum",
+		"price": {
+			"from": 975000,
+			"to": 8900000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/oceania-roja-parfum-1663578296927.png?v=1755088423990"
+	},
+	{
+		"id": 15,
+		"name": "Le Labo Santal 33 EDP",
+		"price": {
+			"from": 695000,
+			"to": 6900000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/a6e8e1a4-447f-4f6d-a0c1-ac6b9b72e81f.jpg?v=1664980224683"
+	},
+	{
+		"id": 16,
+		"name": "Tom Ford Oud Wood EDP",
+		"price": {
+			"from": 775000,
+			"to": 6800000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/f8f9e95b-efd0-4135-bde3-7d36cced940b.jpg?v=1645084686397"
+	},
+	{
+		"id": 17,
+		"name": "Kilian Black Phantom Memento Mori EDP",
+		"price": {
+			"from": 995000,
+			"to": 6800000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/71047692-88b0-4231-8976-8563afefe654.jpg?v=1650965347120"
+	},
+	{
+		"id": 18,
+		"name": "Mancera Paris Cedrat Boise EDP",
+		"price": {
+			"from": 315000,
+			"to": 2650000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/mancera-cedrat-boise-jpeg.jpg?v=1664981068400"
+	},
+	{
+		"id": 19,
+		"name": "Creed Silver Mountain Water EDP",
+		"price": {
+			"from": 695000,
+			"to": 6600000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/creed-silver-mountain-water-edp.jpg?v=1750159536067"
+	},
+	{
+		"id": 20,
+		"name": "Jean Paul Gaultier Ultra Male EDT",
+		"price": {
+			"from": 325000,
+			"to": 3250000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ultra-male-parfumerie.jpg?v=1648526510673"
+	}
+]
