@@ -26,17 +26,24 @@ const Footer = () => {
 				{/* Column 5 - Contact */}
 				<div className="col-span-2">
 					<h3 className="font-primary-default mb-3 text-base font-semibold uppercase">Thông tin liên hệ</h3>
-					<p>{contactInfo.company}</p>
-					<p>{contactInfo.license}</p>
-					<p>{contactInfo.address}</p>
-					<p>{contactInfo.phone}</p>
-					<p>{contactInfo.email}</p>
+					<p className="leading-[23px]">{contactInfo.company}</p>
+					<p className="leading-[23px]">{contactInfo.license}</p>
+					<p className="leading-[23px]">{contactInfo.address}</p>
+					<p className="leading-[23px]">{contactInfo.phone}</p>
+					<p className="leading-[23px]">{contactInfo.email}</p>
 				</div>
 			</div>
 
 			{/* Bottom bar */}
 			<div className="bg-[#032119] py-4 text-center text-xs">
-				Parfumerie.vn | Cung cấp bởi <span className="text-[#999999]">Sapo</span>
+				Parfumerie.vn | Cung cấp bởi{' '}
+				<Link
+					className="text-[#999999]"
+					href="https://www.sapo.vn/?utm_campaign=cpn:site_khach_hang-plm:footer&utm_source=site_khach_hang&utm_medium=referral&utm_content=fm:text_link-km:-sz:&utm_term=&campaign=site_khach_hang"
+					target="_blank"
+				>
+					Sapo
+				</Link>
 			</div>
 		</footer>
 	);
