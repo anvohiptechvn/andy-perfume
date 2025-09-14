@@ -1,15 +1,7 @@
-'use server';
-
-import { Suspense } from 'react';
-
 import BrandPage from './components';
 
 const BrandContainer = async () => {
-	return (
-		<Suspense fallback={<></>}>
-			<BrandPage />
-		</Suspense>
-	);
+	return <BrandPage />;
 };
 
 export default BrandContainer;
