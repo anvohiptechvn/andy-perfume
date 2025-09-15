@@ -14,7 +14,7 @@ export default function Blogs() {
 			</h2>
 
 			<div className="grid gap-4 px-4 sm:grid-cols-2 md:grid-cols-4">
-				{blogs.map((blog) => (
+				{blogs.slice(0, 4).map((blog) => (
 					<div key={blog.id} className="flex w-full flex-col gap-2.5 overflow-hidden bg-white">
 						<div className="relative mx-auto h-[183px] w-[183px]">
 							<Image src={blog.image} alt={blog.title} fill className="object-cover" />
