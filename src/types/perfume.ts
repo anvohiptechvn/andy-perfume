@@ -6,4 +6,5 @@ export type Perfume = {
 		to: number;
 	};
 	image: string;
+	description: string;
 };

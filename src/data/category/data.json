@@ -3,7 +3,7 @@
 	{ "name": "Giới thiệu", "link": "/about" },
 	{
 		"name": "Thương hiệu",
-		"link": "brands",
+		"link": "/",
 		"children": [
 			{ "name": "AFNAN", "link": "/brands/afnan" },
 			{ "name": "AMOUAGE", "link": "/brands/amouage" },

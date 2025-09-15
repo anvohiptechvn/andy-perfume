@@ -32,7 +32,7 @@ export const routes: NavItem[] = [
 	{ name: 'GIỚI THIỆU', href: '/about' },
 	{
 		name: 'THƯƠNG HIỆU',
-		href: '/brands',
+		href: '/',
 		submenu: [
 			{ name: 'AFNAN', href: '/brands/afnan' },
 			{ name: 'AMOUAGE', href: '/brands/amouage' },
