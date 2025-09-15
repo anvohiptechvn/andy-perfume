@@ -1,0 +1,17 @@
+{
+	"contact": {
+		"title": "Liên hệ",
+		"address": "1F Quốc lộ 50 (Liên Tỉnh 5 cũ), Phường 5, Quận 8, TP. Hồ Chí Minh",
+		"phone": {
+			"label": "0888070308",
+			"href": "tel:0888070308"
+		},
+		"email": {
+			"label": "info@parfumerie.vn",
+			"href": "mailto:info@parfumerie.vn"
+		}
+	},
+	"map": {
+		"embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.819234715482!2d106.62733377505335!3d10.822393989329908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eec1d76b5e7%3A0x73bcd6e6e7fb1dd5!2sParfumerie!5e0!3m2!1svi!2s!4v1694522853171!5m2!1svi!2s"
+	}
+}
