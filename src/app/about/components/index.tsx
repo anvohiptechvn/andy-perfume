@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import parfumerieData from '@/data/about/data.json' assert { type: 'json' };
 
 const AboutPage = () => {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ChevronLeftIcon, ChevronRightIcon, MoreHorizontalIcon } from 'lucide-react';
+import { ChevronLeftIcon, ChevronRightIcon, ChevronsLeftIcon, ChevronsRightIcon, MoreHorizontalIcon } from 'lucide-react';
 
 import { cn } from '@/utils/style';
 import { Button, buttonVariants } from '@/components/ui/button';
@@ -27,13 +27,7 @@ function PaginationLink({ className, isActive, size = 'icon', ...props }: Pagina
 			aria-current={isActive ? 'page' : undefined}
 			data-slot="pagination-link"
 			data-active={isActive}
-			className={cn(
-				buttonVariants({
-					variant: isActive ? 'outline' : 'ghost',
-					size,
-				}),
-				className,
-			)}
+			className={cn(isActive ? 'text-primary-default' : 'text-[#555555]', className)}
 			{...props}
 		/>
 	);
@@ -41,18 +35,16 @@ function PaginationLink({ className, isActive, size = 'icon', ...props }: Pagina
 
 function PaginationPrevious({ className, ...props }: React.ComponentProps<typeof PaginationLink>) {
 	return (
-		<PaginationLink aria-label="Go to previous page" size="default" className={cn('gap-1 px-2.5 sm:pl-2.5', className)} {...props}>
-			<ChevronLeftIcon />
-			<span className="hidden sm:block">Previous</span>
+		<PaginationLink aria-label="Go to previous page" size="default" className={cn('gap-1 px-2.5', className)} {...props}>
+			<ChevronsLeftIcon size={16} className="text-[#555555]" />
 		</PaginationLink>
 	);
 }
 
 function PaginationNext({ className, ...props }: React.ComponentProps<typeof PaginationLink>) {
 	return (
-		<PaginationLink aria-disabled={true} aria-label="Go to next page" size="default" className={cn('gap-1 px-2.5 sm:pr-2.5', className)} {...props}>
-			<span className="hidden sm:block">Next</span>
-			<ChevronRightIcon />
+		<PaginationLink aria-disabled={true} aria-label="Go to next page" size="default" className={cn('gap-1 px-2.5', className)} {...props}>
+			<ChevronsRightIcon size={16} className="text-[#555555]" />
 		</PaginationLink>
 	);
 }
