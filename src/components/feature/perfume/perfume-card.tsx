@@ -5,13 +5,16 @@ import { EyeIcon } from 'lucide-react';
 
 import { Perfume } from '@/types/perfume';
 
+import { cn } from '@/utils/style';
+
 interface PerfumeCardProps {
 	perfume: Perfume;
+	className?: string;
 }
 
-const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume }) => {
+const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, className }) => {
 	return (
-		<div className="group relative flex flex-col items-center gap-2 overflow-hidden border-[0.5px] bg-white p-3 pb-6 text-center transition">
+		<div className={cn('group relative flex flex-col items-center gap-2 overflow-hidden border-[0.5px] bg-white p-3 pb-6 text-center transition', className)}>
 			<div className="relative mx-auto flex h-[186px] w-[186px] items-center justify-center">
 				<Image src={perfume.image} alt={perfume.name} width={186} height={186} className="h-full w-full object-contain" />
 			</div>
