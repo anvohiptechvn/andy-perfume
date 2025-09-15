@@ -9,14 +9,25 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 const brands = ['Xerjoff', 'Butterfly Thai Perfume', 'Missoni', 'Maison Martin Margiela'];
 const priceFilters = ['Giá dưới 100.000đ', '100.000đ - 200.000đ', '200.000đ - 300.000đ', '300.000đ - 500.000đ'];
 
-const PerfumeFilters = () => {
+export type PerfumeFilterAction = { type: 'SET_BRAND_FILTER'; payload: string[] } | { type: 'SET_PRICE_FILTER'; payload: string[] } | { type: 'RESET_FILTERS' };
+
+// Optionally, you can define a filter state interface as well
+export interface PerfumeFiltersProps {
+	dispatch: React.Dispatch<PerfumeFilterAction>;
+	filterState: {
+		brands: string[];
+		prices: string[];
+	};
+}
+
+const PerfumeFilters: React.FC<PerfumeFiltersProps> = ({ dispatch, filterState }) => {
 	return (
 		<aside className="space-y-6">
 			<aside className="border">
 				{/* Title */}
 				<div className="border-b p-2.5">
 					<h2 className="text-lg font-bold uppercase">Bộ lọc</h2>
-					<p className="text-sm text-gray-500">Giúp lọc nhanh sản phẩm bạn tìm kiếm</p>
+					<p className="text-[10px] md:text-xs">Giúp lọc nhanh sản phẩm bạn tìm kiếm</p>
 				</div>
 
 				{/* Brand Filter */}
@@ -24,7 +35,7 @@ const PerfumeFilters = () => {
 					<h3 className="py-2.5 text-base font-semibold">Thương hiệu</h3>
 					<div className="relative">
 						<Input placeholder="Tìm Thương hiệu" className="rounded-xs pr-10 shadow-none" />
-						<button className="absolute top-1/2 right-2 -translate-y-1/2 rounded bg-green-900 p-1 text-white">
+						<button className="bg-primary-default absolute top-0 right-0 bottom-0 flex w-11 items-center justify-center p-1 text-white">
 							<Search className="h-4 w-4" />
 						</button>
 					</div>
