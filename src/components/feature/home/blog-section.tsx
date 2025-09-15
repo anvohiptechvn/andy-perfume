@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-import blogs from '@/data/blog/blogs.json' assert { type: 'json' };
+import blogs from '@/data/blog/data.json' assert { type: 'json' };
 import Link from 'next/link';
 
 export default function Blogs() {
