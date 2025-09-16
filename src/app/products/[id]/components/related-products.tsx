@@ -67,8 +67,8 @@ const RelatedProducts: React.FC<RelatedProductsProps> = ({ products }) => {
 					1440: { slidesPerView: 6 },
 				}}
 			>
-				{products.map((product) => (
-					<SwiperSlide key={product.id}>
+				{products.map((product, idx) => (
+					<SwiperSlide key={idx}>
 						<PerfumeCard perfume={product} className="border-0" />
 					</SwiperSlide>
 				))}

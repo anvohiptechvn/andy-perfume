@@ -11,9 +11,7 @@ import RightPointerIcon from '@/components/icons/right-pointer';
 import PerfumeCarousel from '@/components/feature/perfume/perfume-carousel';
 import Blogs from '@/components/feature/home/blog-section';
 
-import menPerfumes from '@/data/perfume/men.json' assert { type: 'json' };
-import womenPerfumes from '@/data/perfume/women.json' assert { type: 'json' };
-import unisexPerfumes from '@/data/perfume/unisex.json' assert { type: 'json' };
+import products from '@/data/products/data.json' assert { type: 'json' };
 
 export default function Home() {
 	const images = [
@@ -31,21 +29,21 @@ export default function Home() {
 				title: 'NƯỚC HOA NAM',
 				subtitle: 'Nước hoa Nam',
 				imageUrl: 'https://bizweb.dktcdn.net/100/429/123/themes/824870/assets/sec_group_product_banner_1.jpg?1755238846140',
-				perfumes: menPerfumes as Perfume[],
+				perfumes: (products as Perfume[]).filter((p) => p.sex === 'male').slice(0, 10),
 			},
 			{
 				key: 'women',
 				title: 'NƯỚC HOA NỮ',
 				subtitle: 'Nước hoa Nữ',
 				imageUrl: 'https://bizweb.dktcdn.net/100/429/123/themes/824870/assets/sec_group_product_banner_2.jpg?1755238846140',
-				perfumes: womenPerfumes as Perfume[],
+				perfumes: (products as Perfume[]).filter((p) => p.sex === 'female').slice(0, 10),
 			},
 			{
 				key: 'unisex',
 				title: 'NƯỚC HOA UNISEX',
 				subtitle: 'Nước hoa Unisex',
 				imageUrl: 'https://bizweb.dktcdn.net/100/429/123/themes/824870/assets/sec_group_product_banner_3.jpg?1755238846140',
-				perfumes: unisexPerfumes as Perfume[],
+				perfumes: (products as Perfume[]).filter((p) => p.sex === 'female').slice(0, 10),
 			},
 		],
 		[],

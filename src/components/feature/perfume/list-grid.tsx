@@ -1,26 +1,27 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Grid, List } from 'lucide-react';
 
+import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from '@/types/http';
 import { Perfume } from '@/types/perfume';
 
+import PerfumeCard from '@/components/feature/perfume/perfume-card';
 import { Label } from '@/components/ui/label';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
-
-import PerfumeCard from '@/components/feature/perfume/perfume-card';
-import { cn } from '@/utils/style';
 import { CustomPagination } from '@/components/ui/custom-pagination';
 
+import { cn } from '@/utils/style';
+
 interface PerfumeListViewProps {
-	perfumes: Perfume[];
 	sort: string;
-	setSort: (value: string) => void;
+	setSort: (sort: string) => void;
+	perfumes: Perfume[];
 }
 
 const PerfumeListView = ({ perfumes, sort, setSort }: PerfumeListViewProps) => {
 	const [view, setView] = useState<'grid' | 'list'>('grid');
 
 	return (
-		<main className="space-y-6 border">
+		<>
 			<div className="p-2.5">
 				<h1 className="text-lg font-medium text-[#333333] md:text-[22px]">Tất cả sản phẩm</h1>
 
@@ -73,22 +74,17 @@ const PerfumeListView = ({ perfumes, sort, setSort }: PerfumeListViewProps) => {
 				</div>
 			</div>
 
-			{/* Product Items */}
 			<div className={view === 'grid' ? 'grid grid-cols-2 md:grid-cols-4' : ''}>
 				{perfumes.map((perfume, idx) => (
 					<PerfumeCard
-						key={String(perfume.id)}
+						key={idx}
 						perfume={perfume}
 						className={view === 'grid' ? 'border-0' : 'mx-2.5 border-0 border-b'}
 						layout={view === 'grid' ? 'column' : 'row'}
 					/>
 				))}
 			</div>
-
-			<div className="my-6">
-				<CustomPagination currentPage={1} totalPages={4} onPageChange={(page) => console.log('Go to page', page)} />
-			</div>
-		</main>
+		</>
 	);
 };
 

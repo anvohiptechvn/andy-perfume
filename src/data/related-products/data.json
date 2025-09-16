@@ -1,152 +1,114 @@
 [
 	{
-		"id": 1,
 		"name": "Dior Sauvage EDP",
+		"slug": "dior-sauvage-edp",
+		"brand": "versace",
+		"createdAt": "2025-09-10T00:00:00.000Z",
+		"sex": "male",
+		"isMaleExtract": false,
+		"isFemaleExtract": false,
 		"price": {
 			"from": 375000,
 			"to": 3850000
 		},
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
-		"description": "Dior Sauvage EDP là mùi hương nam tính, mạnh mẽ với sự kết hợp của cam bergamot tươi mát, tiêu cay nồng và hổ phách ấm áp. Phù hợp cho mọi dịp, mang lại cảm giác tự tin, cuốn hút."
+		"description": "Dior Sauvage EDP là mùi hương nam tính, mạnh mẽ với sự kết hợp của cam bergamot tươi mát, tiêu cay nồng và hổ phách ấm áp. Phù hợp cho mọi dịp, mang lại cảm giác tự tin, cuốn hút.",
+		"content": "<p><strong>Thương hiệu:</strong> Parfums de Marly</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2025</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Cuốn hút, Nữ tính, Sang trọng</p><p><strong>Hương đầu:</strong> Cam Bergamot, Cam Mandarin, Hạnh nhân</p><p><strong>Hương giữa:</strong> Hoa cam, Hoa trắng, Note hương phấn</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Vanilla, Xạ hương</p>"
 	},
 	{
-		"id": 2,
 		"name": "Chanel Bleu De Chanel EDP",
+		"slug": "chanel-bleu-de-chanel-edp",
+		"brand": "roja-dove",
+		"createdAt": "2020-01-01T00:00:00.000Z",
+		"sex": "male",
+		"isMaleExtract": false,
+		"isFemaleExtract": false,
 		"price": {
 			"from": 415000,
 			"to": 4250000
 		},
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
-		"description": "Bleu De Chanel EDP là biểu tượng của sự lịch lãm hiện đại, mở đầu với hương cam chanh tươi mát, hòa quyện cùng gỗ đàn hương và hương trầm, tạo nên nét quyến rũ đầy bí ẩn cho phái mạnh."
+		"description": "Bleu De Chanel EDP là biểu tượng của sự lịch lãm hiện đại, mở đầu với hương cam chanh tươi mát, hòa quyện cùng gỗ đàn hương và hương trầm, tạo nên nét quyến rũ đầy bí ẩn cho phái mạnh.",
+		"content": "<p><strong>Thương hiệu:</strong> Chanel</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2014</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương gỗ thơm</p><p><strong>Phong cách:</strong> Lịch lãm, Hiện đại, Nam tính</p><p><strong>Hương đầu:</strong> Cam Bergamot, Chanh vàng, Bạc hà</p><p><strong>Hương giữa:</strong> Gừng, Nhục đậu khấu, Hoa nhài</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Hổ phách, Gỗ tuyết tùng</p>"
 	},
 	{
-		"id": 3,
 		"name": "Tom Ford Ombré Leather EDP",
+		"slug": "tom-ford-ombre-leather-edp",
+		"brand": "maison-margiela",
+		"createdAt": "2018-01-01T00:00:00.000Z",
+		"sex": "male",
+		"isMaleExtract": false,
+		"isFemaleExtract": false,
 		"price": {
 			"from": 575000,
 			"to": 4500000
 		},
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910",
-		"description": "Tom Ford Ombré Leather EDP mang đến trải nghiệm da thuộc sang trọng, kết hợp cùng hoa nhài, hoắc hương và hổ phách. Mùi hương mạnh mẽ, cá tính, phù hợp cho những ai yêu thích sự nổi bật."
+		"description": "Tom Ford Ombré Leather EDP mang đến trải nghiệm da thuộc sang trọng, kết hợp cùng hoa nhài, hoắc hương và hổ phách. Mùi hương mạnh mẽ, cá tính, phù hợp cho những ai yêu thích sự nổi bật.",
+		"content": "<p><strong>Thương hiệu:</strong> Tom Ford</p><p><strong>Xuất xứ:</strong> Mỹ</p><p><strong>Năm ra mắt:</strong> 2018</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Da thuộc</p><p><strong>Phong cách:</strong> Cá tính, Sang trọng, Mạnh mẽ</p><p><strong>Hương đầu:</strong> Bạch đậu khấu</p><p><strong>Hương giữa:</strong> Hoa nhài Sambac, Da thuộc</p><p><strong>Hương cuối:</strong> Hoắc hương, Hổ phách, Rêu sồi</p>"
 	},
 	{
-		"id": 4,
 		"name": "Jean Paul Gaultier Le Male Le Parfum",
+		"slug": "jean-paul-gaultier-le-male-le-parfum",
+		"brand": "chanel",
+		"createdAt": "2020-01-01T00:00:00.000Z",
+		"sex": "male",
+		"isMaleExtract": false,
+		"isFemaleExtract": false,
 		"price": {
 			"from": 325000,
 			"to": 3550000
 		},
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/7fc45450-aa20-4fe8-ad4e-cd3a92b0d1d8.jpg?v=1636958118433",
-		"description": "Le Male Le Parfum là phiên bản hiện đại của dòng Le Male, nổi bật với hương vani, bạch đậu khấu và oải hương. Mùi hương ngọt ngào, ấm áp, mang lại cảm giác quyến rũ và nam tính."
+		"description": "Le Male Le Parfum là phiên bản hiện đại của dòng Le Male, nổi bật với hương vani, bạch đậu khấu và oải hương. Mùi hương ngọt ngào, ấm áp, mang lại cảm giác quyến rũ và nam tính.",
+		"content": "<p><strong>Thương hiệu:</strong> Jean Paul Gaultier</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2020</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương phương Đông</p><p><strong>Phong cách:</strong> Quyến rũ, Nam tính, Hiện đại</p><p><strong>Hương đầu:</strong> Bạch đậu khấu</p><p><strong>Hương giữa:</strong> Oải hương, Diên vĩ</p><p><strong>Hương cuối:</strong> Vani, Gỗ đàn hương, Gỗ tuyết tùng</p>"
 	},
 	{
-		"id": 5,
 		"name": "Giorgio Armani Acqua Di Giò Pour Homme EDT",
+		"slug": "giorgio-armani-acqua-di-gio-pour-homme-edt",
+		"brand": "creed",
+		"createdAt": "1996-01-01T00:00:00.000Z",
+		"sex": "male",
+		"isMaleExtract": false,
+		"isFemaleExtract": false,
 		"price": {
 			"from": 295000,
 			"to": 2250000
 		},
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/539c44ff-b879-4f18-891a-38cc6138919a.jpg?v=1664977991380",
-		"description": "Acqua Di Giò Pour Homme EDT là mùi hương tươi mát, sảng khoái với cam quýt, hoa nhài và hương biển. Phù hợp cho mùa hè, mang lại cảm giác tự do, phóng khoáng và đầy sức sống."
+		"description": "Acqua Di Giò Pour Homme EDT là mùi hương tươi mát, sảng khoái với cam quýt, hoa nhài và hương biển. Phù hợp cho mùa hè, mang lại cảm giác tự do, phóng khoáng và đầy sức sống.",
+		"content": "<p><strong>Thương hiệu:</strong> Giorgio Armani</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 1996</p><p><strong>Độ lưu hương:</strong> 4 giờ - 7 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương biển</p><p><strong>Phong cách:</strong> Tươi mát, Năng động, Nam tính</p><p><strong>Hương đầu:</strong> Cam Bergamot, Chanh, Cam Mandarin, Hoa cam</p><p><strong>Hương giữa:</strong> Hoa nhài, Hương biển, Hoa hồng, Hoa tím</p><p><strong>Hương cuối:</strong> Xạ hương, Gỗ tuyết tùng, Hổ phách, Rêu sồi</p>"
 	},
 	{
-		"id": 6,
 		"name": "Creed Aventus For Men EDP",
+		"slug": "creed-aventus-for-men-edp",
+		"brand": "roja-dove",
+		"createdAt": "2010-01-01T00:00:00.000Z",
+		"sex": "male",
+		"isMaleExtract": false,
+		"isFemaleExtract": false,
 		"price": {
 			"from": 795000,
 			"to": 7800000
 		},
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/19bdcdbc-e405-4f18-89a0-8ba031e7269b.jpg?v=1651150099320",
-		"description": "Creed Aventus For Men EDP là biểu tượng của sự thành công, mở đầu với hương dứa, táo xanh, kết hợp cùng gỗ sồi và xạ hương. Mùi hương sang trọng, mạnh mẽ, phù hợp cho người lãnh đạo."
+		"description": "Creed Aventus For Men EDP là biểu tượng của sự thành công, mở đầu với hương dứa, táo xanh, kết hợp cùng gỗ sồi và xạ hương. Mùi hương sang trọng, mạnh mẽ, phù hợp cho người lãnh đạo.",
+		"content": "<p><strong>Thương hiệu:</strong> Creed</p><p><strong>Xuất xứ:</strong> Anh</p><p><strong>Năm ra mắt:</strong> 2010</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương trái cây Chypre</p><p><strong>Phong cách:</strong> Sang trọng, Mạnh mẽ, Lãnh đạo</p><p><strong>Hương đầu:</strong> Dứa, Táo xanh, Cam Bergamot, Quả lý chua đen</p><p><strong>Hương giữa:</strong> Bạch dương, Hoa nhài, Hoắc hương, Hoa hồng</p><p><strong>Hương cuối:</strong> Gỗ sồi, Xạ hương, Hổ phách, Vani</p>"
 	},
 	{
-		"id": 7,
 		"name": "Yves Saint Laurent La Nuit De L'Homme EDT",
+		"slug": "yves-saint-laurent-la-nuit-de-lhomme-edt",
+		"brand": "mancera",
+		"createdAt": "2009-01-01T00:00:00.000Z",
+		"sex": "male",
+		"isMaleExtract": false,
+		"isFemaleExtract": false,
 		"price": {
 			"from": 325000,
 			"to": 2750000
 		},
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/6f4ab6a0-b7b7-473d-98da-4a56730a1273.jpg?v=1647936625680",
-		"description": "La Nuit De L'Homme EDT là mùi hương đêm đầy quyến rũ với tiêu đen, cam bergamot và gỗ tuyết tùng. Phù hợp cho những buổi hẹn hò, mang lại cảm giác bí ẩn, lôi cuốn cho phái mạnh."
-	},
-	{
-		"id": 8,
-		"name": "Versace Pour Homme EDT",
-		"price": {
-			"from": 265000,
-			"to": 2180000
-		},
-		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/f41e5318-f894-4c74-9dbb-b929c460bc09.jpg?v=1657259579817",
-		"description": "Versace Pour Homme EDT là sự kết hợp hoàn hảo giữa cam chanh, hoa cam và xạ hương. Mùi hương tươi mát, trẻ trung, phù hợp cho nam giới năng động, sử dụng hàng ngày hoặc đi làm."
-	},
-	{
-		"id": 9,
-		"name": "Maison Margiela Replica Jazz Club EDT",
-		"price": {
-			"from": 385000,
-			"to": 3100000
-		},
-		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/replica-jazz-club-memory-in-a-fragrance-1675232372483.jpg?v=1675233121107",
-		"description": "Replica Jazz Club EDT tái hiện không khí quán bar cổ điển với hương rượu rum, thuốc lá và vani. Mùi hương ấm áp, nam tính, thích hợp cho những buổi tối thư giãn hoặc gặp gỡ bạn bè."
-	},
-	{
-		"id": 10,
-		"name": "Versace Eros For Men EDT",
-		"price": {
-			"from": 285000,
-			"to": 2150000
-		},
-		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ver-eros-1-jpeg.jpg?v=1648381743267",
-		"description": "Versace Eros For Men EDT là mùi hương gợi cảm với bạc hà, táo xanh và đậu tonka. Mang lại cảm giác mạnh mẽ, tự tin, phù hợp cho những ai yêu thích phong cách nổi bật, cá tính."
-	},
-	{
-		"id": 11,
-		"name": "Roja Dove Elysium Pour Homme Parfum Cologne",
-		"price": {
-			"from": 775000,
-			"to": 6400000
-		},
-		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/45260e04-ebd9-4939-9a07-56c9afaada65.jpg?v=1649824225163",
-		"description": "Elysium Pour Homme Parfum Cologne là mùi hương tươi mát, sang trọng với cam quýt, hoa nhài và gỗ đàn hương. Phù hợp cho nam giới hiện đại, yêu thích sự thanh lịch và tinh tế."
-	},
-	{
-		"id": 12,
-		"name": "Xerjoff Naxos EDP",
-		"price": {
-			"from": 685000,
-			"to": 5900000
-		},
-		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/z5060797143584-df5751a5bbe47a368970cf49da49e7c8-1704950206214.jpg?v=1704950211377",
-		"description": "Xerjoff Naxos EDP là sự hòa quyện giữa mật ong, thuốc lá và cam bergamot. Mùi hương ngọt ngào, ấm áp, mang lại cảm giác sang trọng, phù hợp cho những dịp đặc biệt hoặc mùa lạnh."
-	},
-	{
-		"id": 13,
-		"name": "Xerjoff Casamorati Mefisto EDP",
-		"price": {
-			"from": 675000,
-			"to": 5900000
-		},
-		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/z3943387934495-50dcbf8ff15ba063766c539f90f78d57-1670481769853.jpg?v=1670481922927",
-		"description": "Casamorati Mefisto EDP mang phong cách Ý cổ điển với cam chanh, hoa tím và xạ hương. Mùi hương tươi mát, thanh lịch, phù hợp cho nam giới yêu thích sự nhẹ nhàng, tinh tế."
-	},
-	{
-		"id": 14,
-		"name": "Roja Dove Oceania Parfum",
-		"price": {
-			"from": 975000,
-			"to": 8900000
-		},
-		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/oceania-roja-parfum-1663578296927.png?v=1755088423990",
-		"description": "Oceania Parfum là mùi hương biển cả tươi mát với cam quýt, hoa trắng và gỗ đàn hương. Mang lại cảm giác sảng khoái, tự do, phù hợp cho mùa hè hoặc những chuyến du lịch biển."
-	},
-	{
-		"id": 15,
-		"name": "Le Labo Santal 33 EDP",
-		"price": {
-			"from": 695000,
-			"to": 6900000
-		},
-		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/a6e8e1a4-447f-4f6d-a0c1-ac6b9b72e81f.jpg?v=1664980224683",
-		"description": "Le Labo Santal 33 EDP nổi bật với hương gỗ đàn hương, bạch đậu khấu và hoa tím. Mùi hương unisex, cá tính, mang lại cảm giác tự do, phóng khoáng và rất được ưa chuộng trên toàn thế giới."
+		"description": "La Nuit De L'Homme EDT là mùi hương đêm đầy quyến rũ với tiêu đen, cam bergamot và gỗ tuyết tùng. Phù hợp cho những buổi hẹn hò, mang lại cảm giác bí ẩn, lôi cuốn cho phái mạnh.",
+		"content": "<p><strong>Thương hiệu:</strong> Yves Saint Laurent</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2009</p><p><strong>Độ lưu hương:</strong> 4 giờ - 7 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương gỗ cay</p><p><strong>Phong cách:</strong> Quyến rũ, Bí ẩn, Nam tính</p><p><strong>Hương đầu:</strong> Tiêu đen, Cam Bergamot</p><p><strong>Hương giữa:</strong> Oải hương, Gỗ tuyết tùng</p><p><strong>Hương cuối:</strong> Cỏ hương bài, Đậu tonka</p>"
 	}
 ]

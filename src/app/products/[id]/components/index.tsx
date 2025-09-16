@@ -5,23 +5,27 @@ import { cn } from '@/utils/style';
 import React, { useState } from 'react';
 import Policy from './policy';
 
+import { Perfume } from '@/types/perfume';
 import ServiceHighlights from '@/components/feature/service/highlights';
 
 import UsageGuide from './usage-guide';
 import PerfumeDescription from './description';
 import RelatedProducts from './related-products';
 
-import description from '@/data/desc_test/data.json' assert { type: 'json' };
 import relatedProducts from '@/data/related-products/data.json' assert { type: 'json' };
 
 interface ProductDetailProps {
 	name: string;
+	details: string;
 	images: string[];
-	price: number;
+	price: {
+		from: number;
+		to: number;
+	};
 	inStock?: boolean;
 }
 
-const ProductDetail: React.FC<ProductDetailProps> = ({ name = 'Tên sản phẩm', images = [], price = 0, inStock = true }) => {
+const ProductDetail: React.FC<ProductDetailProps> = ({ name = '', details = '', images = [], price, inStock = true }) => {
 	const [quantity, setQuantity] = useState(1);
 	const [tab, setTab] = useState<'info' | 'usage' | 'return'>('info');
 	const [activeImageIndex, setActiveImageIndex] = useState<number>(0);
@@ -77,7 +81,9 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ name = 'Tên sản phẩm
 							<span className="text-primary-default font-normal">{inStock ? 'Còn hàng' : 'Hết hàng'}</span>
 						</p>
 					</div>
-					<p className="text-primary-default text-xl font-medium md:text-[22px]">{price.toLocaleString('vi-VN')}₫</p>
+					<p className="text-primary-default text-xl font-medium md:text-[22px]">
+						{price.from.toLocaleString('vi-VN')}₫ {price.to && `- ${price.to.toLocaleString('vi-VN')}₫`}
+					</p>
 
 					<div>
 						<span className="text-xs font-bold text-[#42495B] md:text-sm">Số lượng:</span>
@@ -116,7 +122,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ name = 'Tên sản phẩm
 
 					{/* Tab Content */}
 					<div className="pt-4">
-						{tab === 'info' && <PerfumeDescription content={description.content} />}
+						{tab === 'info' && <PerfumeDescription content={details} />}
 						{tab === 'usage' && <UsageGuide />}
 						{tab === 'return' && <Policy />}
 					</div>
@@ -129,7 +135,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ name = 'Tên sản phẩm
 
 			{/* Related products */}
 			<div className="mt-8">
-				<RelatedProducts products={relatedProducts} />
+				<RelatedProducts products={relatedProducts as Perfume[]} />
 			</div>
 		</div>
 	);

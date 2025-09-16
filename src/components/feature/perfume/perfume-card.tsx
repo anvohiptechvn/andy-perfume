@@ -6,6 +6,7 @@ import { EyeIcon } from 'lucide-react';
 import { Perfume } from '@/types/perfume';
 
 import { cn } from '@/utils/style';
+import Link from 'next/link';
 
 interface PerfumeCardProps {
 	perfume: Perfume;
@@ -15,7 +16,8 @@ interface PerfumeCardProps {
 
 const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, className, layout = 'column' }) => {
 	return (
-		<div
+		<Link
+			href={`/products/${perfume.slug}`}
 			className={cn(
 				'group relative flex gap-2 overflow-hidden border-[0.5px] bg-white p-3 text-center transition',
 				layout === 'column' ? 'flex-col items-center' : 'flex-row items-start',
@@ -53,7 +55,7 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, className, layout = 
 					<EyeIcon size={17} />
 				</button>
 			</div>
-		</div>
+		</Link>
 	);
 };
 
