@@ -117,7 +117,7 @@
 			{ "name": "Nước hoa chiết Nữ", "link": "/products?isFemaleExtract=true" }
 		]
 	},
-	{ "name": "Kiến thức", "link": "/kien-thuc" },
+	{ "name": "Kiến thức", "link": "/thong-tin" },
 	{ "name": "Blog", "link": "/blog" },
 	{ "name": "Liên hệ", "link": "/lien-he" }
 ]

@@ -40,29 +40,27 @@ export const footerSections: FooterSection[] = [
 	{
 		title: 'Hướng dẫn',
 		links: [
-			{ label: 'Hướng dẫn mua hàng', href: '#' },
-			{ label: 'Hướng dẫn thanh toán', href: '#' },
-			{ label: 'Hướng dẫn kiểm hàng', href: '#' },
-			{ label: 'Điều khoản sử dụng', href: '#' },
+			{ label: 'Hướng dẫn mua hàng', href: '/chinh-sach-thanh-toan-va-huong-dan-mua-hang' },
+			{ label: 'Hướng dẫn thanh toán', href: '/chinh-sach-thanh-toan-va-huong-dan-mua-hang' },
+			{ label: 'Hướng dẫn kiểm hàng', href: '/chinh-sach-kiem-hang' },
+			{ label: 'Điều khoản sử dụng', href: '/dieu-khoan-su-dung' },
 		],
 	},
 	{
 		title: 'Chính sách',
 		links: [
-			{ label: 'Chính sách mua hàng', href: '#' },
-			{ label: 'Chính sách bảo mật thông tin', href: '#' },
-			{ label: 'Chính sách giao hàng', href: '#' },
-			{ label: 'Chính sách đổi trả - bảo hành', href: '#' },
-			{ label: 'Chính sách bảo mật thanh toán', href: '#' },
+			{ label: 'Chính sách mua hàng', href: '/chinh-sach-mua-hang' },
+			{ label: 'Chính sách bảo mật thông tin', href: '/chinh-sach-bao-mat-thong-tin' },
+			{ label: 'Chính sách giao hàng', href: '/chinh-sach-giao-hang' },
+			{ label: 'Chính sách đổi trả - bảo hành', href: '/chinh-sach-doi-tra-bao-hanh' },
+			{ label: 'Chính sách bảo mật thanh toán', href: '/chinh-sach-bao-mat-thanh-toan' },
 		],
 	},
 	{
 		title: 'Hỗ trợ',
 		links: [
-			{ label: 'Tìm kiếm', href: '#' },
-			{ label: 'Đăng nhập', href: '#' },
-			{ label: 'Đăng ký', href: '#' },
-			{ label: 'Cộng tác viên', href: '#' },
+			{ label: 'Tìm kiếm', href: '/search' },
+			{ label: 'Cộng tác viên', href: '' },
 		],
 	},
 ];
