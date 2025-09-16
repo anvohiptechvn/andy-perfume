@@ -32,8 +32,8 @@ const PerfumeCarousel: React.FC<PerfumeCarouselProps> = ({ perfumes }) => {
 		<div className="group/carousel relative w-full">
 			{/* Responsive Grid */}
 			<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-				{currentItems.map((perfume) => (
-					<PerfumeCard key={perfume.id} perfume={perfume} />
+				{currentItems.map((perfume, idx) => (
+					<PerfumeCard key={idx} perfume={perfume} />
 				))}
 			</div>
 

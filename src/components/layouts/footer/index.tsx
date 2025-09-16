@@ -1,10 +1,12 @@
 'use client';
 
+import React from 'react';
 import Link from 'next/link';
 
-import { contactInfo, footerSections } from '@/constants/navbar';
-import React from 'react';
+import { footerSections } from '@/constants/navbar';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+
+import { contact } from '@/data/contact/data.json' assert { type: 'json' };
 
 const Footer = () => {
 	return (
@@ -45,11 +47,11 @@ const Footer = () => {
 				{/* Column 5 - Contact */}
 				<div className="col-span-2 border-t border-white pt-4 md:border-0 md:pt-0">
 					<h3 className="font-primary-default mb-3 text-center text-base font-semibold uppercase md:text-left">Thông tin liên hệ</h3>
-					<p className="text-center leading-[23px] md:text-left">{contactInfo.company}</p>
-					<p className="text-center leading-[23px] md:text-left">{contactInfo.license}</p>
-					<p className="text-center leading-[23px] md:text-left">{contactInfo.address}</p>
-					<p className="text-center leading-[23px] md:text-left">{contactInfo.phone}</p>
-					<p className="text-center leading-[23px] md:text-left">{contactInfo.email}</p>
+					<p className="text-center leading-[23px] md:text-left">{contact.company}</p>
+					<p className="text-center leading-[23px] md:text-left">{contact.license}</p>
+					<p className="text-center leading-[23px] md:text-left">Địa chỉ: {contact.address}</p>
+					<p className="text-center leading-[23px] md:text-left">Điện thoại: {contact.phone.label}</p>
+					<p className="text-center leading-[23px] md:text-left">Email: {contact.email.label}</p>
 				</div>
 			</div>
 

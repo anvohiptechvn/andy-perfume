@@ -1,7 +1,11 @@
 'use client';
 
 import * as React from 'react';
-import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from '@/components/ui/pagination';
+import { Pagination, PaginationContent, PaginationItem, PaginationLink } from '@/components/ui/pagination';
+
+import { DEFAULT_PAGE } from '@/types/http';
+
+import { ChevronsLeft, ChevronsRight } from 'lucide-react';
 
 export interface PaginationProps {
 	currentPage: number;
@@ -19,27 +23,25 @@ export function CustomPagination({ currentPage, totalPages, onPageChange }: Pagi
 			<PaginationContent className="justify-center gap-4">
 				{/* Previous */}
 				<PaginationItem>
-					<PaginationPrevious
-						href="#"
-						onClick={(e) => {
-							e.preventDefault();
-							if (currentPage > 1) onPageChange(currentPage - 1);
-						}}
-						className="disabled:opacity-40"
-					/>
+					<button
+						onClick={() => onPageChange(currentPage - 1)}
+						className="flex cursor-pointer items-center justify-center opacity-40 disabled:cursor-not-allowed"
+						disabled={currentPage <= DEFAULT_PAGE}
+					>
+						<ChevronsLeft size={16} />
+					</button>
 				</PaginationItem>
 
 				{/* Page Numbers */}
 				{pages.map((page) => (
 					<PaginationItem key={page}>
 						<PaginationLink
-							href="#"
 							onClick={(e) => {
 								e.preventDefault();
 								onPageChange(page);
 							}}
 							isActive={page === currentPage}
-							className="px-2 py-1 text-xs md:text-sm"
+							className="cursor-pointer px-2 py-1 text-xs font-medium md:text-sm"
 						>
 							{page}
 						</PaginationLink>
@@ -48,14 +50,13 @@ export function CustomPagination({ currentPage, totalPages, onPageChange }: Pagi
 
 				{/* Next */}
 				<PaginationItem>
-					<PaginationNext
-						href="#"
-						onClick={(e) => {
-							e.preventDefault();
-							if (currentPage < totalPages) onPageChange(currentPage + 1);
-						}}
-						className="disabled:opacity-40"
-					/>
+					<button
+						onClick={() => onPageChange(currentPage + 1)}
+						className="flex cursor-pointer items-center justify-center opacity-40 disabled:cursor-not-allowed"
+						disabled={currentPage >= totalPages}
+					>
+						<ChevronsRight size={16} />
+					</button>
 				</PaginationItem>
 			</PaginationContent>
 		</Pagination>

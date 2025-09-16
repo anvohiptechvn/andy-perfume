@@ -8,7 +8,7 @@ import Navbar from './navbar';
 import BreadcrumbContainer, { Crumb } from './breadcrumb';
 import SlideNotice from './slide-notice';
 
-import { routes } from '@/constants/navbar';
+import routes from '@/data/category/data.json' assert { type: 'json' };
 
 const Header = () => {
 	const pathName = usePathname();
@@ -25,22 +25,22 @@ const Header = () => {
 			currentPath += `/${pathSegments[i]}`;
 
 			// Check main routes first
-			const mainRoute = routes.find((route) => route.href === currentPath);
+			const mainRoute = routes.find((route) => route.link === currentPath);
 			if (mainRoute) {
-				breadcrumbs.push({ label: mainRoute.name, href: mainRoute.href });
+				breadcrumbs.push({ label: mainRoute.name, href: mainRoute.link });
 				continue;
 			}
 
 			// Check submenu routes
-			const parentRoute = routes.find((route) => route.submenu?.some((sub) => sub.href === currentPath));
-			if (parentRoute?.submenu) {
-				const subItem = parentRoute.submenu.find((sub) => sub.href === currentPath);
+			const parentRoute = routes.find((route) => route.children?.some((sub) => sub.link === currentPath));
+			if (parentRoute?.children) {
+				const subItem = parentRoute?.children.find((sub) => sub.link === currentPath);
 				if (subItem) {
 					// Add parent if not already added
-					if (!breadcrumbs.some((crumb) => crumb.href === parentRoute.href)) {
-						breadcrumbs.push({ label: parentRoute.name, href: parentRoute.href });
+					if (!breadcrumbs.some((crumb) => crumb.href === parentRoute.link)) {
+						breadcrumbs.push({ label: parentRoute.name, href: parentRoute.link });
 					}
-					breadcrumbs.push({ label: subItem.name, href: subItem.href });
+					breadcrumbs.push({ label: subItem.name, href: subItem.link });
 				}
 			}
 		}
