@@ -8,7 +8,7 @@ const ContactPage = () => {
 	const { contact, map } = contactJSON;
 
 	return (
-		<section className="container mx-auto flex flex-col gap-6 px-4 py-6 md:flex-row">
+		<section className="container mx-auto flex flex-col gap-6 px-1.5 py-4 md:flex-row md:px-0">
 			{/* Contact Info */}
 			<div className="flex flex-col gap-3">
 				<h2 className="text-lg font-semibold md:text-xl">Liên hệ</h2>

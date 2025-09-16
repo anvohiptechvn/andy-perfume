@@ -52,7 +52,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ name = '', details = '', 
 	);
 
 	return (
-		<div className="container mx-auto px-4 py-6">
+		<div className="container mx-auto px-1.5 py-4 md:px-0">
 			{/* Layout */}
 			<div className="flex flex-col gap-8 border bg-white p-2.5 md:flex-row">
 				<div className="flex flex-1 flex-col">

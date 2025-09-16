@@ -4,7 +4,7 @@ const AboutPage = () => {
 	const { title, intro, sectionTitle, bullets, whyTitle, reasons, closing, signature, image, sectionDescription } = parfumerieData;
 
 	return (
-		<section className="container mx-auto my-6 rounded-xs border">
+		<section className="container mx-auto my-6 rounded-xs border px-1.5 md:px-0">
 			<div className="flex flex-col gap-3 px-2.5 py-5">
 				{/* Title */}
 				<h1 className="text-lg font-medium text-[#323c3f] md:text-xl">{title}</h1>

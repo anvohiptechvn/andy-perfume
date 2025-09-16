@@ -15,7 +15,7 @@ const Banner: React.FC<BannerProps> = ({ title, subtitle, imageUrl }) => {
 				{subtitle && <p className="text-sm font-medium text-white">{subtitle}</p>}
 			</div>
 
-			<div className="group/banner relative h-[220px] w-full overflow-hidden sm:h-[400px] lg:h-[500px]">
+			<div className="group/banner relative aspect-[1150/450] w-full overflow-hidden">
 				<Image src={imageUrl} alt={title} fill className="object-cover" priority />
 
 				<div className="pointer-events-none absolute left-1/2 h-full w-full -translate-x-1/2 bg-white/40 opacity-0 transition-all duration-600 group-hover/banner:w-0 group-hover/banner:opacity-100" />

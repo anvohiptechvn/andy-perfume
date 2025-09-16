@@ -133,6 +133,9 @@
 /* .swiper-pagination {
 	bottom: 20px !important;
 } */
+.container {
+	max-width: 1150px;
+}
 
 .swiper-pagination-bullet {
 	min-width: 10px !important;

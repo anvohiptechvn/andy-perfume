@@ -12,7 +12,7 @@ import blogs from '@/data/blog/data.json' assert { type: 'json' };
 
 const BlogPage = () => {
 	return (
-		<div className="container mx-auto flex flex-col-reverse gap-6 p-4 pb-10 md:grid md:grid-cols-4">
+		<div className="container mx-auto flex flex-col-reverse gap-6 px-1.5 pt-4 pb-10 md:grid md:grid-cols-4 md:px-0">
 			<CategorySidebar />
 
 			{/* Main content */}
