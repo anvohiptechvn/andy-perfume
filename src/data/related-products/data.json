@@ -1,0 +1,152 @@
+[
+	{
+		"id": 1,
+		"name": "Dior Sauvage EDP",
+		"price": {
+			"from": 375000,
+			"to": 3850000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+		"description": "Dior Sauvage EDP là mùi hương nam tính, mạnh mẽ với sự kết hợp của cam bergamot tươi mát, tiêu cay nồng và hổ phách ấm áp. Phù hợp cho mọi dịp, mang lại cảm giác tự tin, cuốn hút."
+	},
+	{
+		"id": 2,
+		"name": "Chanel Bleu De Chanel EDP",
+		"price": {
+			"from": 415000,
+			"to": 4250000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+		"description": "Bleu De Chanel EDP là biểu tượng của sự lịch lãm hiện đại, mở đầu với hương cam chanh tươi mát, hòa quyện cùng gỗ đàn hương và hương trầm, tạo nên nét quyến rũ đầy bí ẩn cho phái mạnh."
+	},
+	{
+		"id": 3,
+		"name": "Tom Ford Ombré Leather EDP",
+		"price": {
+			"from": 575000,
+			"to": 4500000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910",
+		"description": "Tom Ford Ombré Leather EDP mang đến trải nghiệm da thuộc sang trọng, kết hợp cùng hoa nhài, hoắc hương và hổ phách. Mùi hương mạnh mẽ, cá tính, phù hợp cho những ai yêu thích sự nổi bật."
+	},
+	{
+		"id": 4,
+		"name": "Jean Paul Gaultier Le Male Le Parfum",
+		"price": {
+			"from": 325000,
+			"to": 3550000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/7fc45450-aa20-4fe8-ad4e-cd3a92b0d1d8.jpg?v=1636958118433",
+		"description": "Le Male Le Parfum là phiên bản hiện đại của dòng Le Male, nổi bật với hương vani, bạch đậu khấu và oải hương. Mùi hương ngọt ngào, ấm áp, mang lại cảm giác quyến rũ và nam tính."
+	},
+	{
+		"id": 5,
+		"name": "Giorgio Armani Acqua Di Giò Pour Homme EDT",
+		"price": {
+			"from": 295000,
+			"to": 2250000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/539c44ff-b879-4f18-891a-38cc6138919a.jpg?v=1664977991380",
+		"description": "Acqua Di Giò Pour Homme EDT là mùi hương tươi mát, sảng khoái với cam quýt, hoa nhài và hương biển. Phù hợp cho mùa hè, mang lại cảm giác tự do, phóng khoáng và đầy sức sống."
+	},
+	{
+		"id": 6,
+		"name": "Creed Aventus For Men EDP",
+		"price": {
+			"from": 795000,
+			"to": 7800000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/19bdcdbc-e405-4f18-89a0-8ba031e7269b.jpg?v=1651150099320",
+		"description": "Creed Aventus For Men EDP là biểu tượng của sự thành công, mở đầu với hương dứa, táo xanh, kết hợp cùng gỗ sồi và xạ hương. Mùi hương sang trọng, mạnh mẽ, phù hợp cho người lãnh đạo."
+	},
+	{
+		"id": 7,
+		"name": "Yves Saint Laurent La Nuit De L'Homme EDT",
+		"price": {
+			"from": 325000,
+			"to": 2750000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/6f4ab6a0-b7b7-473d-98da-4a56730a1273.jpg?v=1647936625680",
+		"description": "La Nuit De L'Homme EDT là mùi hương đêm đầy quyến rũ với tiêu đen, cam bergamot và gỗ tuyết tùng. Phù hợp cho những buổi hẹn hò, mang lại cảm giác bí ẩn, lôi cuốn cho phái mạnh."
+	},
+	{
+		"id": 8,
+		"name": "Versace Pour Homme EDT",
+		"price": {
+			"from": 265000,
+			"to": 2180000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/f41e5318-f894-4c74-9dbb-b929c460bc09.jpg?v=1657259579817",
+		"description": "Versace Pour Homme EDT là sự kết hợp hoàn hảo giữa cam chanh, hoa cam và xạ hương. Mùi hương tươi mát, trẻ trung, phù hợp cho nam giới năng động, sử dụng hàng ngày hoặc đi làm."
+	},
+	{
+		"id": 9,
+		"name": "Maison Margiela Replica Jazz Club EDT",
+		"price": {
+			"from": 385000,
+			"to": 3100000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/replica-jazz-club-memory-in-a-fragrance-1675232372483.jpg?v=1675233121107",
+		"description": "Replica Jazz Club EDT tái hiện không khí quán bar cổ điển với hương rượu rum, thuốc lá và vani. Mùi hương ấm áp, nam tính, thích hợp cho những buổi tối thư giãn hoặc gặp gỡ bạn bè."
+	},
+	{
+		"id": 10,
+		"name": "Versace Eros For Men EDT",
+		"price": {
+			"from": 285000,
+			"to": 2150000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ver-eros-1-jpeg.jpg?v=1648381743267",
+		"description": "Versace Eros For Men EDT là mùi hương gợi cảm với bạc hà, táo xanh và đậu tonka. Mang lại cảm giác mạnh mẽ, tự tin, phù hợp cho những ai yêu thích phong cách nổi bật, cá tính."
+	},
+	{
+		"id": 11,
+		"name": "Roja Dove Elysium Pour Homme Parfum Cologne",
+		"price": {
+			"from": 775000,
+			"to": 6400000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/45260e04-ebd9-4939-9a07-56c9afaada65.jpg?v=1649824225163",
+		"description": "Elysium Pour Homme Parfum Cologne là mùi hương tươi mát, sang trọng với cam quýt, hoa nhài và gỗ đàn hương. Phù hợp cho nam giới hiện đại, yêu thích sự thanh lịch và tinh tế."
+	},
+	{
+		"id": 12,
+		"name": "Xerjoff Naxos EDP",
+		"price": {
+			"from": 685000,
+			"to": 5900000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/z5060797143584-df5751a5bbe47a368970cf49da49e7c8-1704950206214.jpg?v=1704950211377",
+		"description": "Xerjoff Naxos EDP là sự hòa quyện giữa mật ong, thuốc lá và cam bergamot. Mùi hương ngọt ngào, ấm áp, mang lại cảm giác sang trọng, phù hợp cho những dịp đặc biệt hoặc mùa lạnh."
+	},
+	{
+		"id": 13,
+		"name": "Xerjoff Casamorati Mefisto EDP",
+		"price": {
+			"from": 675000,
+			"to": 5900000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/z3943387934495-50dcbf8ff15ba063766c539f90f78d57-1670481769853.jpg?v=1670481922927",
+		"description": "Casamorati Mefisto EDP mang phong cách Ý cổ điển với cam chanh, hoa tím và xạ hương. Mùi hương tươi mát, thanh lịch, phù hợp cho nam giới yêu thích sự nhẹ nhàng, tinh tế."
+	},
+	{
+		"id": 14,
+		"name": "Roja Dove Oceania Parfum",
+		"price": {
+			"from": 975000,
+			"to": 8900000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/oceania-roja-parfum-1663578296927.png?v=1755088423990",
+		"description": "Oceania Parfum là mùi hương biển cả tươi mát với cam quýt, hoa trắng và gỗ đàn hương. Mang lại cảm giác sảng khoái, tự do, phù hợp cho mùa hè hoặc những chuyến du lịch biển."
+	},
+	{
+		"id": 15,
+		"name": "Le Labo Santal 33 EDP",
+		"price": {
+			"from": 695000,
+			"to": 6900000
+		},
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/a6e8e1a4-447f-4f6d-a0c1-ac6b9b72e81f.jpg?v=1664980224683",
+		"description": "Le Labo Santal 33 EDP nổi bật với hương gỗ đàn hương, bạch đậu khấu và hoa tím. Mùi hương unisex, cá tính, mang lại cảm giác tự do, phóng khoáng và rất được ưa chuộng trên toàn thế giới."
+	}
+]
