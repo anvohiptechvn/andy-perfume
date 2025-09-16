@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import Link from 'next/link';
 import { Search } from 'lucide-react';
 
 import { Input } from '@/components/ui/input';
 
 const TopHeader = () => {
+	const [searchVal, setSearchVal] = useState<string>('');
+
 	return (
 		<div className="bg-primary-default">
 			<div className="container mx-auto flex grid-cols-3 flex-col gap-3 px-4 py-3 md:grid md:gap-0">
@@ -42,8 +45,12 @@ const TopHeader = () => {
 							type="text"
 							placeholder="Tìm kiếm sản phẩm..."
 							className="h-full rounded-sm bg-white py-2 pr-10 pl-2 focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
+							value={searchVal}
+							onChange={(e) => setSearchVal(e.target.value)}
 						/>
-						<Search className="absolute top-1/2 right-3 h-4 w-4 -translate-y-1/2 transform text-gray-400" />
+						<Link href={`/products?search=${searchVal}`} className="absolute top-1/2 right-3 -translate-y-1/2">
+							<Search className="h-4 w-4 transform text-gray-400" />
+						</Link>
 					</div>
 				</div>
 			</div>

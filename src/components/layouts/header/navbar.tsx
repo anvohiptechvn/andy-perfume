@@ -13,10 +13,16 @@ const Navbar = () => {
 
 	return (
 		<nav className="container mx-auto pr-4 md:pr-12 md:pl-4">
-			<ul className="relative flex w-full items-center justify-between">
-				<Link href="/" className="text-2xl font-bold text-gray-800 transition-colors hover:text-blue-600">
-					<img src="/images/logo/perfume.png" alt="Logo" className="w-16 md:w-24" />
-				</Link>
+			<ul className="relative flex w-full flex-row-reverse items-center justify-start pl-4 md:flex-row md:justify-between md:pl-0">
+				<div className="flex flex-1 justify-center pr-6 md:hidden">
+					<a href="/" className="text-2xl font-bold text-gray-800 transition-colors hover:text-blue-600">
+						<img src="/images/logo/perfume.png" alt="Logo" className="w-16" />
+					</a>
+				</div>
+
+				<a href="/" className="hidden text-2xl font-bold text-gray-800 transition-colors hover:text-blue-600 md:block">
+					<img src="/images/logo/perfume.png" alt="Logo" className="w-24" />
+				</a>
 
 				<Menu size={24} className="block md:hidden" />
 
@@ -35,13 +41,13 @@ const Navbar = () => {
 
 						{/* Mega menu (> 5 items) */}
 						{route?.children && (route?.children || []).length > 5 && (
-							<div className="absolute top-[calc(100%-16px)] right-0 left-0 z-50 hidden pt-4 group-hover:flex">
+							<div className="absolute top-[calc(100%-36px)] right-0 left-0 z-50 hidden pt-6 group-hover:flex">
 								<div className="h-full w-full bg-white shadow-lg">
 									<div className="grid grid-cols-5 gap-3 p-3">
 										{(route?.children || []).map((subItem) => (
-											<Link key={subItem.name} href={subItem.link} className="hover:text-primary-default block text-sm text-black">
+											<a key={subItem.name} href={subItem.link} className="hover:text-primary-default block text-sm text-black">
 												{subItem.name}
-											</Link>
+											</a>
 										))}
 									</div>
 								</div>
@@ -54,9 +60,9 @@ const Navbar = () => {
 								<ul className="flex w-full flex-col gap-3 bg-white p-3 shadow-lg">
 									{route.children.map((subItem) => (
 										<li key={subItem.name}>
-											<Link href={subItem.link} className="hover:text-primary-default block text-sm text-black">
+											<a href={subItem.link} className="hover:text-primary-default block text-sm text-black">
 												{subItem.name}
-											</Link>
+											</a>
 										</li>
 									))}
 								</ul>

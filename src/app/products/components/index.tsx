@@ -1,10 +1,9 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { parseAsBoolean, parseAsInteger, parseAsString, useQueryStates } from 'nuqs';
+import { useQueryStates } from 'nuqs';
 
-import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from '@/types/http';
-import { Perfume } from '@/types/perfume';
+import { Perfume, SEARCH_PRODUCT_PARAMS } from '@/types/perfume';
 
 import PerfumeFilters from '@/components/feature/perfume/filters';
 import PerfumeListView from '@/components/feature/perfume/list-grid';
@@ -12,20 +11,11 @@ import { CustomPagination } from '@/components/ui/custom-pagination';
 
 import products from '@/data/products/data.json' assert { type: 'json' };
 
-const SEARCH_PARAMS = {
-	search: parseAsString,
-	brand: parseAsString,
-	sort: parseAsString,
-	priceRange: parseAsString,
-	sex: parseAsString,
-	isMaleExtract: parseAsBoolean,
-	isFemaleExtract: parseAsBoolean,
-	page: parseAsInteger.withDefault(DEFAULT_PAGE),
-	limit: parseAsInteger.withDefault(DEFAULT_PER_PAGE),
-};
+import useMounted from '@/hooks/useMounted';
 
 export default function ProductPage() {
-	const [params, setParams] = useQueryStates(SEARCH_PARAMS);
+	const mounted = useMounted();
+	const [params, setParams] = useQueryStates(SEARCH_PRODUCT_PARAMS);
 	const [filteredProducts, setFilteredProducts] = useState<Perfume[]>([]);
 
 	useEffect(() => {
@@ -40,15 +30,29 @@ export default function ProductPage() {
 
 			// Filter by brand
 			if (params.brand) {
-				data = data.filter((p) => p.brand === params.brand);
+				data = data.filter((p) => (params?.brand || '').split(',').includes(p.brand.toLowerCase()));
 			}
 
 			// Filter by priceRange (assume format "min-max")
 			if (params.priceRange) {
-				const [min, max] = params.priceRange.split('-').map(Number);
+				const value = params.priceRange;
 				data = data.filter((p) => {
-					const price = p.price.from;
-					return (!isNaN(min) ? price >= min : true) && (!isNaN(max) ? price <= max : true);
+					const priceFrom = p.price.from;
+					if (value.startsWith('lt-')) {
+						const num = Number(value.replace('lt-', ''));
+						return priceFrom < num;
+					}
+					if (value.startsWith('gt-')) {
+						const num = Number(value.replace('gt-', ''));
+						return priceFrom > num;
+					}
+					if (value.startsWith('gte-') && value.includes('-lte-')) {
+						const [gtePart, ltePart] = value.split('-lte-');
+						const min = Number(gtePart.replace('gte-', ''));
+						const max = Number(ltePart);
+						return priceFrom >= min && priceFrom <= max;
+					}
+					return true;
 				});
 			}
 
@@ -96,9 +100,11 @@ export default function ProductPage() {
 
 	const totalPage = useMemo<number>(() => Math.ceil(filteredProducts.length / params.limit), [filteredProducts.length, params.limit]);
 
+	if (!mounted) return null;
+
 	return (
 		<div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 p-4 md:grid-cols-[280px_1fr]">
-			<PerfumeFilters dispatch={() => {}} filterState={{ brands: [], prices: [] }} />
+			<PerfumeFilters params={params} setParams={setParams} />
 
 			<main className="space-y-6 border">
 				<PerfumeListView perfumes={displayedProducts} sort={params?.sort || 'new'} setSort={(sort) => setParams({ ...params, sort })} />
