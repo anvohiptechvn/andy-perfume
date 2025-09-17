@@ -5,7 +5,7 @@ import PageWrapper from '@/components/feature/page/page-wrapper';
 const InformationSecurityPolicyPage = () => {
 	return (
 		<PageWrapper>
-			<h1 className="mt-2 text-lg font-medium text-[#323c3f] md:text-xl">Chính sách bảo mật thông tin</h1>
+			<h1 className="text-lg font-medium text-[#323c3f] md:text-xl">Chính sách bảo mật thông tin</h1>
 
 			<div className="flex flex-col gap-4">
 				<p className="tex-base font-bold text-[#42495b] md:text-lg">I. Chính sách bảo mật thông tin cá nhân</p>
