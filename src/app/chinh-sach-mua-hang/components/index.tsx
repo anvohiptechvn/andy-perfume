@@ -1,8 +1,10 @@
 'use client';
 
+import PageWrapper from '@/components/feature/page/page-wrapper';
+
 const PurchasePolicyPage = () => {
 	return (
-		<section className="container mx-auto my-4 flex flex-col gap-5 border px-2.5 py-4">
+		<PageWrapper>
 			<h1 className="mt-2 text-lg font-medium text-[#323c3f] md:text-xl">Chính sách mua hàng</h1>
 
 			<p className="tex-md text-[#42495b] md:text-base">
@@ -60,7 +62,7 @@ const PurchasePolicyPage = () => {
 			</p>
 			<p className="tex-md text-[#42495b] md:text-base">- Hotline chăm sóc khách hàng 24/07: 0888070308.</p>
 			<p className="tex-md text-[#42495b] md:text-base">Trân trọng cám ơn.</p>
-		</section>
+		</PageWrapper>
 	);
 };
 

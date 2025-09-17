@@ -1,7 +1,7 @@
-import Page from './components';
+import ProductValidationPolicyPage from './components';
 
-const Container = async () => {
-	return <Page />;
+const ProductValidationPolicyContainer = async () => {
+	return <ProductValidationPolicyPage />;
 };
 
-export default Container;
+export default ProductValidationPolicyContainer;

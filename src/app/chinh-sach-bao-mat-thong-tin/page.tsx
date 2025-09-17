@@ -1,7 +1,7 @@
-import Page from './components';
+import InformationSecurityPage from './components';
 
-const Container = async () => {
-	return <Page />;
+const InformationSecurityContainer = async () => {
+	return <InformationSecurityPage />;
 };
 
-export default Container;
+export default InformationSecurityContainer;

@@ -1,20 +1,23 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact Us | Your Company Name',
-	description: "Get in touch with our team. Contact us for inquiries, support, or business opportunities. We're here to help you succeed.",
-	keywords: ['contact', 'support', 'inquiry', 'business', 'help', 'customer service'],
-	authors: [{ name: 'Your Company Name' }],
+	title: 'Chính Sách Bảo Mật Thanh Toán | Parfumerie.vn',
+	description:
+		'Tìm hiểu về chính sách bảo mật thanh toán của chúng tôi. Chúng tôi cam kết bảo vệ thông tin và giao dịch của khách hàng một cách an toàn và bảo mật.',
+	keywords: ['bảo mật thanh toán', 'chính sách bảo mật', 'thanh toán an toàn', 'thông tin khách hàng', 'Parfumerie.vn'],
+	authors: [{ name: 'Parfumerie.vn' }],
 	openGraph: {
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Bảo Mật Thanh Toán | Parfumerie.vn',
+		description:
+			'Tìm hiểu về chính sách bảo mật thanh toán của chúng tôi. Chúng tôi cam kết bảo vệ thông tin và giao dịch của khách hàng một cách an toàn và bảo mật.',
 		type: 'website',
-		locale: 'en_US',
+		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Bảo Mật Thanh Toán | Parfumerie.vn',
+		description:
+			'Tìm hiểu về chính sách bảo mật thanh toán của chúng tôi. Chúng tôi cam kết bảo vệ thông tin và giao dịch của khách hàng một cách an toàn và bảo mật.',
 	},
 	robots: {
 		index: true,
@@ -28,10 +31,10 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: '/contact',
+		canonical: '/chinh-sach-bao-mat-thanh-toan',
 	},
 };
 
-export default function ContactLayout({ children }: { children: React.ReactNode }) {
+export default function PaymentSecurityPolicyLayout({ children }: { children: React.ReactNode }) {
 	return <div className="h-full w-full">{children}</div>;
 }

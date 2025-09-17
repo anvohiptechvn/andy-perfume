@@ -1,7 +1,13 @@
 'use client';
 
-const Page = () => {
-	return <section className="container mx-auto flex flex-col gap-6 px-1.5 py-4 md:px-0"></section>;
+import PageWrapper from '@/components/feature/page/page-wrapper';
+
+const ProductValidationPolicyPage = () => {
+	return (
+		<PageWrapper>
+			<div></div>
+		</PageWrapper>
+	);
 };
 
-export default Page;
+export default ProductValidationPolicyPage;

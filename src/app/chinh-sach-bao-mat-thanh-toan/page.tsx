@@ -1,7 +1,7 @@
-import Page from './components';
+import PaymentSecurityPolicyPage from './components';
 
-const Container = async () => {
-	return <Page />;
+const PaymentSecurityPolicyContainer = async () => {
+	return <PaymentSecurityPolicyPage />;
 };
 
-export default Container;
+export default PaymentSecurityPolicyContainer;
