@@ -4,7 +4,7 @@ import PageWrapper from '@/components/feature/page/page-wrapper';
 
 const InformationSecurityPolicyPage = () => {
 	return (
-		<PageWrapper>
+		<PageWrapper className="gap-3">
 			<h1 className="text-lg font-medium text-[#323c3f] md:text-xl">Chính sách bảo mật thông tin</h1>
 
 			<div className="flex flex-col gap-4">

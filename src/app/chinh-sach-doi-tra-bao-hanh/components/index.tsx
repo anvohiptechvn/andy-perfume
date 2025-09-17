@@ -4,7 +4,7 @@ import PageWrapper from '@/components/feature/page/page-wrapper';
 
 const ReturnAssurancePolicyPage = () => {
 	return (
-		<PageWrapper>
+		<PageWrapper className="gap-3">
 			<h1 className="text-lg font-medium text-[#323c3f] md:text-xl">Chính sách đổi trả - bảo hành</h1>
 			<p className="tex-sm text-[#42495b] md:text-base">
 				Với mong muốn mang lại sự tin tưởng & hài lòng cho Quý khách trải nghiệm mua hàng, Parfumerievn cam kết tất cả sản phẩm Parfumerievn bán ra đảm bảo là
