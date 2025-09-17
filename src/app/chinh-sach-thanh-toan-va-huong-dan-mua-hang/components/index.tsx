@@ -16,13 +16,13 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 			{/* Payment Section */}
 			<div className="flex flex-col gap-2">
 				<h2 className="text-base font-bold text-[#42495b] md:text-lg">I. Chính sách thanh toán</h2>
-				<p className="tex-md text-[#42495b] md:text-base">Khi mua hàng tại website Parfumerie.vn, Quý khách hàng có thể chọn hình thức thanh toán sau đây:</p>
+				<p className="tex-md text-[#42495b] md:text-base">Khi mua hàng tại website andyperfume.com, Quý khách hàng có thể chọn hình thức thanh toán sau đây:</p>
 			</div>
 			<div className="flex flex-col gap-3.5">
 				<h3 className="text-sm font-bold text-[#42495b] md:text-base">1. Thanh toán khi nhận hàng (COD /Cash On Delivery)</h3>
 				<ol className="list-inside list-disc space-y-1 text-sm text-[#42495b] md:text-base">
 					<li>Bước 1: Quý Khách Hàng vui lòng chọn hình thức Thanh toán khi giao hàng (COD) và Bấm Đặt hàng.</li>
-					<li>Bước 2: Nhân viên CSKH của Parfumerie.vn sẽ liên hệ với Quý Khách Hàng để xác nhận và xử lý đơn hàng.</li>
+					<li>Bước 2: Nhân viên CSKH của Andy Perfume sẽ liên hệ với Quý Khách Hàng để xác nhận và xử lý đơn hàng.</li>
 					<li>Bước 3: Quý Khách Hàng chỉ phải thanh toán khi nhận được hàng.</li>
 				</ol>
 			</div>
@@ -39,7 +39,7 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 							<li>Nội dung: Tên khách hàng + Số điện thoại</li>
 						</ul>
 					</li>
-					<li>Bước 3: Nhân viên CSKH của Parfumerie.vn sẽ liên hệ với Quý Khách Hàng để xác nhận thanh toán và xử lý đơn hàng.</li>
+					<li>Bước 3: Nhân viên CSKH của Andy Perfume sẽ liên hệ với Quý Khách Hàng để xác nhận thanh toán và xử lý đơn hàng.</li>
 				</ol>
 			</div>
 			<div className="flex flex-col gap-3.5">
@@ -68,7 +68,7 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 					<li>Bước 1: Chọn phương thức Thanh toán qua Ngân Lượng và bấm Đặt hàng.</li>
 					<li>Bước 2: Nhập thông tin tài khoản ngân hàng bao gồm: Tên chủ thẻ - Email - Số điện thoại.</li>
 					<li>Bước 3: Nhập thông tin Thẻ theo hướng dẫn - Nhập mã OTP để xác nhận giao dịch.</li>
-					<li>Bước 4: Nhân viên CSKH của Parfumerie.vn sẽ liên hệ Quý Khách để xác nhận thanh toán và xử lý đơn hàng.</li>
+					<li>Bước 4: Nhân viên CSKH của Andy Perfume sẽ liên hệ Quý Khách để xác nhận thanh toán và xử lý đơn hàng.</li>
 				</ol>
 			</div>
 			{/* Purchase Guide Section */}
@@ -78,7 +78,7 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 				<p className="tex-md text-[#42495b] md:text-base">
 					Quý Khách Hàng có thể đặt hàng trên website{' '}
 					<a href="https://orchard.vn/" target="_blank" className="text-[#16a085] hover:text-[#16a085]/70">
-						https://parfumerie.vn/
+						https://Andy Perfume/
 					</a>{' '}
 					theo các bước sau:
 				</p>
@@ -162,7 +162,7 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 					Sau khi nhận được đơn hàng, Parfumerie sẽ gửi xác nhận đơn hàng qua điạ chỉ email mà Quý khách hàng đã cung cấp và/hoặc liên hệ bằng cách gọi điện lại
 					để xác nhận lại đơn hàng và địa chỉ của Quý Khách Hàng.
 				</p>
-				<p className="text-sm text-[#42495b] md:text-base">Mong Quý Khách Hàng sẽ có những trải nghiệm mua sắm tuyệt tại website Parfumerie.vn!</p>
+				<p className="text-sm text-[#42495b] md:text-base">Mong Quý Khách Hàng sẽ có những trải nghiệm mua sắm tuyệt tại website andyperfume.com!</p>
 				<p className="text-sm text-[#42495b] md:text-base">Trân trọng cảm ơn.</p>
 			</div>
 		</PageWrapper>

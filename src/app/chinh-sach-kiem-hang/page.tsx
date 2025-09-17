@@ -1,6 +1,6 @@
 import ProductValidationPolicyPage from './components';
 
-const ProductValidationPolicyContainer = async () => {
+const ProductValidationPolicyContainer = () => {
 	return <ProductValidationPolicyPage />;
 };
 

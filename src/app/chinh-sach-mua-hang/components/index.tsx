@@ -35,7 +35,7 @@ const PurchasePolicyPage = () => {
 
 			<p className="tex-sm text-[#42495b] md:text-base">- Quý Khách Hàng được tự do thử mùi, test sản phẩm tại Hệ thống cửa hàng của Parfumerie.</p>
 			<p className="tex-sm text-[#42495b] md:text-base">
-				- Quý Khách Hàng được áp dụng Chính sách thanh toán/ vận chuyển/ đổi trả quy định trên website parfumerie.vn.
+				- Quý Khách Hàng được áp dụng Chính sách thanh toán/ vận chuyển/ đổi trả quy định trên website andyperfume.com.
 			</p>
 			<p className="tex-sm text-[#42495b] md:text-base">- Hotline chăm sóc khách hàng 24/07: 0888070308.</p>
 
@@ -58,7 +58,7 @@ const PurchasePolicyPage = () => {
 			</p>
 			<p className="tex-sm text-[#42495b] md:text-base">- Quý Khách Hàng được tự do thử mùi, test sản phẩm tại Hệ thống cửa hàng của Parfumerie.</p>
 			<p className="tex-sm text-[#42495b] md:text-base">
-				- Quý Khách Hàng được áp dụng Chính sách thanh toán/ vận chuyển/ đổi trả quy định trên website parfumerie.vn.
+				- Quý Khách Hàng được áp dụng Chính sách thanh toán/ vận chuyển/ đổi trả quy định trên website andyperfume.com.
 			</p>
 			<p className="tex-sm text-[#42495b] md:text-base">- Hotline chăm sóc khách hàng 24/07: 0888070308.</p>
 			<p className="tex-sm text-[#42495b] md:text-base">Trân trọng cám ơn.</p>

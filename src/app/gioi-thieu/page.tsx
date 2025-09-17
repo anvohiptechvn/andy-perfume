@@ -1,6 +1,6 @@
 import AboutPage from './components';
 
-const AboutContainer = async () => {
+const AboutContainer = () => {
 	return <AboutPage />;
 };
 

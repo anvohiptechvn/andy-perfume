@@ -2,19 +2,19 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
 	title: 'Tìm kiếm sản phẩm | Parfumerie',
-	description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Parfumerie.vn. Khám phá bộ sưu tập đa dạng và ưu đãi hấp dẫn.',
+	description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Andy Perfume. Khám phá bộ sưu tập đa dạng và ưu đãi hấp dẫn.',
 	keywords: ['tìm kiếm', 'nước hoa', 'mỹ phẩm', 'Parfumerie', 'sản phẩm', 'ưu đãi'],
-	authors: [{ name: 'Parfumerie.vn' }],
+	authors: [{ name: 'Andy Perfume' }],
 	openGraph: {
 		title: 'Tìm kiếm sản phẩm | Parfumerie',
-		description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Parfumerie.vn.',
+		description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Andy Perfume.',
 		type: 'website',
 		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
 		title: 'Tìm kiếm sản phẩm | Parfumerie',
-		description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Parfumerie.vn.',
+		description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Andy Perfume.',
 	},
 	robots: {
 		index: true,

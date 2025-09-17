@@ -1,6 +1,6 @@
 import ShippingPolicyPage from './components';
 
-const ShippingPolicyContainer = async () => {
+const ShippingPolicyContainer = () => {
 	return <ShippingPolicyPage />;
 };
 

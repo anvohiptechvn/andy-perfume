@@ -1,6 +1,6 @@
 import KnowledgePage from './components';
 
-const KnowledgeContainer = async () => {
+const KnowledgeContainer = () => {
 	return <KnowledgePage />;
 };
 

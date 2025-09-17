@@ -1,6 +1,6 @@
 import InformationSecurityPage from './components';
 
-const InformationSecurityContainer = async () => {
+const InformationSecurityContainer = () => {
 	return <InformationSecurityPage />;
 };
 
