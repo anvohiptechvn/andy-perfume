@@ -13,6 +13,9 @@ import PerfumeDescription from './description';
 import RelatedProducts from './related-products';
 
 import relatedProducts from '@/data/related-products/data.json' assert { type: 'json' };
+import socialLinks from '@/data/social/data.json' assert { type: 'json' };
+import Link from 'next/link';
+import { getMessengerUrl } from '@/utils/string';
 
 interface ProductDetailProps {
 	data: Perfume;
@@ -23,7 +26,7 @@ const inStock = true;
 const ProductDetail: React.FC<ProductDetailProps> = ({ data }) => {
 	const { name, detailImages, image, content, origin, capacities, description, sex } = data;
 
-	const [quantity, setQuantity] = useState(1);
+	// const [quantity, setQuantity] = useState(1);
 	const [tab, setTab] = useState<'info' | 'usage' | 'return'>('info');
 	const [activeImageIndex, setActiveImageIndex] = useState<number>(0);
 	const [selectedCapacityIndex, setSelectedCapacityIndex] = useState<number | undefined>(() => {
@@ -33,8 +36,8 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ data }) => {
 		return undefined;
 	});
 
-	const increase = () => setQuantity((q) => q + 1);
-	const decrease = () => setQuantity((q) => (q > 1 ? q - 1 : 1));
+	// const increase = () => setQuantity((q) => q + 1);
+	// const decrease = () => setQuantity((q) => (q > 1 ? q - 1 : 1));
 
 	const tabs = React.useMemo(
 		() => [
@@ -148,7 +151,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ data }) => {
 						</div>
 					)}
 
-					<div>
+					{/* <div>
 						<span className="text-xs font-bold text-[#42495B] md:text-sm">Số lượng:</span>
 						<div className="flex w-fit items-center border">
 							<button className="h-10 w-10 cursor-pointer border-r hover:bg-neutral-50" onClick={decrease}>
@@ -164,9 +167,11 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ data }) => {
 								+
 							</button>
 						</div>
-					</div>
+					</div> */}
 
-					<Button className="w-full py-6 text-lg font-bold md:w-1/2 md:text-xl">MUA NGAY</Button>
+					<Link href={getMessengerUrl(socialLinks) || '#'} target="_blank">
+						<Button className="w-full py-6 text-lg font-bold md:w-1/2 md:text-xl">MUA NGAY</Button>
+					</Link>
 				</div>
 			</div>
 
