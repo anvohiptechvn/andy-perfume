@@ -45,7 +45,7 @@ const PerfumeCarousel: React.FC<PerfumeCarouselProps> = ({ perfumes }) => {
 					<ChevronLeft size={18} />
 				</button>
 			)}
-			{startIndex + visibleCount === 10 && (
+			{startIndex + visibleCount === 10 && perfumes.length > 10 && (
 				<button
 					onClick={handleNext}
 					className="absolute top-1/2 right-0 h-14 -translate-y-1/2 cursor-pointer rounded-[6px] border border-neutral-100 bg-white px-2 text-neutral-600 opacity-0 transition-opacity group-hover/carousel:opacity-100 hover:bg-neutral-50"
