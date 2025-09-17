@@ -3,6 +3,9 @@
 import Link from 'next/link';
 import { ChevronRight, Menu } from 'lucide-react';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
+
+import SidebarMobile from './sidebar-mobile';
 
 import { cn } from '@/utils/style';
 
@@ -10,6 +13,7 @@ import routes from '@/data/category/data.json' assert { type: 'json' };
 
 const Navbar = () => {
 	const pathName = usePathname();
+	const [sidebarOpen, setSidebarOpen] = useState(false);
 
 	return (
 		<nav className="container mx-auto pr-4 md:pr-12 md:pl-4">
@@ -24,10 +28,15 @@ const Navbar = () => {
 					<img src="/images/logo/perfume.png" alt="Logo" className="w-24" />
 				</a>
 
-				<Menu size={24} className="block md:hidden" />
+				<>
+					<button className="block outline-none md:hidden" onClick={() => setSidebarOpen(true)} aria-label="Mở menu" type="button">
+						<Menu size={24} />
+					</button>
+					<SidebarMobile open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
+				</>
 
 				{routes.map((route) => (
-					<li key={route.name} className={cn('group hidden md:block', route?.children && route?.children.length < 5 ? 'relative' : '')}>
+					<li key={crypto.randomUUID()} className={cn('group hidden md:block', route?.children && route?.children.length < 5 ? 'relative' : '')}>
 						<Link
 							href={route.link}
 							className={cn(
@@ -45,7 +54,7 @@ const Navbar = () => {
 								<div className="h-full w-full bg-white shadow-lg">
 									<div className="grid grid-cols-5 gap-3 p-3">
 										{(route?.children || []).map((subItem) => (
-											<a key={subItem.name} href={subItem.link} className="hover:text-primary-default block text-sm text-black">
+											<a key={crypto.randomUUID()} href={subItem.link} className="hover:text-primary-default block text-sm text-black">
 												{subItem.name}
 											</a>
 										))}
@@ -59,7 +68,7 @@ const Navbar = () => {
 							<div className="absolute top-full left-0 z-50 hidden w-48 pt-3 group-hover:flex">
 								<ul className="flex w-full flex-col gap-3 bg-white p-3 shadow-lg">
 									{route.children.map((subItem) => (
-										<li key={subItem.name}>
+										<li key={crypto.randomUUID()}>
 											<a href={subItem.link} className="hover:text-primary-default block text-sm text-black">
 												{subItem.name}
 											</a>
