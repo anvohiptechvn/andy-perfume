@@ -56,11 +56,4 @@ export const footerSections: FooterSection[] = [
 			{ label: 'Chính sách bảo mật thanh toán', href: '/chinh-sach-bao-mat-thanh-toan' },
 		],
 	},
-	{
-		title: 'Hỗ trợ',
-		links: [
-			{ label: 'Tìm kiếm', href: '/search' },
-			{ label: 'Cộng tác viên', href: '' },
-		],
-	},
 ];
