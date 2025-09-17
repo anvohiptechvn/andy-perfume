@@ -1,20 +1,20 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Chính Sách Bảo Mật Thông Tin | Parfumerie.vn',
-	description: 'Tìm hiểu chính sách bảo mật thông tin của Parfumerie.vn. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
-	keywords: ['chính sách bảo mật', 'bảo mật thông tin', 'Parfumerie.vn', 'quyền riêng tư', 'thông tin cá nhân'],
-	authors: [{ name: 'Parfumerie.vn' }],
+	title: 'Chính Sách Bảo Mật Thông Tin | Andy Perfume',
+	description: 'Tìm hiểu chính sách bảo mật thông tin của Andy Perfume. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
+	keywords: ['chính sách bảo mật', 'bảo mật thông tin', 'Andy Perfume', 'quyền riêng tư', 'thông tin cá nhân'],
+	authors: [{ name: 'Andy Perfume' }],
 	openGraph: {
-		title: 'Chính Sách Bảo Mật Thông Tin | Parfumerie.vn',
-		description: 'Tìm hiểu chính sách bảo mật thông tin của Parfumerie.vn. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
+		title: 'Chính Sách Bảo Mật Thông Tin | Andy Perfume',
+		description: 'Tìm hiểu chính sách bảo mật thông tin của Andy Perfume. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
 		type: 'website',
 		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Chính Sách Bảo Mật Thông Tin | Parfumerie.vn',
-		description: 'Tìm hiểu chính sách bảo mật thông tin của Parfumerie.vn. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
+		title: 'Chính Sách Bảo Mật Thông Tin | Andy Perfume',
+		description: 'Tìm hiểu chính sách bảo mật thông tin của Andy Perfume. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
 	},
 	robots: {
 		index: true,

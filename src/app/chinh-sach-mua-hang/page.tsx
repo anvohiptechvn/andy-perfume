@@ -1,6 +1,6 @@
 import PurchasePolicyPage from './components';
 
-const PurchasePolicyContainer = async () => {
+const PurchasePolicyContainer = () => {
 	return <PurchasePolicyPage />;
 };
 

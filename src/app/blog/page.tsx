@@ -1,6 +1,6 @@
 import BlogPage from './components';
 
-const BlogContainer = async () => {
+const BlogContainer = () => {
 	return <BlogPage />;
 };
 

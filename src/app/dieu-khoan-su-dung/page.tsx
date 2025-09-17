@@ -1,6 +1,6 @@
 import UsageNotePage from './components';
 
-const UsageNoteContainer = async () => {
+const UsageNoteContainer = () => {
 	return <UsageNotePage />;
 };
 

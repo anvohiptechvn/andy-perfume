@@ -22,8 +22,8 @@ const UsageNotePage = () => {
 				</p>
 				<p className="tex-md text-[#42495b] md:text-base">
 					Chúng tôi sẽ cấp một tài khoản (account) sử dụng để Quý Khách Hàng có thể mua sắm trên website{' '}
-					<a href="https://parfumerie.vn/" target="_blank" className="font-bold">
-						https://parfumerie.vn/
+					<a href="https://Andy Perfume/" target="_blank" className="font-bold">
+						https://Andy Perfume/
 					</a>{' '}
 					trong khuôn khổ điều khoản và điều kiện giao dịch đã đề ra.
 				</p>

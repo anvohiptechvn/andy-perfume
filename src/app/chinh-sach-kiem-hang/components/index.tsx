@@ -53,7 +53,7 @@ const ProductValidationPolicyPage = () => {
 			<p className="text-sm text-[#42495b] md:text-base">Thông tin tiếp nhận khiếu nại của khách hàng:</p>
 			<ol className="list-inside list-disc space-y-1 text-sm text-[#42495b] md:text-base">
 				<li>Điện thoại: 0888070308</li>
-				<li>Email: info@parfumerie.vn</li>
+				<li>Email: info@Andy Perfume</li>
 			</ol>
 		</PageWrapper>
 	);

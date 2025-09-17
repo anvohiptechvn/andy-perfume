@@ -1,21 +1,34 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Brand | Andy Perfume',
+	title: 'Thương hiệu nước hoa | Andy Perfume',
 	description:
-		'Explore our premium fragrance brands and discover the finest collection of luxury perfumes. Find your signature scent from our curated selection of world-class fragrances.',
-	keywords: ['brand', 'andy perfume', 'fragrance brands', 'luxury perfumes', 'premium scents', 'signature fragrances'],
+		'Khám phá các thương hiệu nước hoa cao cấp tại Andy Perfume. Bộ sưu tập nước hoa chính hãng, đa dạng thương hiệu nổi tiếng thế giới, giúp bạn tìm được mùi hương đặc trưng cho riêng mình.',
+	keywords: [
+		'thương hiệu nước hoa',
+		'andy perfume',
+		'nước hoa chính hãng',
+		'nước hoa cao cấp',
+		'perfume brands',
+		'luxury perfumes',
+		'fragrance',
+		'parfumerie',
+		'brand',
+		'premium scents',
+	],
 	authors: [{ name: 'Andy Perfume' }],
 	openGraph: {
-		title: 'Brand | Andy Perfume',
-		description: 'Explore our premium fragrance brands and discover the finest collection of luxury perfumes.',
+		title: 'Thương hiệu nước hoa | Andy Perfume',
+		description: 'Khám phá các thương hiệu nước hoa cao cấp tại Andy Perfume. Bộ sưu tập nước hoa chính hãng, đa dạng thương hiệu nổi tiếng thế giới.',
 		type: 'website',
-		locale: 'en_US',
+		locale: 'vi_VN',
+		url: 'https://Andy Perfume/products',
+		siteName: 'Andy Perfume',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Brand | Andy Perfume',
-		description: 'Explore our premium fragrance brands and discover the finest collection of luxury perfumes.',
+		title: 'Thương hiệu nước hoa | Andy Perfume',
+		description: 'Khám phá các thương hiệu nước hoa cao cấp tại Andy Perfume. Bộ sưu tập nước hoa chính hãng, đa dạng thương hiệu nổi tiếng thế giới.',
 	},
 	robots: {
 		index: true,
@@ -30,6 +43,6 @@ export const metadata: Metadata = {
 	},
 };
 
-export default function BrandLayout({ children }: { children: React.ReactNode }) {
+export default function ProductsLayout({ children }: { children: React.ReactNode }) {
 	return <div className="h-full w-full">{children}</div>;
 }

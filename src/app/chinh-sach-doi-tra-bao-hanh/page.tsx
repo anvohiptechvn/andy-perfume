@@ -1,6 +1,6 @@
 import ReturnAssurancePolicyPage from './components';
 
-const ReturnAssurancePolicyContainer = async () => {
+const ReturnAssurancePolicyContainer = () => {
 	return <ReturnAssurancePolicyPage />;
 };
 

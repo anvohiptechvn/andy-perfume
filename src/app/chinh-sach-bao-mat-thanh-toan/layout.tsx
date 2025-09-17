@@ -1,13 +1,13 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Chính Sách Bảo Mật Thanh Toán | Parfumerie.vn',
+	title: 'Chính Sách Bảo Mật Thanh Toán | Andy Perfume',
 	description:
 		'Tìm hiểu về chính sách bảo mật thanh toán của chúng tôi. Chúng tôi cam kết bảo vệ thông tin và giao dịch của khách hàng một cách an toàn và bảo mật.',
-	keywords: ['bảo mật thanh toán', 'chính sách bảo mật', 'thanh toán an toàn', 'thông tin khách hàng', 'Parfumerie.vn'],
-	authors: [{ name: 'Parfumerie.vn' }],
+	keywords: ['bảo mật thanh toán', 'chính sách bảo mật', 'thanh toán an toàn', 'thông tin khách hàng', 'Andy Perfume'],
+	authors: [{ name: 'Andy Perfume' }],
 	openGraph: {
-		title: 'Chính Sách Bảo Mật Thanh Toán | Parfumerie.vn',
+		title: 'Chính Sách Bảo Mật Thanh Toán | Andy Perfume',
 		description:
 			'Tìm hiểu về chính sách bảo mật thanh toán của chúng tôi. Chúng tôi cam kết bảo vệ thông tin và giao dịch của khách hàng một cách an toàn và bảo mật.',
 		type: 'website',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Chính Sách Bảo Mật Thanh Toán | Parfumerie.vn',
+		title: 'Chính Sách Bảo Mật Thanh Toán | Andy Perfume',
 		description:
 			'Tìm hiểu về chính sách bảo mật thanh toán của chúng tôi. Chúng tôi cam kết bảo vệ thông tin và giao dịch của khách hàng một cách an toàn và bảo mật.',
 	},

@@ -57,7 +57,7 @@ const Footer = () => {
 
 			{/* Bottom bar */}
 			<div className="bg-[#032119] py-4 text-center text-xs">
-				Parfumerie.vn | Cung cấp bởi{' '}
+				Andy Perfume | Cung cấp bởi{' '}
 				<Link
 					className="text-[#999999]"
 					href="https://www.sapo.vn/?utm_campaign=cpn:site_khach_hang-plm:footer&utm_source=site_khach_hang&utm_medium=referral&utm_content=fm:text_link-km:-sz:&utm_term=&campaign=site_khach_hang"

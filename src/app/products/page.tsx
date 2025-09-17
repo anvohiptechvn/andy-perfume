@@ -1,7 +1,13 @@
-import BrandPage from './components';
+import { Suspense } from 'react';
 
-const BrandContainer = async () => {
-	return <BrandPage />;
+import ProductsPage from './components';
+
+const ProductsContainer = () => {
+	return (
+		<Suspense fallback={<></>}>
+			<ProductsPage />;
+		</Suspense>
+	);
 };
 
-export default BrandContainer;
+export default ProductsContainer;

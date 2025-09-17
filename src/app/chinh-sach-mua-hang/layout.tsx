@@ -1,20 +1,20 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Chính Sách Mua Hàng | Parfumerie.vn',
-	description: 'Tìm hiểu chính sách mua hàng của Parfumerie.vn. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
-	keywords: ['chính sách mua hàng', 'đặt hàng', 'thanh toán', 'Parfumerie.vn', 'hỗ trợ khách hàng'],
-	authors: [{ name: 'Parfumerie.vn' }],
+	title: 'Chính Sách Mua Hàng | Andy Perfume',
+	description: 'Tìm hiểu chính sách mua hàng của Andy Perfume. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
+	keywords: ['chính sách mua hàng', 'đặt hàng', 'thanh toán', 'Andy Perfume', 'hỗ trợ khách hàng'],
+	authors: [{ name: 'Andy Perfume' }],
 	openGraph: {
-		title: 'Chính Sách Mua Hàng | Parfumerie.vn',
-		description: 'Tìm hiểu chính sách mua hàng của Parfumerie.vn. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
+		title: 'Chính Sách Mua Hàng | Andy Perfume',
+		description: 'Tìm hiểu chính sách mua hàng của Andy Perfume. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
 		type: 'website',
 		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Chính Sách Mua Hàng | Parfumerie.vn',
-		description: 'Tìm hiểu chính sách mua hàng của Parfumerie.vn. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
+		title: 'Chính Sách Mua Hàng | Andy Perfume',
+		description: 'Tìm hiểu chính sách mua hàng của Andy Perfume. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
 	},
 	robots: {
 		index: true,

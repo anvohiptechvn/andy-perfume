@@ -1,6 +1,6 @@
 import PaymentSecurityPolicyPage from './components';
 
-const PaymentSecurityPolicyContainer = async () => {
+const PaymentSecurityPolicyContainer = () => {
 	return <PaymentSecurityPolicyPage />;
 };
 

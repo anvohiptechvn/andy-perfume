@@ -1,6 +1,6 @@
 import PaymentPolicyAndPurchaseGuidelinePage from './components';
 
-const PaymentPolicyAndPurchaseGuidelineContainer = async () => {
+const PaymentPolicyAndPurchaseGuidelineContainer = () => {
 	return <PaymentPolicyAndPurchaseGuidelinePage />;
 };
 

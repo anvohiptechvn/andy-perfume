@@ -1,6 +1,6 @@
 import ContactPage from './components';
 
-const ContactContainer = async () => {
+const ContactContainer = () => {
 	return <ContactPage />;
 };
 
