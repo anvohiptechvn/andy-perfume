@@ -48,7 +48,15 @@ const TopHeader = () => {
 							value={searchVal}
 							onChange={(e) => setSearchVal(e.target.value)}
 						/>
-						<Link href={`/products?search=${searchVal}`} className="absolute top-1/2 right-3 -translate-y-1/2">
+						<Link
+							href={`/search?q=${searchVal}`}
+							className="absolute top-1/2 right-3 -translate-y-1/2"
+							onClick={(e) => {
+								if (!searchVal.trim()) {
+									e.preventDefault();
+								}
+							}}
+						>
 							<Search className="h-4 w-4 transform text-gray-400" />
 						</Link>
 					</div>
