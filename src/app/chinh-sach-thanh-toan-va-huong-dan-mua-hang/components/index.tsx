@@ -3,8 +3,13 @@
 import Image from 'next/image';
 
 import PageWrapper from '@/components/feature/page/page-wrapper';
+import useMounted from '@/hooks/useMounted';
 
 const PaymentPolicyAndPurchaseGuidelinePage = () => {
+	const mounted = useMounted();
+
+	if (!mounted) return null;
+
 	return (
 		<PageWrapper>
 			<h1 className="mt-2 text-lg font-medium text-[#323c3f] md:text-xl">Chính sách thanh toán & Hướng dẫn mua hàng</h1>
