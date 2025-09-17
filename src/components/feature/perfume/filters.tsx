@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Search } from 'lucide-react';
 import { SetValues, Values } from 'nuqs';
 
@@ -29,7 +29,6 @@ export interface PerfumeFiltersProps {
 }
 
 const PerfumeFilters: React.FC<PerfumeFiltersProps> = ({ params, setParams }) => {
-	const [temporarySearch, setTemporaySearch] = useState<string>('');
 	const [localBrandSearch, setLocalBrandSearch] = useState<string>('');
 
 	const filteredBrands = useMemo(() => {
@@ -41,10 +40,6 @@ const PerfumeFilters: React.FC<PerfumeFiltersProps> = ({ params, setParams }) =>
 			(br) => br.key.toLowerCase().includes(formatSearchValue.toLocaleLowerCase()) || br.label.toLowerCase().includes(formatSearchValue.toLocaleLowerCase()),
 		);
 	}, [localBrandSearch]);
-
-	useEffect(() => {
-		setLocalBrandSearch(params?.brand || '');
-	}, [params?.brand]);
 
 	return (
 		<aside className="space-y-6">
@@ -62,12 +57,12 @@ const PerfumeFilters: React.FC<PerfumeFiltersProps> = ({ params, setParams }) =>
 						<Input
 							placeholder="Tìm Thương hiệu"
 							className="rounded-xs pr-10 shadow-none"
-							value={temporarySearch}
-							onChange={(e) => setTemporaySearch(e.target.value)}
+							value={localBrandSearch}
+							onChange={(e) => setLocalBrandSearch(e.target.value)}
 						/>
 						<button
 							className="bg-primary-default absolute top-0 right-0 bottom-0 flex w-11 items-center justify-center p-1 text-white"
-							onClick={() => setLocalBrandSearch(temporarySearch)}
+							onClick={() => setLocalBrandSearch(localBrandSearch)}
 						>
 							<Search className="h-4 w-4" />
 						</button>

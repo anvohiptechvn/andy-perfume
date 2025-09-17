@@ -33,7 +33,7 @@ export const footerSections: FooterSection[] = [
 		links: [
 			{ label: 'Trang chủ', href: '/' },
 			{ label: 'Giới thiệu', href: '/gioi-thieu' },
-			{ label: 'Sản phẩm', href: '/san-pham' },
+			{ label: 'Sản phẩm', href: '/products' },
 			{ label: 'Liên hệ', href: '/lien-he' },
 		],
 	},
