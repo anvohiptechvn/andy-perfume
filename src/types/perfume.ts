@@ -1,6 +1,11 @@
-import { parseAsArrayOf, parseAsBoolean, parseAsInteger, parseAsString } from 'nuqs';
+import { parseAsBoolean, parseAsInteger, parseAsString } from 'nuqs';
 
 import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from './http';
+
+type Capacity = {
+	value: number;
+	price: number;
+};
 
 export type Perfume = {
 	name: string;
@@ -10,14 +15,18 @@ export type Perfume = {
 	sex: string; /// 'male' | 'female' | 'unisex';
 	isMaleExtract: boolean;
 	isFemaleExtract: boolean;
-	price: {
-		from: number;
-		to: number;
-	};
+	price?:
+		| {
+				from: number;
+				to: number;
+		  }
+		| number;
 	image: string;
 	detailImages: string[];
 	description: string;
 	content: string;
+	origin?: string;
+	capacities?: Capacity[];
 };
 
 export const SEARCH_PRODUCT_PARAMS = {

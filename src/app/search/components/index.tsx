@@ -7,6 +7,7 @@ import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 
 import products from '@/data/products/data.json' assert { type: 'json' };
+
 import PerfumeCard from '@/components/feature/perfume/perfume-card';
 
 const SearchPage = () => {

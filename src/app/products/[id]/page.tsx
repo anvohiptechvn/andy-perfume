@@ -9,7 +9,7 @@ export default async function PerfumePage({ params }: { params: Promise<{ id: st
 
 	if (!product) return <></>;
 
-	return <ProductDetail name={product.name} details={product.content} images={[product.image, ...product.detailImages]} price={product.price} />;
+	return <ProductDetail data={product} />;
 }
 
 // ✅ Required for static export
