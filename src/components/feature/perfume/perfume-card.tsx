@@ -1,12 +1,13 @@
 'use client';
 
+import { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import { EyeIcon } from 'lucide-react';
 
 import { Perfume } from '@/types/perfume';
 
 import { cn } from '@/utils/style';
-import Link from 'next/link';
 
 interface PerfumeCardProps {
 	perfume: Perfume;
@@ -15,6 +16,19 @@ interface PerfumeCardProps {
 }
 
 const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, className, layout = 'column' }) => {
+	const renderPrice = () => {
+		if (perfume?.capacities) {
+			const lengthOfCapacities = perfume.capacities.length;
+			if (!lengthOfCapacities) return '0đ';
+
+			return `${perfume.capacities[0]?.price.toLocaleString('vi-VN')}đ - ${perfume.capacities?.[lengthOfCapacities - 1]?.price.toLocaleString('vi-VN')}đ`;
+		}
+		if (perfume?.price) {
+			return `${(perfume?.price || 0).toLocaleString('vi-VN')}đ`;
+		}
+		return '0đ';
+	};
+
 	return (
 		<Link
 			href={`/products/${perfume.slug}`}
@@ -41,7 +55,7 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({ perfume, className, layout = 
 						'group-hover:translate-y-6 group-hover:opacity-0': layout === 'column',
 					})}
 				>
-					{perfume.price.from.toLocaleString('vi-VN')}đ - {perfume.price.to.toLocaleString('vi-VN')}đ
+					{renderPrice()}
 				</p>
 				{layout === 'row' && <p className="mt-4 line-clamp-3 text-left text-xs font-normal text-[#ACACAC] md:text-sm">{perfume.description}</p>}
 			</div>

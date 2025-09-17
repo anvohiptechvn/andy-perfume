@@ -37,20 +37,21 @@ export default function ProductPage() {
 			if (params.priceRange) {
 				const value = params.priceRange;
 				data = data.filter((p) => {
-					const priceFrom = p.price.from;
+					const price = typeof p.price === 'number' ? p.price : p.price?.from;
+					if (typeof price !== 'number') return false;
 					if (value.startsWith('lt-')) {
 						const num = Number(value.replace('lt-', ''));
-						return priceFrom < num;
+						return price < num;
 					}
 					if (value.startsWith('gt-')) {
 						const num = Number(value.replace('gt-', ''));
-						return priceFrom > num;
+						return price > num;
 					}
 					if (value.startsWith('gte-') && value.includes('-lte-')) {
 						const [gtePart, ltePart] = value.split('-lte-');
 						const min = Number(gtePart.replace('gte-', ''));
 						const max = Number(ltePart);
-						return priceFrom >= min && priceFrom <= max;
+						return price >= min && price <= max;
 					}
 					return true;
 				});
@@ -76,10 +77,22 @@ export default function ProductPage() {
 			// Sort
 			switch (params.sort) {
 				case 'low-high':
-					data.sort((a, b) => a.price.from - b.price.from);
+					data.sort((a, b) => {
+						const aPrice = typeof a.price === 'number' ? a.price : a.price?.from;
+						const bPrice = typeof b.price === 'number' ? b.price : b.price?.from;
+						if (typeof aPrice !== 'number') return 1;
+						if (typeof bPrice !== 'number') return -1;
+						return aPrice - bPrice;
+					});
 					break;
 				case 'high-low':
-					data.sort((a, b) => b.price.from - a.price.from);
+					data.sort((a, b) => {
+						const aPrice = typeof a.price === 'number' ? a.price : a.price?.from;
+						const bPrice = typeof b.price === 'number' ? b.price : b.price?.from;
+						if (typeof bPrice !== 'number') return 1;
+						if (typeof aPrice !== 'number') return -1;
+						return bPrice - aPrice;
+					});
 					break;
 				default:
 					break;
