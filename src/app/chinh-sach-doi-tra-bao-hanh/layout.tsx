@@ -1,20 +1,23 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact Us | Your Company Name',
-	description: "Get in touch with our team. Contact us for inquiries, support, or business opportunities. We're here to help you succeed.",
-	keywords: ['contact', 'support', 'inquiry', 'business', 'help', 'customer service'],
-	authors: [{ name: 'Your Company Name' }],
+	title: 'Chính Sách Đổi Trả & Bảo Hành | Parfumerie.vn',
+	description:
+		'Tìm hiểu về chính sách đổi trả và bảo hành của chúng tôi. Chúng tôi cam kết mang đến cho khách hàng sự hài lòng với các chính sách hỗ trợ đổi trả và bảo hành minh bạch, nhanh chóng.',
+	keywords: ['chính sách đổi trả', 'bảo hành', 'đổi trả sản phẩm', 'hỗ trợ khách hàng', 'Parfumerie.vn'],
+	authors: [{ name: 'Parfumerie.vn' }],
 	openGraph: {
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Đổi Trả & Bảo Hành | Parfumerie.vn',
+		description:
+			'Tìm hiểu về chính sách đổi trả và bảo hành của chúng tôi. Chúng tôi cam kết mang đến cho khách hàng sự hài lòng với các chính sách hỗ trợ đổi trả và bảo hành minh bạch, nhanh chóng.',
 		type: 'website',
-		locale: 'en_US',
+		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Đổi Trả & Bảo Hành | Parfumerie.vn',
+		description:
+			'Tìm hiểu về chính sách đổi trả và bảo hành của chúng tôi. Chúng tôi cam kết mang đến cho khách hàng sự hài lòng với các chính sách hỗ trợ đổi trả và bảo hành minh bạch, nhanh chóng.',
 	},
 	robots: {
 		index: true,
@@ -28,10 +31,10 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: '/contact',
+		canonical: '/chinh-sach-doi-tra-bao-hanh',
 	},
 };
 
-export default function ContactLayout({ children }: { children: React.ReactNode }) {
+export default function ReturnAssurancePolicyLayout({ children }: { children: React.ReactNode }) {
 	return <div className="h-full w-full">{children}</div>;
 }

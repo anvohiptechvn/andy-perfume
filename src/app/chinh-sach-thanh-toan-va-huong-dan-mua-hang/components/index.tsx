@@ -2,17 +2,22 @@
 
 import Image from 'next/image';
 
-const PaymentPolicyAndPurchaseGuidelinePage = () => {
-	return (
-		<section className="container mx-auto my-4 flex flex-col gap-5 border px-2.5 py-4">
-			<h1 className="mt-2 text-lg font-medium text-[#323c3f] md:text-xl">Chính sách thanh toán & Hướng dẫn mua hàng</h1>
+import PageWrapper from '@/components/feature/page/page-wrapper';
+import useMounted from '@/hooks/useMounted';
 
+const PaymentPolicyAndPurchaseGuidelinePage = () => {
+	const mounted = useMounted();
+
+	if (!mounted) return null;
+
+	return (
+		<PageWrapper>
+			<h1 className="mt-2 text-lg font-medium text-[#323c3f] md:text-xl">Chính sách thanh toán & Hướng dẫn mua hàng</h1>
 			{/* Payment Section */}
 			<div className="flex flex-col gap-2">
 				<h2 className="text-base font-bold text-[#42495b] md:text-lg">I. Chính sách thanh toán</h2>
 				<p className="tex-md text-[#42495b] md:text-base">Khi mua hàng tại website Parfumerie.vn, Quý khách hàng có thể chọn hình thức thanh toán sau đây:</p>
 			</div>
-
 			<div className="flex flex-col gap-3.5">
 				<h3 className="text-sm font-bold text-[#42495b] md:text-base">1. Thanh toán khi nhận hàng (COD /Cash On Delivery)</h3>
 				<ol className="list-inside list-disc space-y-1 text-sm text-[#42495b] md:text-base">
@@ -21,7 +26,6 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 					<li>Bước 3: Quý Khách Hàng chỉ phải thanh toán khi nhận được hàng.</li>
 				</ol>
 			</div>
-
 			<div className="flex flex-col gap-3.5">
 				<h3 className="text-sm font-bold text-[#42495b] md:text-base">2. Chuyển khoản ngân hàng</h3>
 				<ol className="list-inside list-disc space-y-1 text-[#42495b]">
@@ -38,7 +42,6 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 					<li>Bước 3: Nhân viên CSKH của Parfumerie.vn sẽ liên hệ với Quý Khách Hàng để xác nhận thanh toán và xử lý đơn hàng.</li>
 				</ol>
 			</div>
-
 			<div className="flex flex-col gap-3.5">
 				<h3 className="text-sm font-bold text-[#42495b] md:text-base">3. Thanh toán qua VNPay</h3>
 				<p className="text-sm text-[#42495b] md:text-base">
@@ -53,7 +56,6 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 					giao hàng trong thời gian quy định.
 				</p>
 			</div>
-
 			<div className="flex flex-col gap-3.5">
 				<div className="flex flex-col gap-2">
 					<h3 className="text-sm font-bold text-[#42495b] md:text-base">4. Thanh toán qua Ngân Lượng</h3>
@@ -69,7 +71,6 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 					<li>Bước 4: Nhân viên CSKH của Parfumerie.vn sẽ liên hệ Quý Khách để xác nhận thanh toán và xử lý đơn hàng.</li>
 				</ol>
 			</div>
-
 			{/* Purchase Guide Section */}
 			<div className="flex flex-col gap-2">
 				<h2 className="text-base font-bold text-[#42495b] md:text-lg">II. Hướng dẫn mua hàng</h2>
@@ -164,7 +165,7 @@ const PaymentPolicyAndPurchaseGuidelinePage = () => {
 				<p className="text-sm text-[#42495b] md:text-base">Mong Quý Khách Hàng sẽ có những trải nghiệm mua sắm tuyệt tại website Parfumerie.vn!</p>
 				<p className="text-sm text-[#42495b] md:text-base">Trân trọng cảm ơn.</p>
 			</div>
-		</section>
+		</PageWrapper>
 	);
 };
 

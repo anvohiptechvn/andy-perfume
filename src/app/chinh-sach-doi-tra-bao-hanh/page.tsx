@@ -1,7 +1,7 @@
-import Page from './components';
+import ReturnAssurancePolicyPage from './components';
 
-const Container = async () => {
-	return <Page />;
+const ReturnAssurancePolicyContainer = async () => {
+	return <ReturnAssurancePolicyPage />;
 };
 
-export default Container;
+export default ReturnAssurancePolicyContainer;

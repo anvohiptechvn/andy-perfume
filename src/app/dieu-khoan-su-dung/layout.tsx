@@ -1,20 +1,20 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact Us | Your Company Name',
-	description: "Get in touch with our team. Contact us for inquiries, support, or business opportunities. We're here to help you succeed.",
-	keywords: ['contact', 'support', 'inquiry', 'business', 'help', 'customer service'],
-	authors: [{ name: 'Your Company Name' }],
+	title: 'Điều Khoản Sử Dụng | Parfumerie.vn',
+	description: 'Xem chi tiết các điều khoản sử dụng dịch vụ tại Parfumerie.vn. Chúng tôi cam kết minh bạch và bảo vệ quyền lợi khách hàng.',
+	keywords: ['điều khoản sử dụng', 'Parfumerie.vn', 'quy định', 'chính sách', 'khách hàng'],
+	authors: [{ name: 'Parfumerie.vn' }],
 	openGraph: {
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Điều Khoản Sử Dụng | Parfumerie.vn',
+		description: 'Xem chi tiết các điều khoản sử dụng dịch vụ tại Parfumerie.vn.',
 		type: 'website',
-		locale: 'en_US',
+		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Điều Khoản Sử Dụng | Parfumerie.vn',
+		description: 'Xem chi tiết các điều khoản sử dụng dịch vụ tại Parfumerie.vn.',
 	},
 	robots: {
 		index: true,
@@ -28,10 +28,10 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: '/contact',
+		canonical: '/dieu-khoan-su-dung',
 	},
 };
 
-export default function ContactLayout({ children }: { children: React.ReactNode }) {
+export default function UsageNoteLayout({ children }: { children: React.ReactNode }) {
 	return <div className="h-full w-full">{children}</div>;
 }

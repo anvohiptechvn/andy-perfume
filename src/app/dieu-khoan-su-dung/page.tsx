@@ -1,7 +1,7 @@
-import Page from './components';
+import UsageNotePage from './components';
 
-const Container = async () => {
-	return <Page />;
+const UsageNoteContainer = async () => {
+	return <UsageNotePage />;
 };
 
-export default Container;
+export default UsageNoteContainer;

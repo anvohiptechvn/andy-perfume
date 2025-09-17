@@ -1,20 +1,20 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact Us | Your Company Name',
-	description: "Get in touch with our team. Contact us for inquiries, support, or business opportunities. We're here to help you succeed.",
-	keywords: ['contact', 'support', 'inquiry', 'business', 'help', 'customer service'],
-	authors: [{ name: 'Your Company Name' }],
+	title: 'Chính Sách Kiểm Hàng | Parfumerie.vn',
+	description: 'Tìm hiểu về chính sách kiểm hàng của chúng tôi. Chúng tôi cam kết đảm bảo chất lượng sản phẩm và sự hài lòng của khách hàng khi nhận hàng.',
+	keywords: ['chính sách kiểm hàng', 'kiểm tra sản phẩm', 'chất lượng sản phẩm', 'Parfumerie.vn'],
+	authors: [{ name: 'Parfumerie.vn' }],
 	openGraph: {
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Kiểm Hàng | Parfumerie.vn',
+		description: 'Tìm hiểu về chính sách kiểm hàng của chúng tôi. Chúng tôi cam kết đảm bảo chất lượng sản phẩm và sự hài lòng của khách hàng khi nhận hàng.',
 		type: 'website',
-		locale: 'en_US',
+		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Kiểm Hàng | Parfumerie.vn',
+		description: 'Tìm hiểu về chính sách kiểm hàng của chúng tôi. Chúng tôi cam kết đảm bảo chất lượng sản phẩm và sự hài lòng của khách hàng khi nhận hàng.',
 	},
 	robots: {
 		index: true,
@@ -28,10 +28,10 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: '/contact',
+		canonical: '/chinh-sach-kiem-hang',
 	},
 };
 
-export default function ContactLayout({ children }: { children: React.ReactNode }) {
+export default function ProductValidationPolicyLayout({ children }: { children: React.ReactNode }) {
 	return <div className="h-full w-full">{children}</div>;
 }
