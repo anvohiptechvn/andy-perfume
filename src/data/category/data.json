@@ -104,8 +104,8 @@
 		"name": "Nước hoa",
 		"link": "/products",
 		"children": [
-			{ "name": "Nước hoa chiết Nam", "link": "/products?sex=male" },
-			{ "name": "Nước hoa chiết Nữ", "link": "/products?sex=female" },
+			{ "name": "Nước hoa Nam", "link": "/products?sex=male" },
+			{ "name": "Nước hoa Nữ", "link": "/products?sex=female" },
 			{ "name": "Nước hoa unisex", "link": "/products?sex=unisex" }
 		]
 	},
