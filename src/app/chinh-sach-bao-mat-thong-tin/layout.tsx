@@ -1,20 +1,20 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact Us | Your Company Name',
-	description: "Get in touch with our team. Contact us for inquiries, support, or business opportunities. We're here to help you succeed.",
-	keywords: ['contact', 'support', 'inquiry', 'business', 'help', 'customer service'],
-	authors: [{ name: 'Your Company Name' }],
+	title: 'Chính Sách Bảo Mật Thông Tin | Parfumerie.vn',
+	description: 'Tìm hiểu chính sách bảo mật thông tin của Parfumerie.vn. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
+	keywords: ['chính sách bảo mật', 'bảo mật thông tin', 'Parfumerie.vn', 'quyền riêng tư', 'thông tin cá nhân'],
+	authors: [{ name: 'Parfumerie.vn' }],
 	openGraph: {
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Bảo Mật Thông Tin | Parfumerie.vn',
+		description: 'Tìm hiểu chính sách bảo mật thông tin của Parfumerie.vn. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
 		type: 'website',
-		locale: 'en_US',
+		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Bảo Mật Thông Tin | Parfumerie.vn',
+		description: 'Tìm hiểu chính sách bảo mật thông tin của Parfumerie.vn. Cam kết bảo vệ quyền riêng tư và thông tin cá nhân của khách hàng.',
 	},
 	robots: {
 		index: true,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: '/contact',
+		canonical: '/chinh-sach-bao-mat-thong-tin',
 	},
 };
 
