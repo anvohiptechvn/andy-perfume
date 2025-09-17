@@ -1,7 +1,7 @@
-import Page from './components';
+import SearchPage from './components';
 
-const Container = async () => {
-	return <Page />;
+const SearchContainer = async () => {
+	return <SearchPage />;
 };
 
-export default Container;
+export default SearchContainer;

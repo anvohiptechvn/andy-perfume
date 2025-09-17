@@ -1,7 +1,7 @@
-import Page from './components';
+import PurchasePolicyPage from './components';
 
-const Container = async () => {
-	return <Page />;
+const PurchasePolicyContainer = async () => {
+	return <PurchasePolicyPage />;
 };
 
-export default Container;
+export default PurchasePolicyContainer;

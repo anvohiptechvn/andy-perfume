@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: '/contact',
+		canonical: '/lien-he',
 	},
 };
 

@@ -1,20 +1,20 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact Us | Your Company Name',
-	description: "Get in touch with our team. Contact us for inquiries, support, or business opportunities. We're here to help you succeed.",
-	keywords: ['contact', 'support', 'inquiry', 'business', 'help', 'customer service'],
-	authors: [{ name: 'Your Company Name' }],
+	title: 'Tìm kiếm sản phẩm | Parfumerie',
+	description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Parfumerie.vn. Khám phá bộ sưu tập đa dạng và ưu đãi hấp dẫn.',
+	keywords: ['tìm kiếm', 'nước hoa', 'mỹ phẩm', 'Parfumerie', 'sản phẩm', 'ưu đãi'],
+	authors: [{ name: 'Parfumerie.vn' }],
 	openGraph: {
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Tìm kiếm sản phẩm | Parfumerie',
+		description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Parfumerie.vn.',
 		type: 'website',
-		locale: 'en_US',
+		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Tìm kiếm sản phẩm | Parfumerie',
+		description: 'Tìm kiếm các sản phẩm nước hoa, mỹ phẩm chính hãng tại Parfumerie.vn.',
 	},
 	robots: {
 		index: true,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: '/contact',
+		canonical: '/search',
 	},
 };
 

@@ -1,20 +1,20 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Contact Us | Your Company Name',
-	description: "Get in touch with our team. Contact us for inquiries, support, or business opportunities. We're here to help you succeed.",
-	keywords: ['contact', 'support', 'inquiry', 'business', 'help', 'customer service'],
-	authors: [{ name: 'Your Company Name' }],
+	title: 'Chính Sách Mua Hàng | Parfumerie.vn',
+	description: 'Tìm hiểu chính sách mua hàng của Parfumerie.vn. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
+	keywords: ['chính sách mua hàng', 'đặt hàng', 'thanh toán', 'Parfumerie.vn', 'hỗ trợ khách hàng'],
+	authors: [{ name: 'Parfumerie.vn' }],
 	openGraph: {
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Mua Hàng | Parfumerie.vn',
+		description: 'Tìm hiểu chính sách mua hàng của Parfumerie.vn. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
 		type: 'website',
-		locale: 'en_US',
+		locale: 'vi_VN',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Contact Us | Your Company Name',
-		description: 'Get in touch with our team. Contact us for inquiries, support, or business opportunities.',
+		title: 'Chính Sách Mua Hàng | Parfumerie.vn',
+		description: 'Tìm hiểu chính sách mua hàng của Parfumerie.vn. Thông tin chi tiết về quy trình đặt hàng, thanh toán và hỗ trợ khách hàng.',
 	},
 	robots: {
 		index: true,
@@ -28,10 +28,10 @@ export const metadata: Metadata = {
 		},
 	},
 	alternates: {
-		canonical: '/contact',
+		canonical: '/chinh-sach-mua-hang',
 	},
 };
 
-export default function ContactLayout({ children }: { children: React.ReactNode }) {
+export default function PurchasePolicyLayout({ children }: { children: React.ReactNode }) {
 	return <div className="h-full w-full">{children}</div>;
 }
