@@ -3,7 +3,6 @@ import { parseAsInteger } from 'nuqs';
 import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from './http';
 
 export interface Blog {
-	id: number;
 	title: string;
 	author: string;
 	date: string;
