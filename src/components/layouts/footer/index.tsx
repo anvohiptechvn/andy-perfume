@@ -44,18 +44,18 @@ const Footer = () => {
 					</div>
 				))}
 
-				{/* Column 5 - Contact */}
-				<div className="col-span-2 border-t border-white pt-4 md:border-0 md:pt-0">
+				<div className="border-t border-white pt-4 md:border-0 md:pt-0">
 					<h3 className="font-primary-default mb-3 text-center text-base font-semibold uppercase md:text-left">Thông tin liên hệ</h3>
-					<p className="text-center leading-[23px] md:text-left">{contact.company}</p>
-					<p className="text-center leading-[23px] md:text-left">{contact.license}</p>
-					<p className="text-center leading-[23px] md:text-left">Địa chỉ: {contact.address}</p>
-					<p className="text-center leading-[23px] md:text-left">Điện thoại: {contact.phone.label}</p>
-					<p className="text-center leading-[23px] md:text-left">Email: {contact.email.label}</p>
+					<div className="flex flex-col gap-2">
+						<p className="text-center leading-[23px] md:text-left">{contact.company}</p>
+						<p className="text-center leading-[23px] md:text-left">{contact.license}</p>
+						<p className="text-center leading-[23px] md:text-left">Địa chỉ: {contact.address}</p>
+						<p className="text-center leading-[23px] md:text-left">Điện thoại: {contact.phone.label}</p>
+						<p className="text-center leading-[23px] md:text-left">Email: {contact.email.label}</p>
+					</div>
 				</div>
 			</div>
 
-			{/* Bottom bar */}
 			<div className="bg-[#032119] py-4 text-center text-xs">
 				Andy Perfume | Cung cấp bởi{' '}
 				<Link
