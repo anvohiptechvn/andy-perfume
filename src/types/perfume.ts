@@ -2,12 +2,12 @@ import { parseAsBoolean, parseAsInteger, parseAsString } from 'nuqs';
 
 import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from './http';
 
-type Capacity = {
+interface Capacity {
 	value: number;
 	price: number;
-};
+}
 
-export type Perfume = {
+export interface Perfume {
 	name: string;
 	slug: string;
 	brand: string;
@@ -27,7 +27,7 @@ export type Perfume = {
 	content: string;
 	origin?: string;
 	capacities?: Capacity[];
-};
+}
 
 export const SEARCH_PRODUCT_PARAMS = {
 	search: parseAsString,

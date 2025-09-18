@@ -7,13 +7,15 @@
 		"sex": "male",
 		"isMaleExtract": false,
 		"isFemaleExtract": false,
-		"price": {
-			"from": 375000,
-			"to": 3850000
-		},
+		"price": 375000,
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
 		"description": "Dior Sauvage EDP là mùi hương nam tính, mạnh mẽ với sự kết hợp của cam bergamot tươi mát, tiêu cay nồng và hổ phách ấm áp. Phù hợp cho mọi dịp, mang lại cảm giác tự tin, cuốn hút.",
-		"content": "<p><strong>Thương hiệu:</strong> Parfums de Marly</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2025</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Cuốn hút, Nữ tính, Sang trọng</p><p><strong>Hương đầu:</strong> Cam Bergamot, Cam Mandarin, Hạnh nhân</p><p><strong>Hương giữa:</strong> Hoa cam, Hoa trắng, Note hương phấn</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Vanilla, Xạ hương</p>"
+		"content": "<p><strong>Thương hiệu:</strong> Parfums de Marly</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2025</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Cuốn hút, Nữ tính, Sang trọng</p><p><strong>Hương đầu:</strong> Cam Bergamot, Cam Mandarin, Hạnh nhân</p><p><strong>Hương giữa:</strong> Hoa cam, Hoa trắng, Note hương phấn</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Vanilla, Xạ hương</p>",
+		"detailImages": [
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+		]
 	},
 	{
 		"name": "Chanel Bleu De Chanel EDP",
@@ -23,13 +25,15 @@
 		"sex": "male",
 		"isMaleExtract": false,
 		"isFemaleExtract": false,
-		"price": {
-			"from": 415000,
-			"to": 4250000
-		},
+		"price": 415000,
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
 		"description": "Bleu De Chanel EDP là biểu tượng của sự lịch lãm hiện đại, mở đầu với hương cam chanh tươi mát, hòa quyện cùng gỗ đàn hương và hương trầm, tạo nên nét quyến rũ đầy bí ẩn cho phái mạnh.",
-		"content": "<p><strong>Thương hiệu:</strong> Chanel</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2014</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương gỗ thơm</p><p><strong>Phong cách:</strong> Lịch lãm, Hiện đại, Nam tính</p><p><strong>Hương đầu:</strong> Cam Bergamot, Chanh vàng, Bạc hà</p><p><strong>Hương giữa:</strong> Gừng, Nhục đậu khấu, Hoa nhài</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Hổ phách, Gỗ tuyết tùng</p>"
+		"content": "<p><strong>Thương hiệu:</strong> Chanel</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2014</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương gỗ thơm</p><p><strong>Phong cách:</strong> Lịch lãm, Hiện đại, Nam tính</p><p><strong>Hương đầu:</strong> Cam Bergamot, Chanh vàng, Bạc hà</p><p><strong>Hương giữa:</strong> Gừng, Nhục đậu khấu, Hoa nhài</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Hổ phách, Gỗ tuyết tùng</p>",
+		"detailImages": [
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+		]
 	},
 	{
 		"name": "Tom Ford Ombré Leather EDP",
@@ -39,13 +43,15 @@
 		"sex": "male",
 		"isMaleExtract": false,
 		"isFemaleExtract": false,
-		"price": {
-			"from": 575000,
-			"to": 4500000
-		},
+		"price": 575000,
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910",
 		"description": "Tom Ford Ombré Leather EDP mang đến trải nghiệm da thuộc sang trọng, kết hợp cùng hoa nhài, hoắc hương và hổ phách. Mùi hương mạnh mẽ, cá tính, phù hợp cho những ai yêu thích sự nổi bật.",
-		"content": "<p><strong>Thương hiệu:</strong> Tom Ford</p><p><strong>Xuất xứ:</strong> Mỹ</p><p><strong>Năm ra mắt:</strong> 2018</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Da thuộc</p><p><strong>Phong cách:</strong> Cá tính, Sang trọng, Mạnh mẽ</p><p><strong>Hương đầu:</strong> Bạch đậu khấu</p><p><strong>Hương giữa:</strong> Hoa nhài Sambac, Da thuộc</p><p><strong>Hương cuối:</strong> Hoắc hương, Hổ phách, Rêu sồi</p>"
+		"content": "<p><strong>Thương hiệu:</strong> Tom Ford</p><p><strong>Xuất xứ:</strong> Mỹ</p><p><strong>Năm ra mắt:</strong> 2018</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Da thuộc</p><p><strong>Phong cách:</strong> Cá tính, Sang trọng, Mạnh mẽ</p><p><strong>Hương đầu:</strong> Bạch đậu khấu</p><p><strong>Hương giữa:</strong> Hoa nhài Sambac, Da thuộc</p><p><strong>Hương cuối:</strong> Hoắc hương, Hổ phách, Rêu sồi</p>",
+		"detailImages": [
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+		]
 	},
 	{
 		"name": "Jean Paul Gaultier Le Male Le Parfum",
@@ -55,13 +61,15 @@
 		"sex": "male",
 		"isMaleExtract": false,
 		"isFemaleExtract": false,
-		"price": {
-			"from": 325000,
-			"to": 3550000
-		},
+		"price": 325000,
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/7fc45450-aa20-4fe8-ad4e-cd3a92b0d1d8.jpg?v=1636958118433",
 		"description": "Le Male Le Parfum là phiên bản hiện đại của dòng Le Male, nổi bật với hương vani, bạch đậu khấu và oải hương. Mùi hương ngọt ngào, ấm áp, mang lại cảm giác quyến rũ và nam tính.",
-		"content": "<p><strong>Thương hiệu:</strong> Jean Paul Gaultier</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2020</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương phương Đông</p><p><strong>Phong cách:</strong> Quyến rũ, Nam tính, Hiện đại</p><p><strong>Hương đầu:</strong> Bạch đậu khấu</p><p><strong>Hương giữa:</strong> Oải hương, Diên vĩ</p><p><strong>Hương cuối:</strong> Vani, Gỗ đàn hương, Gỗ tuyết tùng</p>"
+		"content": "<p><strong>Thương hiệu:</strong> Jean Paul Gaultier</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2020</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương phương Đông</p><p><strong>Phong cách:</strong> Quyến rũ, Nam tính, Hiện đại</p><p><strong>Hương đầu:</strong> Bạch đậu khấu</p><p><strong>Hương giữa:</strong> Oải hương, Diên vĩ</p><p><strong>Hương cuối:</strong> Vani, Gỗ đàn hương, Gỗ tuyết tùng</p>",
+		"detailImages": [
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+		]
 	},
 	{
 		"name": "Giorgio Armani Acqua Di Giò Pour Homme EDT",
@@ -71,13 +79,15 @@
 		"sex": "male",
 		"isMaleExtract": false,
 		"isFemaleExtract": false,
-		"price": {
-			"from": 295000,
-			"to": 2250000
-		},
+		"price": 295000,
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/539c44ff-b879-4f18-891a-38cc6138919a.jpg?v=1664977991380",
 		"description": "Acqua Di Giò Pour Homme EDT là mùi hương tươi mát, sảng khoái với cam quýt, hoa nhài và hương biển. Phù hợp cho mùa hè, mang lại cảm giác tự do, phóng khoáng và đầy sức sống.",
-		"content": "<p><strong>Thương hiệu:</strong> Giorgio Armani</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 1996</p><p><strong>Độ lưu hương:</strong> 4 giờ - 7 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương biển</p><p><strong>Phong cách:</strong> Tươi mát, Năng động, Nam tính</p><p><strong>Hương đầu:</strong> Cam Bergamot, Chanh, Cam Mandarin, Hoa cam</p><p><strong>Hương giữa:</strong> Hoa nhài, Hương biển, Hoa hồng, Hoa tím</p><p><strong>Hương cuối:</strong> Xạ hương, Gỗ tuyết tùng, Hổ phách, Rêu sồi</p>"
+		"content": "<p><strong>Thương hiệu:</strong> Giorgio Armani</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 1996</p><p><strong>Độ lưu hương:</strong> 4 giờ - 7 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương biển</p><p><strong>Phong cách:</strong> Tươi mát, Năng động, Nam tính</p><p><strong>Hương đầu:</strong> Cam Bergamot, Chanh, Cam Mandarin, Hoa cam</p><p><strong>Hương giữa:</strong> Hoa nhài, Hương biển, Hoa hồng, Hoa tím</p><p><strong>Hương cuối:</strong> Xạ hương, Gỗ tuyết tùng, Hổ phách, Rêu sồi</p>",
+		"detailImages": [
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+		]
 	},
 	{
 		"name": "Creed Aventus For Men EDP",
@@ -87,13 +97,15 @@
 		"sex": "male",
 		"isMaleExtract": false,
 		"isFemaleExtract": false,
-		"price": {
-			"from": 795000,
-			"to": 7800000
-		},
+		"price": 795000,
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/19bdcdbc-e405-4f18-89a0-8ba031e7269b.jpg?v=1651150099320",
 		"description": "Creed Aventus For Men EDP là biểu tượng của sự thành công, mở đầu với hương dứa, táo xanh, kết hợp cùng gỗ sồi và xạ hương. Mùi hương sang trọng, mạnh mẽ, phù hợp cho người lãnh đạo.",
-		"content": "<p><strong>Thương hiệu:</strong> Creed</p><p><strong>Xuất xứ:</strong> Anh</p><p><strong>Năm ra mắt:</strong> 2010</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương trái cây Chypre</p><p><strong>Phong cách:</strong> Sang trọng, Mạnh mẽ, Lãnh đạo</p><p><strong>Hương đầu:</strong> Dứa, Táo xanh, Cam Bergamot, Quả lý chua đen</p><p><strong>Hương giữa:</strong> Bạch dương, Hoa nhài, Hoắc hương, Hoa hồng</p><p><strong>Hương cuối:</strong> Gỗ sồi, Xạ hương, Hổ phách, Vani</p>"
+		"content": "<p><strong>Thương hiệu:</strong> Creed</p><p><strong>Xuất xứ:</strong> Anh</p><p><strong>Năm ra mắt:</strong> 2010</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương trái cây Chypre</p><p><strong>Phong cách:</strong> Sang trọng, Mạnh mẽ, Lãnh đạo</p><p><strong>Hương đầu:</strong> Dứa, Táo xanh, Cam Bergamot, Quả lý chua đen</p><p><strong>Hương giữa:</strong> Bạch dương, Hoa nhài, Hoắc hương, Hoa hồng</p><p><strong>Hương cuối:</strong> Gỗ sồi, Xạ hương, Hổ phách, Vani</p>",
+		"detailImages": [
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+		]
 	},
 	{
 		"name": "Yves Saint Laurent La Nuit De L'Homme EDT",
@@ -103,12 +115,38 @@
 		"sex": "male",
 		"isMaleExtract": false,
 		"isFemaleExtract": false,
-		"price": {
-			"from": 325000,
-			"to": 2750000
-		},
+		"price": 325000,
 		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/6f4ab6a0-b7b7-473d-98da-4a56730a1273.jpg?v=1647936625680",
 		"description": "La Nuit De L'Homme EDT là mùi hương đêm đầy quyến rũ với tiêu đen, cam bergamot và gỗ tuyết tùng. Phù hợp cho những buổi hẹn hò, mang lại cảm giác bí ẩn, lôi cuốn cho phái mạnh.",
-		"content": "<p><strong>Thương hiệu:</strong> Yves Saint Laurent</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2009</p><p><strong>Độ lưu hương:</strong> 4 giờ - 7 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương gỗ cay</p><p><strong>Phong cách:</strong> Quyến rũ, Bí ẩn, Nam tính</p><p><strong>Hương đầu:</strong> Tiêu đen, Cam Bergamot</p><p><strong>Hương giữa:</strong> Oải hương, Gỗ tuyết tùng</p><p><strong>Hương cuối:</strong> Cỏ hương bài, Đậu tonka</p>"
+		"content": "<p><strong>Thương hiệu:</strong> Yves Saint Laurent</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2009</p><p><strong>Độ lưu hương:</strong> 4 giờ - 7 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương gỗ cay</p><p><strong>Phong cách:</strong> Quyến rũ, Bí ẩn, Nam tính</p><p><strong>Hương đầu:</strong> Tiêu đen, Cam Bergamot</p><p><strong>Hương giữa:</strong> Oải hương, Gỗ tuyết tùng</p><p><strong>Hương cuối:</strong> Cỏ hương bài, Đậu tonka</p>",
+		"detailImages": [
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+		]
+	},
+	{
+		"name": "Roja Dove Elysium Pour Homme Parfum Cologne",
+		"slug": "roja-dove-elysium-pour-homme-parfum-cologne",
+		"brand": "kilian",
+		"createdAt": "2017-01-01T00:00:00.000Z",
+		"sex": "male",
+		"isMaleExtract": false,
+		"isFemaleExtract": false,
+		"origin": "Anh",
+		"capacities": [
+			{ "value": 10, "price": 775000 },
+			{ "value": 20, "price": 1450000 },
+			{ "value": 30, "price": 2100000 },
+			{ "value": 100, "price": 6400000 }
+		],
+		"image": "https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/45260e04-ebd9-4939-9a07-56c9afaada65.jpg?v=1649824225163",
+		"description": "Elysium Pour Homme Parfum Cologne là mùi hương tươi mát, sang trọng với cam quýt, hoa nhài và gỗ đàn hương. Phù hợp cho nam giới hiện đại, yêu thích sự thanh lịch và tinh tế.",
+		"content": "<p><strong>Thương hiệu:</strong> Roja Dove</p><p><strong>Xuất xứ:</strong> Anh</p><p><strong>Năm ra mắt:</strong> 2017</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Hương cam quýt thơm</p><p><strong>Phong cách:</strong> Thanh lịch, Tinh tế, Hiện đại</p><p><strong>Hương đầu:</strong> Cam Bergamot, Chanh vàng, Bưởi, Quả lý chua đen</p><p><strong>Hương giữa:</strong> Hoa nhài, Hoa hồng, Táo xanh, Hoa tím</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Cỏ hương bài, Hổ phách, Xạ hương</p>",
+		"detailImages": [
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/ac333658-1acc-49ce-b439-9f5c0353e471.jpg?v=1664977636373",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/bleu-de-chanel-edp.jpg?v=1689257782267",
+			"https://bizweb.dktcdn.net/thumb/medium/100/429/123/products/tom-ford-ombre-leather-100ml-parfumerie.jpg?v=1647149712910"
+		]
 	}
 ]

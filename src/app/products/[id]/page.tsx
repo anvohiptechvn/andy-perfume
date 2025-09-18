@@ -1,20 +1,17 @@
 import ProductDetail from './components';
 
-import productsJson from '@/data/products/data.json' assert { type: 'json' };
+import products from '@/data/products/data.json' assert { type: 'json' };
 
 export default async function PerfumePage({ params }: { params: Promise<{ id: string }> }) {
 	const { id } = await params;
 
-	const product = productsJson.find((p) => p.slug === id);
+	const product = products.find((p) => p.slug === id);
 
 	if (!product) return <></>;
 
 	return <ProductDetail data={product} />;
 }
 
-// ✅ Required for static export
 export async function generateStaticParams() {
-	const products = productsJson.map((p) => ({ id: p.slug }));
-
-	return products;
+	return products.map((p) => ({ id: p.slug }));
 }

@@ -9,7 +9,7 @@ import Banner from '@/components/ui/banner';
 import { Button } from '@/components/ui/button';
 import RightPointerIcon from '@/components/icons/right-pointer';
 import PerfumeCarousel from '@/components/feature/perfume/perfume-carousel';
-import Blogs from '@/components/feature/home/blog-section';
+import BlogListView from '@/components/feature/blog/blog-list-view';
 
 import products from '@/data/products/data.json' assert { type: 'json' };
 import Link from 'next/link';
@@ -73,7 +73,7 @@ export default function Home() {
 						</div>
 					))}
 
-					<Blogs />
+					<BlogListView />
 				</div>
 			</div>
 		</>
