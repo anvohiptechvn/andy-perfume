@@ -50,7 +50,7 @@ const Navbar = () => {
 
 						{/* Mega menu (> 5 items) */}
 						{route?.children && (route?.children || []).length > 5 && (
-							<div className="absolute top-[calc(100%-36px)] right-0 left-0 z-50 hidden pt-6 group-hover:flex">
+							<div className="absolute top-[calc(100%-40px)] right-0 left-0 z-50 hidden pt-10 group-hover:flex">
 								<div className="h-full w-full bg-white shadow-lg">
 									<div className="grid grid-cols-5 gap-3 p-3">
 										{(route?.children || []).map((subItem) => (
