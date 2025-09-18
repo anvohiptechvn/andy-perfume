@@ -1,7 +1,7 @@
-import KnowledgePage from './components';
+import InformationPage from './components';
 
-const KnowledgeContainer = () => {
-	return <KnowledgePage />;
+const InformationContainer = () => {
+	return <InformationPage />;
 };
 
-export default KnowledgeContainer;
+export default InformationContainer;

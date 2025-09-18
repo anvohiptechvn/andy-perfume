@@ -12,13 +12,11 @@ import { CustomPagination } from '@/components/ui/custom-pagination';
 import products from '@/data/products/data.json' assert { type: 'json' };
 
 import useMounted from '@/hooks/useMounted';
-// import useParams from '@/hooks/useParams';
 
 export default function ProductPage() {
 	const mounted = useMounted();
 	const [params, setParams] = useQueryStates(SEARCH_PRODUCT_PARAMS);
 	const [filteredProducts, setFilteredProducts] = useState<Perfume[]>([]);
-	// const [urlParams, setUrlParams] = useParams();
 
 	useEffect(() => {
 		const fetchingProducts = async () => {
@@ -113,7 +111,6 @@ export default function ProductPage() {
 
 	const totalPage = useMemo<number>(() => Math.ceil(filteredProducts.length / params.limit), [filteredProducts.length, params.limit]);
 
-	console.info('params', params);
 	if (!mounted) return null;
 
 	return (
