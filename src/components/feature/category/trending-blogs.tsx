@@ -9,7 +9,7 @@ const TrendingBlogs = () => {
 	return (
 		<div className="flex flex-col gap-2.5">
 			<h3 className="border-b p-2.5 font-bold text-gray-700">NỔI BẬT</h3>
-			<ul className="flex flex-col gap-2.5">
+			<ul className="flex max-h-[30dvh] flex-col gap-2.5 overflow-y-auto">
 				{(blogs as Blog[]).map((blog, i) => (
 					<li key={i} className="flex items-start gap-3 px-2.5">
 						<Link href={`/blog/${blog.slug}`}>
