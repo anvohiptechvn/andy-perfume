@@ -1390,11 +1390,11 @@
       { "value": "10ml", "price": 240000 },
       { "value": "90ml", "price": 1750000 }
     ],
-    "image": "/images/perfumes/guiltypourhomme.webp",
+    "image": "/images/perfumes/guiltypourhomme.png",
     "description": "Mở đầu là hương ngọt dịu của hoa huệ và ngọc lan tây. Tầng hương giữa được nhiều cô nàng yêu thích và tìm kiếm, những cánh hoa nhài quen thuộc nay được làm phong phú bởi sự ấm áp và ngọt ngào của hoa Ylang Ylang. Và cuối cùng là gỗ đàn hương ấm cúng, nồng nàn khó quên.",
     "content": "<p><strong>Thương hiệu:</strong> GUCCI</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2011</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20</p><p><strong>Độ lưu hương:</strong> Tạm ổn - Từ 4 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Woody – tông mùi gỗ</p><p><strong>Phong cách:</strong> Mạnh mẽ, nam tính, sang trọng</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Hoa Oải Hương, Quả chanh vàng Amalfi</p><p><strong>Hương giữa:</strong> Hoa cam Châu Phi</p><p><strong>Hương cuối:</strong> Cây hoắc hương, Gỗ tuyết tùng Virginia, Hương Vani</p>",
     "detailImages": [
-      "/images/perfumes/guiltypourhomme.webp",
+      "/images/perfumes/guiltypourhomme.png",
       "/images/perfumes/guiltypourhomme2.webp",
       "/images/perfumes/guiltypourhomme3.webp"
     ]
