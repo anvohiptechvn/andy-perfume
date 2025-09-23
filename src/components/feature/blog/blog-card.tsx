@@ -22,7 +22,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ destinationUrl, blog }) => {
       </Link>
       <div className="flex-1">
         <Link
-          href={`/blog/${blog.slug}`}
+          href={`${destinationUrl}/${blog.slug}`}
           className="hover:text-primary-default text-sm font-semibold text-[#333333] md:text-base"
         >
           {blog.title}
