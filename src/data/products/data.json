@@ -9,8 +9,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 3300000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 3300000 }
     ],
     "image": "/images/perfumes/diorsauvage.webp",
     "description": "Dior Sauvage EDP là mùi hương nam tính, mạnh mẽ với sự kết hợp của cam bergamot tươi mát, tiêu cay nồng và hổ phách ấm áp. Phù hợp cho mọi dịp, mang lại cảm giác tự tin, cuốn hút.",
@@ -31,8 +31,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 370000 },
-      { "value": 100, "price": 3700000 }
+      { "value": "10ml", "price": 370000 },
+      { "value": "100ml", "price": 3700000 }
     ],
     "image": "/images/perfumes/chanelbleu.webp",
     "description": "Bleu De Chanel EDP là biểu tượng của sự lịch lãm hiện đại, mở đầu với hương cam chanh tươi mát, hòa quyện cùng gỗ đàn hương và hương trầm, tạo nên nét quyến rũ đầy bí ẩn cho phái mạnh.",
@@ -53,8 +53,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 340000 },
-      { "value": 100, "price": 3250000 }
+      { "value": "10ml", "price": 340000 },
+      { "value": "100ml", "price": 3250000 }
     ],
     "image": "/images/perfumes/allure.webp",
     "description": "Nước hoa nam Chanel Allure Homme Sport EDT mở ra một thế giới thể thao và tự do cho người đàn ông bằng làn hương không khí tươi mát trên làn da trần. Chắc chắn rằng nếu bạn là chàng trai yêu thích thể thao và đam mê vận động thì sẽ không thể bỏ qua dòng nước hoa nam cao cấp này đâu nhé.",
@@ -75,8 +75,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 400000 },
-      { "value": 100, "price": 3300000 }
+      { "value": "10ml", "price": 400000 },
+      { "value": "100ml", "price": 3300000 }
     ],
     "image": "/images/perfumes/tfombre.webp",
     "description": "Tom Ford Ombré Leather EDP mang đến trải nghiệm da thuộc sang trọng, kết hợp cùng hoa nhài, hoắc hương và hổ phách. Mùi hương mạnh mẽ, cá tính, phù hợp cho những ai yêu thích sự nổi bật.",
@@ -98,8 +98,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 700000 },
-      { "value": 100, "price": 6000000 }
+      { "value": "10ml", "price": 700000 },
+      { "value": "100ml", "price": 6000000 }
     ],
     "image": "/images/perfumes/oudwood.webp",
     "description": "Oud Wood EDP là mùi hương gỗ trầm sang trọng, kết hợp cùng vani, hổ phách và bạch đậu khấu. Phù hợp cho nam giới yêu thích sự bí ẩn, quyến rũ và phong cách trưởng thành.",
@@ -120,8 +120,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 700000 },
-      { "value": 100, "price": 7000000 }
+      { "value": "10ml", "price": 700000 },
+      { "value": "100ml", "price": 7000000 }
     ],
     "image": "/images/perfumes/tftobacco.webp",
     "description": "Lấy cảm hứng từ câu lạc bộ - nơi có thể hút thuốc lá của các quý ông nước Anh, Tobacco Vanille EDP mang đến sự lôi cuốn đầy mạnh mẽ, sự ấm áp đáng tin cậy, một cảm giác quyền lực và có thể nói đây một mùi hương dành cho những Big Boss đích thực.",
@@ -142,8 +142,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 260000 },
-      { "value": 100, "price": 1900000 }
+      { "value": "10ml", "price": 260000 },
+      { "value": "100ml", "price": 1900000 }
     ],
     "image": "/images/perfumes/dgtheone.webp",
     "description": "Nước hoa nam D&G The One EDP được tạo ra để trở thành hương thơm không thể thiếu của phái mạnh, mùi hương tồn tại mãi với thời gian và được lòng bất cứ người phụ nữ nào.",
@@ -164,8 +164,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 2100000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 2100000 }
     ],
     "image": "/images/perfumes/valentinobir.webp",
     "description": "Bắt đầu bằng phô diễn sự tươi mát bằng tinh dầu chanh. Hương thơm tạo nên lớp nền hoàn hảo cho cú hit tiếp theo chính là hương muối và lá Violet. Sự tươi mát, sảng khoái đã thành công đánh thức từng tế bào trong cơ thể người dùng.",
@@ -186,8 +186,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 650000 },
-      { "value": 100, "price": 6000000 }
+      { "value": "10ml", "price": 650000 },
+      { "value": "100ml", "price": 6000000 }
     ],
     "image": "/images/perfumes/creedaventus.webp",
     "description": "Creed Aventus For Men EDP là biểu tượng của sự thành công, mở đầu với hương dứa, táo xanh, kết hợp cùng gỗ sồi và xạ hương. Mùi hương sang trọng, mạnh mẽ, phù hợp cho người lãnh đạo.",
@@ -209,8 +209,8 @@
     "isFemaleExtract": false,
     "origin": "Anh",
     "capacities": [
-      { "value": 10, "price": 500000 },
-      { "value": 100, "price": 5000000 }
+      { "value": "10ml", "price": 500000 },
+      { "value": "100ml", "price": 5000000 }
     ],
     "image": "/images/perfumes/rojaelysium.webp",
     "description": "Elysium Pour Homme Parfum Cologne là mùi hương tươi mát, sang trọng với cam quýt, hoa nhài và gỗ đàn hương. Phù hợp cho nam giới hiện đại, yêu thích sự thanh lịch và tinh tế.",
@@ -231,8 +231,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/swyintensely.webp",
     "description": "Có những mùi hương không chỉ thơm, mà còn như đang thì thầm bên tai một điều gì đó dịu dàng. Stronger With You Intensely là như thế – ngọt ngào, ấm áp và đầy cảm xúc. Hương kẹo bơ cứng tan trên da như dư vị của một cái ôm dài, còn vanilla và quế thổi vào không khí chút lãng mạn nhẹ nhàng, như lời thì thầm của người yêu trong một buổi tối mùa đông. Đây là mùi hương của những chàng trai biết yêu, và yêu một cách rất đậm sâu.",
@@ -253,8 +253,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 2400000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 2400000 }
     ],
     "image": "/images/perfumes/swyabsolutely.webp",
     "description": "Hãy để làn hương vừa ấm áp, quyến rũ, vừa bí ẩn, nam tính của Stronger With You Absolutely làm “vũ khí thầm lặng” của bạn, đủ sức khiến mọi ánh nhìn phải dừng lại.",
@@ -276,8 +276,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 650000 },
-      { "value": 100, "price": 5800000 }
+      { "value": "10ml", "price": 650000 },
+      { "value": "100ml", "price": 5800000 }
     ],
     "image": "/images/perfumes/torino21.webp",
     "description": "Xerjoff Torino 21 mở đầu bằng một luồng điện của chanh sống động gợi nhớ đến lần phục vụ đầu tiên phồng rộp, với một vòng xoáy gợi cảm nhờ hương bạc hà, húng quế và cỏ xạ hương thơm và thân thảo.",
@@ -299,8 +299,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 240000 },
-      { "value": 100, "price": 2100000 }
+      { "value": "10ml", "price": 240000 },
+      { "value": "100ml", "price": 2100000 }
     ],
     "image": "/images/perfumes/ysllanuit.webp",
     "description": "La Nuit De L'Homme EDT là mùi hương đêm đầy quyến rũ với tiêu đen, cam bergamot và gỗ tuyết tùng. Phù hợp cho những buổi hẹn hò, mang lại cảm giác bí ẩn, lôi cuốn cho phái mạnh.",
@@ -321,8 +321,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 100, "price": 2500000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "100ml", "price": 2500000 }
     ],
     "image": "/images/perfumes/YSLY.webp",
     "description": "Khách quan đánh giá thì nước hoa nam YSL Y EDP hội tụ đầy đủ sự nam tính và mạnh mẽ cần có của một người đàn ông. Một mùi hương nguyên bản và nổi bật, tôn lên sự nam tính của phái mạnh. Đây nước hoa nam mà Andy Perfume tin rằng mọi chàng trai đều nên sở hữu một lần.",
@@ -343,8 +343,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 310000 },
-      { "value": 100, "price": 2600000 }
+      { "value": "10ml", "price": 310000 },
+      { "value": "100ml", "price": 2600000 }
     ],
     "image": "/images/perfumes/YSLmysif.webp",
     "description": "YSL MYSLF Eau de Parfum không chỉ là một hương thơm, mà còn là lời mời gọi bạn hãy can đảm sống thật với chính mình. Một chút bergamot tươi sáng, một chút hoa cam nồng nàn, một chút xạ hương gợi cảm – tất cả hòa quyện để tạo nên một “mùi hương” dành riêng cho những người đàn ông hiện đại.",
@@ -365,8 +365,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 600000 },
-      { "value": 100, "price": 5800000 }
+      { "value": "10ml", "price": 600000 },
+      { "value": "100ml", "price": 5800000 }
     ],
     "image": "/images/perfumes/rose31.webp",
     "description": "Le Labo Rose 31 là một trong những nước hoa unisex hương hoa hồng được nam giới lẫn nữ giới yêu thích trong suốt thời gian từ ngày mà nó được ra mắt thông qua những tầng hương được trau chuốt tỉ mỉ, huyền ảo và cực kỳ tao nhã. ",
@@ -388,8 +388,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 700000 },
-      { "value": 100, "price": 6000000 }
+      { "value": "10ml", "price": 700000 },
+      { "value": "100ml", "price": 6000000 }
     ],
     "image": "/images/perfumes/lelabos33.webp",
     "description": "Le Labo Santal 33 EDP nổi bật với hương gỗ đàn hương, bạch đậu khấu và hoa tím. Mùi hương unisex, cá tính, mang lại cảm giác tự do, phóng khoáng và rất được ưa chuộng trên toàn thế giới.",
@@ -410,8 +410,8 @@
     "isFemaleExtract": true,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 700000 },
-      { "value": 100, "price": 7000000 }
+      { "value": "10ml", "price": 700000 },
+      { "value": "100ml", "price": 7000000 }
     ],
     "image": "/images/perfumes/lelaboa13.webp",
     "description": "Nước hoa Le Labo Another 13 với mùi hương trong veo, nhẹ nhàng, cuốn hút và độ tỏa hương gần cơ thể giúp bạn có thể dùng chúng vào bất cứ thời gian nào và vào bất kì dịp nào.",
@@ -432,8 +432,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 220000 },
-      { "value": 100, "price": 1500000 }
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1500000 }
     ],
     "image": "/images/perfumes/versacePH.webp",
     "description": "Nước hoa nam Versace Pour Homme EDT chính là mảnh ghép còn thiếu để tạo nên bức tranh hoàn hảo về người đàn ông hiện đại, lôi cuốn và tràn đầy sự nam tính. Hương thơm có khả năng vương vấn trên cơ thể Anh trung bình từ 3 đến 6 tiếng, độ tỏa hương gần và phù hợp để sử dụng trong tiết trời của mùa xuân và mùa hạ.",
@@ -454,8 +454,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 230000 },
-      { "value": 100, "price": 1650000 }
+      { "value": "10ml", "price": 230000 },
+      { "value": "100ml", "price": 1650000 }
     ],
     "image": "/images/perfumes/erosxanh.webp",
     "description": "Versace Eros For Men EDT là mùi hương gợi cảm với bạc hà, táo xanh và đậu tonka. Mang lại cảm giác mạnh mẽ, tự tin, phù hợp cho những ai yêu thích phong cách nổi bật, cá tính.",
@@ -476,8 +476,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 260000 },
-      { "value": 100, "price": 2100000 }
+      { "value": "10ml", "price": 260000 },
+      { "value": "100ml", "price": 2100000 }
     ],
     "image": "/images/perfumes/erosvang.webp",
     "description": "Nước hoa nam Versace Eros Energy EDP không chỉ là mùi hương – đó là một điểm nhấn để định hình phong cách của phái mạnh. Chai nước hoa này dành cho người đàn ông hiện đại, năng động, yêu thích sự tươi mới nhưng vẫn muốn giữ lại vẻ lôi cuốn cổ điển. Dù là đi làm, gặp gỡ bạn bè hay hẹn hò buổi tối, mùi hương Versace Eros Vàng luôn sẵn sàng đồng hành cùng bạn, lan tỏa phong độ và sức hút.",
@@ -498,8 +498,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 220000 },
-      { "value": 100, "price": 1550000 }
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1550000 }
     ],
     "image": "/images/perfumes/dylanblue.webp",
     "description": "Nước hoa nam Versace Pour Homme Dylan Blue có hương thơm dễ chịu, phù hợp sử dụng thường ngày. Các anh có thể thoải mái sử dụng cả ngày và đêm để thể hiện sự quyến rũ, nam tính của mình.",
@@ -520,8 +520,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 160000 },
-      { "value": 100, "price": 1550000 }
+      { "value": "10ml", "price": 160000 },
+      { "value": "100ml", "price": 1550000 }
     ],
     "image": "/images/perfumes/eaufraiche.webp",
     "description": "Versace Man Eau Fraiche mang một hương vị mùa hè cổ điển và khá mạnh mẽ, phù hợp với những người đàn ông năng động mong muốn thể hiện được bản lĩnh của mình. Hương đầu với hương hoa quả mát dịu của chanh, gỗ hồng mộc; hương giữa nồng nàn với gỗ tuyết tùng, tiêu kết hợp với mùi hương ấm áp của h.ổ phách, xạ hương làm nên một loại nước hoa hoàn hảo để tôn vinh vẻ đẹp nội tâm của người đàn ông hiện đại.",
@@ -542,8 +542,8 @@
     "isFemaleExtract": true,
     "origin": "Tây Ban Nha",
     "capacities": [
-      { "value": 10, "price": 400000 },
-      { "value": 100, "price": 3300000 }
+      { "value": "10ml", "price": 400000 },
+      { "value": "100ml", "price": 3300000 }
     ],
     "image": "/images/perfumes/sutileza.webp",
     "description": "Là một phần của bộ sưu tập Loewe Aire, phiên bản Sutileza mang đến cảm giác nhẹ nhàng, thanh thoát và đậm chất nữ tính – như một làn gió trong trẻo chạm khẽ vào tâm hồn. Nước hoa nữ Loewe Aire Sutileza EDT là lựa chọn lý tưởng cho những người phụ nữ yêu chuộng sự tinh tế, yêu cuộc sống bình yên, dịu dàng nhưng vẫn đầy nội lực trong từng khoảnh khắc thường nhật.",
@@ -564,10 +564,10 @@
     "isFemaleExtract": true,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 330000 },
-      { "value": 30, "price": 1800000 },
-      { "value": 50, "price": 2100000 },
-      { "value": 100, "price": 2600000 }
+      { "value": "10ml", "price": 330000 },
+      { "value": "30ml", "price": 1800000 },
+      { "value": "50ml", "price": 2100000 },
+      { "value": "100ml", "price": 2600000 }
     ],
     "image": "/images/perfumes/paradoxe.webp",
     "description": "Prada Paradoxe EDP ra mắt năm 2022 như một hình mẫu lý tưởng của một người phụ nữ hiện đại vừa mềm mại lại mạnh mẽ, vừa cổ điển lại tiên phong, vừa quen thuộc lại không ngừng biến hóa.",
@@ -588,8 +588,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 700000 },
-      { "value": 50, "price": 4600000 }
+      { "value": "10ml", "price": 700000 },
+      { "value": "50ml", "price": 4600000 }
     ],
     "image": "/images/perfumes/gggb50ml.webp",
     "description": "Nước hoa Kilian rắn trắng chính hãng mang một mùi hương quyến rũ, gợi cảm và đầy lôi cuốn dành cho nữ giới, như một quả bom hoa có sức mạnh lan tỏa và lấn át những mùi hương xung quanh một cách khó tin đấy nhé.",
@@ -610,8 +610,8 @@
     "isFemaleExtract": true,
     "origin": "Đức",
     "capacities": [
-      { "value": 10, "price": 245000 },
-      { "value": 90, "price": 1500000 }
+      { "value": "10ml", "price": 245000 },
+      { "value": "90ml", "price": 1500000 }
     ],
     "image": "/images/perfumes/montblancsignature.webp",
     "description": "Là sản phẩm mang giá trị cùng tính biểu tượng cao của thương hiệu, nước hoa Montblanc Signature EDP dành cho nữ tạo nên một vẻ cuốn hút riêng biệt. Hãy đến với Signature để nàng được truyền cảm hứng, mang đến những thay đổi tích sực cho cuộc sống thông qua sự nữ tính, quyến rũ của nó.",
@@ -632,8 +632,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 225000 },
-      { "value": 90, "price": 1600000 }
+      { "value": "10ml", "price": 225000 },
+      { "value": "90ml", "price": 1600000 }
     ],
     "image": "/images/perfumes/vschongnhat.webp",
     "description": "Nước hoa nữ của Versace luôn được săn đón vì độ tinh tế, tính thẩm mỹ và độ quyến rũ của mùi hương. Mỗi dòng nước hoa mang tên Versace đều khoác lên mình nét thanh lịch, lộng lẫy và hấp dẫn và nước hoa Versace Bright Crystal EDT chính là một trong số đó.",
@@ -655,8 +655,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 245000 },
-      { "value": 90, "price": 1650000 }
+      { "value": "10ml", "price": 245000 },
+      { "value": "90ml", "price": 1650000 }
     ],
     "image": "/images/perfumes/vschongdam.webp",
     "description": "Hương thơm của nước hoa Versace Bright Crystal Absolu luôn tôn vinh sự quyến rũ với khả năng vương vấn trên cơ thể nàng trung bình từ 7 đến 12 tiếng cùng độ tỏa hương trong bán kính gần và thoang thoảng nhẹ, phù hợp để sử dụng trong tiết trời của mùa xuân và mùa hạ.",
@@ -677,8 +677,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 220000 },
-      { "value": 100, "price": 1950000 }
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1950000 }
     ],
     "image": "/images/perfumes/vscerosnu.webp",
     "description": "Versace Eros Pour Femme Sở hữu vẻ ngoài trang trọng quý phái, được làm tròn và tôn tạo với một biểu tượng Medusa (nữ thần rắn truyền thống) nổi bật trên phần trung tâm của chai và nút chặn, cũng như với hoa văn Hy Lạp điển hình trên các cạnh.",
@@ -699,8 +699,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 260000 },
-      { "value": 85, "price": 2200000 }
+      { "value": "10ml", "price": 260000 },
+      { "value": "85ml", "price": 2200000 }
     ],
     "image": "/images/perfumes/twillyeaupoivree.webp",
     "description": "Hermes Twilly d'Hermes Eau Poivree EDP mang nốt hương tươi mới và cá tính, vừa nổi bật, vừa giữ được nét nữ tính hiện đại. Phù hợp với cô gái trẻ trung, độc lập và táo bạo với gam màu hồng san hô cùng nơ lụa thể hiện tinh thần “Hermès girl” đầy tự do và phá cách.",
@@ -721,8 +721,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 290000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 290000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/merveillesbleue.webp",
     "description": "Mang phong cách trẻ trung xinh xắn, pha lẫn một chút hương vị biển cả đi cùng sự tự do tươi mát. Sản phẩm này mang trên mình một nồng độ nước hoa vừa phải đủ để cho người dụng tận hưởng được sự thanh thoát và quyến rũ.",
@@ -744,8 +744,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 220000 },
-      { "value": 100, "price": 2150000 }
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 2150000 }
     ],
     "image": "/images/perfumes/gioxanh.webp",
     "description": "Acqua Di Giò Profondo EDP được bao bọc bởi lớp thủy tinh trong và khoác lên mình một màu xanh mát làm toát lên vẻ nam tính, hiện đại và vô cùng lịch lãm. Giorgio Armani Acqua Di Gio Profondo khắc họa rõ nét hình ảnh soái ca sơ mi trắng điển trai và vô cùng cuốn hút. Thoạt nhìn, ta có thể thấy bóng dáng quen thuộc như chiếc bình rư.ợ.u cầm tay cổ điển.",
@@ -766,8 +766,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 230000 },
-      { "value": 100, "price": 1700000 }
+      { "value": "10ml", "price": 230000 },
+      { "value": "100ml", "price": 1700000 }
     ],
     "image": "/images/perfumes/gioedt.webp",
     "description": "Acqua Di Giò Pour Homme EDT là mùi hương tươi mát, sảng khoái với cam quýt, hoa nhài và hương biển. Phù hợp cho mùa hè, mang lại cảm giác tự do, phóng khoáng và đầy sức sống.",
@@ -788,8 +788,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 250000 },
-      { "value": 100, "price": 2200000 }
+      { "value": "10ml", "price": 250000 },
+      { "value": "100ml", "price": 2200000 }
     ],
     "image": "/images/perfumes/giotrangedp.webp",
     "description": "Là phiên bản được nâng cấp bởi nhà pha chế nổi tiếng Alberto Morillas, hương thơm Acqua Di Gio Pour Homme Eau De Parfum thuộc nhóm hương biển, mang lại nguồn năng lượng mới với những nốt hương gió biển tươi mới và cam kết hợp cùng oải hương nhẹ nhàng.",
@@ -810,8 +810,8 @@
     "isFemaleExtract": false,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 2500000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 2500000 }
     ],
     "image": "/images/perfumes/gioparfum.webp",
     "description": "Nếu mới xịt, dễ có khả năng lầm tưởng mùi hương của nước hoa nam Acqua Di Giò Parfum thành mùi hương của Giò Đen Profumo. Vẫn với nốt hương biển làm chủ đạo, mùi hương của Giò Parfum được đánh giá có phần xanh hơn, tươi tắn và trẻ trung hơn so với bản Profumo.",
@@ -832,8 +832,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 180000 },
-      { "value": 100, "price": 1700000 }
+      { "value": "10ml", "price": 180000 },
+      { "value": "100ml", "price": 1700000 }
     ],
     "image": "/images/perfumes/narbleunoiredt.webp",
     "description": "Nước hoa Narciso Rodriguez Bleu Noir For Him EDT được mở ra với hương thơm cay nồng của bạch đậu khấu và nhục đậu khấu cuốn hút và hấp dẫn. Hương giữa gây ấn tượng với xạ hương sạch sẽ. Tất cả tạo nên sự tương phản quyến rũ với hương cuối quyến rũ của có hương bài, h.ổ phách, gỗ tuyết tùng Blue Atlas và gỗ mun đen, tạo ra một thành phần gỗ cay độc đáo, gây nghiện, đồng thời bộc lộ sự tinh khiết tuyệt vời và sự trong trẻo, mát mẻ.",
@@ -854,8 +854,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 90, "price": 1850000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "90ml", "price": 1850000 }
     ],
     "image": "/images/perfumes/narcristal.webp",
     "description": "Tất cả những nét tươi trẻ, thơ mộng, cuốn hút của tuổi thanh xuân như được chứa đựng trong nước hoa Narciso Cristal 2022, hương thơm hứa hẹn sự cuốn hút bất diệt giành cho những ai trót yêu “nàng thơ” mới của nhà Narciso Rodriguez.",
@@ -877,8 +877,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 90, "price": 2000000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "90ml", "price": 2000000 }
     ],
     "image": "/images/perfumes/narpoudree.webp",
     "description": "Để mà nói về độ lưu hương thì Narciso Rodriguez là một trong những thương hiệu nước hoa làm tốt nhất việc này. Giữa một rừng thế giới nước hoa với hàng trăm phong cách khác nhau, nước hoa nữ quyến rũ Narciso Rodriguez Poudrée lại thu hút nàng bởi sự nhẹ nhàng, quyến rũ cùng hương thơm cuốn hút bung tỏa trong khoảng cách gần. ",
@@ -900,8 +900,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 310000 },
-      { "value": 90, "price": 1900000 }
+      { "value": "10ml", "price": 310000 },
+      { "value": "90ml", "price": 1900000 }
     ],
     "image": "/images/perfumes/narambree.webp",
     "description": "Gợi nhớ về những lớp phấn ấm áp được lấp dưới ánh nắng mặt trời, nước hoa nữ thơm dịu Narciso Ambrée là một trong những thành viên mới của nhà Narciso Rodriguez có được sự hấp dẫn đến từ những nốt hương phương Đông bên trong vẻ ngoài thơ mộng, ngây ngô của mình.",
@@ -923,8 +923,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 240000 },
-      { "value": 100, "price": 1800000 }
+      { "value": "10ml", "price": 240000 },
+      { "value": "100ml", "price": 1800000 }
     ],
     "image": "/images/perfumes/narhongnhat.webp",
     "description": "Để mà nói về độ lưu hương thì Narciso Rodriguez là một trong những thương hiệu nước hoa làm tốt nhất việc này. Giữa một rừng thế giới nước hoa với hàng trăm phong cách khác nhau, nước hoa nữ quyến rũ Narciso Rodriguez Poudrée lại thu hút nàng bởi sự nhẹ nhàng, quyến rũ cùng hương thơm cuốn hút bung tỏa trong khoảng cách gần. ",
@@ -945,8 +945,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 290000 },
-      { "value": 100, "price": 2500000 }
+      { "value": "10ml", "price": 290000 },
+      { "value": "100ml", "price": 2500000 }
     ],
     "image": "/images/perfumes/nartrang.webp",
     "description": "Với hương thơm dễ chịu, Narciso trắng là nước hoa dùng hàng ngày rất thích hợp cho những cô nàng từ 21 tuổi trở lên với phong cách trẻ trung, dịu dàng, ngây thơ. Bạn có thể dùng mùi hương của Nar trắng quanh năm, vào bất cứ dịp gì kể cả dùng ở văn phòng làm việc đều được bởi hương thơm và độ tỏa hương không quá kén.",
@@ -968,8 +968,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 100, "price": 1800000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "100ml", "price": 1800000 }
     ],
     "image": "/images/perfumes/narmuscnoir.webp",
     "description": "Khi đào sâu hơn về ý nghĩa của mùi hương, bóc tách từng lớp, ta sẽ thật sự nhận ra rằng những cá thể đơn lẻ khi hợp lại sẽ tạo nên thứ hương bồng bềnh, vui tươi và dễ yêu như chính sắc hồng mà nước hoa Narciso Musc Noir Rose đang mang.",
@@ -990,8 +990,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 125, "price": 26500000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "125ml", "price": 26500000 }
     ],
     "image": "/images/perfumes/jpleparfum.webp",
     "description": "Le Male Le Parfum là phiên bản hiện đại của dòng Le Male, nổi bật với hương vani, bạch đậu khấu và oải hương. Mùi hương ngọt ngào, ấm áp, mang lại cảm giác quyến rũ và nam tính.",
@@ -1012,8 +1012,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 240000 },
-      { "value": 125, "price": 1950000 }
+      { "value": "10ml", "price": 240000 },
+      { "value": "125ml", "price": 1950000 }
     ],
     "image": "/images/perfumes/lemaleedt.webp",
     "description": "Kể từ năm 1995 đến nay, nước hoa nam Jean Paul Gaultier Le Male EDT đã chứng kiến bao sự thay đổi của thế giới. Sản phẩm vẫn còn đó những dấu ấn của sự cổ điển mà vẫn luôn hiện đại, không bao giờ lỗi mốt và luôn được săn đón.",
@@ -1034,8 +1034,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 290000 },
-      { "value": 125, "price": 2500000 }
+      { "value": "10ml", "price": 290000 },
+      { "value": "125ml", "price": 2500000 }
     ],
     "image": "/images/perfumes/jplemaleelixir.webp",
     "description": "Nước Hoa Nam Jean Paul Gaultier Le Male Elixir Parfum 125ml là chai nước hoa nam cao cấp đến từ thương hiệu Jean Paul Gaultier của Pháp. Hương thơm cuốn hút, nam tính đến cháy bỏng và khiến ai cũng phải ấn tượng. ",
@@ -1056,8 +1056,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 600000 },
-      { "value": 50, "price": 4500000 }
+      { "value": "10ml", "price": 600000 },
+      { "value": "50ml", "price": 4500000 }
     ],
     "image": "/images/perfumes/kilianbp.webp",
     "description": "Black Phantom Memento Mori EDP là mùi hương độc đáo với cà phê, rượu rum và sô cô la đen. Mang lại cảm giác bí ẩn, quyến rũ, phù hợp cho những ai yêu thích sự khác biệt và cá tính.",
@@ -1078,8 +1078,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 550000 },
-      { "value": 100, "price": 5000000 }
+      { "value": "10ml", "price": 550000 },
+      { "value": "100ml", "price": 5000000 }
     ],
     "image": "/images/perfumes/blanchebete.webp",
     "description": "Ombre Nomade không đơn thuần là nước hoa – đó là lời mời gọi bạn bước vào thế giới nơi bóng tối ôm trọn cát vàng, nơi từng nốt trầm hương hòa cùng hương ngọt mọng của mâm xôi tạo nên một khúc ca huyền bí. Mùi hương ấy như một dải lụa trầm ấm quấn lấy bạn, dẫn dắt qua những nốt nhang, an tức hương, hoa hồng… rồi khẽ khép lại bằng dư vị gỗ quý kéo dài bất tận. Đây là hương thơm của quyền lực, của những người không cần nói nhiều nhưng vẫn khiến cả căn phòng phải ngoái nhìn.",
@@ -1101,8 +1101,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 900000 },
-      { "value": 100, "price": 10500000 }
+      { "value": "10ml", "price": 900000 },
+      { "value": "100ml", "price": 10500000 }
     ],
     "image": "/images/perfumes/lvimagination.webp",
     "description": "Imagination Perfume LP0219 EDP đưa bạn đến những vùng đất xa xôi, xa xôi đến với thực tại. Nơi trí tưởng tượng của bạn được mở rộng bằng cách tạo ra điều không thể có thể. Cam Bergamot kết hợp với tinh d.ầu cam Sicilian tạo nên khung cảnh sảng khoái. Được hỗ trợ bởi trái Thanh Yến, mùi hương cam quýt nhẹ nhàng len lỏi vào những cái vuốt ve.",
@@ -1123,8 +1123,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 900000 },
-      { "value": 100, "price": 10200000 }
+      { "value": "10ml", "price": 900000 },
+      { "value": "100ml", "price": 10200000 }
     ],
     "image": "/images/perfumes/lvafternoonswim.webp",
     "description": "Nước hoa Louis Vuitton Afternoon Swim EDP là mùi hương tràn đầy năng lượng như chính tên gọi của nó. Thành phần hương chính từ hỗn hợp cam Sicili, cam Bergamot và quả quýt hồng, giống như lọ vitamin C lẫn trong hương nước hoa. Không chỉ mang đến những vương vấn của mùa hè rực rỡ, chai nước hoa còn giúp mang lại cảm giác sảng khoái và tràn đầy năng lượng.",
@@ -1145,8 +1145,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 1200000 },
-      { "value": 100, "price": 11500000 }
+      { "value": "10ml", "price": 1200000 },
+      { "value": "100ml", "price": 11500000 }
     ],
     "image": "/images/perfumes/lvombre.webp",
     "description": "Ombre Nomade không đơn thuần là nước hoa – đó là lời mời gọi bạn bước vào thế giới nơi bóng tối ôm trọn cát vàng, nơi từng nốt trầm hương hòa cùng hương ngọt mọng của mâm xôi tạo nên một khúc ca huyền bí. Mùi hương ấy như một dải lụa trầm ấm quấn lấy bạn, dẫn dắt qua những nốt nhang, an tức hương, hoa hồng… rồi khẽ khép lại bằng dư vị gỗ quý kéo dài bất tận. Đây là hương thơm của quyền lực, của những người không cần nói nhiều nhưng vẫn khiến cả căn phòng phải ngoái nhìn.",
@@ -1167,8 +1167,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 310000 },
-      { "value": 125, "price": 2250000 }
+      { "value": "10ml", "price": 310000 },
+      { "value": "125ml", "price": 2250000 }
     ],
     "image": "/images/perfumes/ultramaleedt.webp",
     "description": "Ultra Male EDT là phiên bản mạnh mẽ hơn của Le Male, nổi bật với hương lê, vani và quế. Mùi hương ngọt ngào, quyến rũ, phù hợp cho những buổi tiệc tối hoặc hẹn hò lãng mạn.",
@@ -1189,8 +1189,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 250 },
-      { "value": 125, "price": 2100000 }
+      { "value": "10ml", "price": 250 },
+      { "value": "125ml", "price": 2100000 }
     ],
     "image": "/images/perfumes/lebeau.webp",
     "description": "Một trong những dòng nước hoa cá tính, thể hiện được cái tôi trẻ trung đầy mạnh mẽ phải nhắc đến nước hoa nam Le Beau EDT của thương hiệu Jean Paul Gaultier bởi mùi hương tinh tế, đem lại cảm nhận ngọt mát hay ho, một sự cám dỗ đầy nhẹ nhàng, khiến trái tim bao cô gái phải xao xuyến.",
@@ -1211,8 +1211,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 500000 },
-      { "value": 100, "price": 4200000 }
+      { "value": "10ml", "price": 500000 },
+      { "value": "100ml", "price": 4200000 }
     ],
     "image": "/images/perfumes/chancetim.webp",
     "description": "Nếu bạn đã trót yêu dòng nước hoa Chance của thương hiệu đình đám Chanel, thì lần này hãy để Chanel Chanel Eau Splendide EDP vừa được ra mắt thỏa lòng mong nhớ của những cô nàng theo phong cách nữ tính, thanh thoát.",
@@ -1233,8 +1233,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 400000 },
-      { "value": 50, "price": 3400000 }
+      { "value": "10ml", "price": 400000 },
+      { "value": "50ml", "price": 3400000 }
     ],
     "image": "/images/perfumes/chancetendre.webp",
     "description": "Thực sự mùi hương tươi trẻ đầy ngọt ngào của nước hoa Chanel Chance màu hồng dành cho nữ rất dễ gây nghiện. Không phải kiểu ngọt gắt mà mùi hương cứ nhẹ nhàng thoảng thoảng rất là dễ chịu. Thanh lịch, dịu dàng, dễ thương chính là những từ ngữ có thể miêu tả về mùi hương của Chanel Chance Eau Tendre EDP.",
@@ -1255,8 +1255,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 350000 },
-      { "value": 100, "price": 4000000 }
+      { "value": "10ml", "price": 350000 },
+      { "value": "100ml", "price": 4000000 }
     ],
     "image": "/images/perfumes/cocomadedp.webp",
     "description": "Một mùi hương thanh lịch, quyến rũ, dành riêng cho phái đẹp yêu thích sự tự tin và hiện đại.",
@@ -1277,8 +1277,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 400000 },
-      { "value": 100, "price": 4300000 }
+      { "value": "10ml", "price": 400000 },
+      { "value": "100ml", "price": 4300000 }
     ],
     "image": "/images/perfumes/cocomadintense.webp",
     "description": "Lớp hương cuối hoà quyện với những nốt hương Phương Đông ấm áp, gợi cảm và nồng nàn từ hoắc hương, đậu tonka, vani, xạ hương và nhựa thơm. Đây là lớp hương đầy đặn, dày và dễ để lại thương nhớ của phiên bản Intense. Mạnh mẽ và cá tính, vỏ chai được làm trong suốt để lột tả được sự tinh khiết và tươi trẻ của loại nước hoa cao cấp này. ",
@@ -1299,8 +1299,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 330000 },
-      { "value": 100, "price": 3950000 }
+      { "value": "10ml", "price": 330000 },
+      { "value": "100ml", "price": 3950000 }
     ],
     "image": "/images/perfumes/no5.webp",
     "description": "Nước hoa nữ Chanel No5 huyền thoại cực kì thích hợp sử dụng vào mùa thu đông, sẽ giúp các cô gái nổi bật với độ lưu hương cực lâu, khiến nàng tự tin và quyến rũ hơn trong suốt buổi tiệc hoặc những buổi hẹn hò riêng tư của mình đấy nhé.",
@@ -1321,8 +1321,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 50, "price": 1550000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "50ml", "price": 1550000 }
     ],
     "image": "/images/perfumes/guccibloomedp.webp",
     "description": "Gucci Bloom mang đến cảm giác như một khu vườn đầy hoa nở rộ, ngọt ngào và tinh tế.",
@@ -1343,8 +1343,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/gucciambrosia.webp",
     "description": "Gucci Bloom Ambrosia Di Fiori sẽ chiêu đãi các nàng bữa tiệc hoa đầy rực rỡ, mang đến sự kì diệu qua hương thơm nồng nàn, cuốn hút. Bản thân được chọn lựa là cô nàng cá tính nhất trong các dòng Bloom, Gucci Bloom đỏ được đánh giá có tone mùi mạnh và đậm hơn, xứng đáng với tên gọi ”Best Flanker” của thương hiệu.",
@@ -1365,8 +1365,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 330000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 330000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/gucciprofumo.webp",
     "description": "Mở đầu là hương ngọt dịu của hoa huệ và ngọc lan tây. Tầng hương giữa được nhiều cô nàng yêu thích và tìm kiếm, những cánh hoa nhài quen thuộc nay được làm phong phú bởi sự ấm áp và ngọt ngào của hoa Ylang Ylang. Và cuối cùng là gỗ đàn hương ấm cúng, nồng nàn khó quên.",
@@ -1387,8 +1387,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 240000 },
-      { "value": 90, "price": 1750000 }
+      { "value": "10ml", "price": 240000 },
+      { "value": "90ml", "price": 1750000 }
     ],
     "image": "/images/perfumes/guiltypourhomme.webp",
     "description": "Mở đầu là hương ngọt dịu của hoa huệ và ngọc lan tây. Tầng hương giữa được nhiều cô nàng yêu thích và tìm kiếm, những cánh hoa nhài quen thuộc nay được làm phong phú bởi sự ấm áp và ngọt ngào của hoa Ylang Ylang. Và cuối cùng là gỗ đàn hương ấm cúng, nồng nàn khó quên.",
@@ -1409,8 +1409,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 230000 },
-      { "value": 90, "price": 1850000 }
+      { "value": "10ml", "price": 230000 },
+      { "value": "90ml", "price": 1850000 }
     ],
     "image": "/images/perfumes/guiltyblack.webp",
     "description": "Nếu dòng nước hoa Gucci Guilty là hương thơm của niềm đam mê và thú vui tội lỗi. Thì bây giờ, Gucci Guilty Black còn hơn thế nữa. Đây là hương thơm dành cho những người phá cách, muốn thể hiện bản thân, muốn phá vỡ các nguyên tắc, muốn sự khác biệt.",
@@ -1431,8 +1431,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 250000 },
-      { "value": 100, "price": 2200000 }
+      { "value": "10ml", "price": 250000 },
+      { "value": "100ml", "price": 2200000 }
     ],
     "image": "/images/perfumes/terreedt.webp",
     "description": "Nếu những mùi hương “đương đại” xô bồ đã khiến bạn nhàm chán, hãy một lần tìm đến sự cổ điển, lịch lãm trong không gian mùi hương của Terre d’Hermes - cả một vùng trời đất rộng lớn kỳ diệu mà rồi chàng trai nào cũng sẽ đạt tới độ trưởng thành và bản lĩnh để thưởng thức một lần trong đời.",
@@ -1453,8 +1453,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 250000 },
-      { "value": 75, "price": 2300000 }
+      { "value": "10ml", "price": 250000 },
+      { "value": "75ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/terreparfum.webp",
     "description": "Mở đầu mùi hương là sự kết hợp của hương bưởi và cam tươi mát. Hỗn hợp bưởi và cam đã chiếm thiện cảm của đối phương bởi sự mộc mạc và giản dị nhưng không kém sự tươi mới, thanh thoát. Mang theo sự ấm áp, trầm tích không đơn giản được ưu ái chiếm vị thế độc tôn tại midnote.",
@@ -1475,8 +1475,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 270000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 270000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/terrevetiver.webp",
     "description": "Mở đầu là hương chua của quả cam và the the của vỏ bưởi kết hợp cùng hạt tiêu đắng cổ điển rất khơi gợi. Tiếp theo sau đó, hương vị cay dần lên của tiêu đen cùng loại gia vị ớt, và có một hương thơm là lạ từ đá lửa. Đến hương cuối cùng là hương gỗ nồng nàn mạnh mẽ bao phủ lấy cơ thể bạn từ 2 thành phần chính là vetiver và gỗ tuyết tùng.",
@@ -1497,8 +1497,8 @@
     "isFemaleExtract": true,
     "origin": "Đức",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 100, "price": 1500000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "100ml", "price": 1500000 }
     ],
     "image": "/images/perfumes/hugoboss.webp",
     "description": "Hương thơm quyến rũ đầy nam tính, được thiết kế dành riêng cho buổi tối và những khoảnh khắc đặc biệt. Với sự kết hợp tinh tế giữa hương gỗ trầm ấm và hương hoa nhẹ nhàng, sản phẩm mang đến cảm giác bí ẩn, mạnh mẽ và lôi cuốn.",
@@ -1519,8 +1519,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 230000 },
-      { "value": 175, "price": 1900000 }
+      { "value": "10ml", "price": 230000 },
+      { "value": "175ml", "price": 1900000 }
     ],
     "image": "/images/perfumes/lacosteblanc.webp",
     "description": "French tennis player Rene Lacoste là người tạo ra chiếc áo Polo đầu của mình vào năm 1927. Code của nó là L.12.12. (“L” là viết tắt của Lacoste, số 1 tượng trưng cho “Petit Pique” vật liệu được sử dụng, 2 đại diện cho tay áo ngắn và 12 là số nguyên mẫu thực hiện trước khi ra mắt sản phẩm cuối cùng).",
@@ -1541,8 +1541,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 210000 },
-      { "value": 100, "price": 1100000 }
+      { "value": "10ml", "price": 210000 },
+      { "value": "100ml", "price": 1100000 }
     ],
     "image": "/images/perfumes/tommyboy.webp",
     "description": "Nước hoa Tommy Hilfiger sẽ mang đến một sự hấp dẫn khó có thể chối từ với hương thơm tươi mới, trẻ trung năng động nên rất phù hợp với những chàng trai trẻ.",
@@ -1563,8 +1563,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 100, "price": 1200000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "100ml", "price": 1200000 }
     ],
     "image": "/images/perfumes/laliqueencre.webp",
     "description": "Mở đầu bằng sự hòa quyện tươi mát giữa cam Bergamot và nhựa Elemi, cây bách xanh mang đến cảm giác sảng khoái và đầy năng lượng. Khi hương thơm dần lan tỏa, lớp hương giữa bộc lộ chiều sâu mạnh mẽ với cỏ hương bài Haiti, cỏ hương bài Java, rễ diên vĩ, nhang ấm áp, quấn quýt và đầy mê hoặc",
@@ -1585,8 +1585,8 @@
     "isFemaleExtract": true,
     "origin": "Hà Lan",
     "capacities": [
-      { "value": 10, "price": 290000 },
-      { "value": 90, "price": 1950000 }
+      { "value": "10ml", "price": 290000 },
+      { "value": "90ml", "price": 1950000 }
     ],
     "image": "/images/perfumes/bombextreme.webp",
     "description": "Nước hoa nam Viktor & Rolf Spicebomb Extreme có mùi hương ngọt ngào, khá dễ chịu, cuốn hút hơn phiên bản cũ, khiến phái đẹp mê đắm. Chính sự kết hợp hoàn hảo và táo bạo không theo quy tắc, Spicebomb Extreme được đánh giá là một trong 10 loại nước hoa dành cho nam ở phương đông được yêu thích nhất.",
@@ -1607,8 +1607,8 @@
     "isFemaleExtract": true,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 350000 },
-      { "value": 100, "price": 2350000 }
+      { "value": "10ml", "price": 350000 },
+      { "value": "100ml", "price": 2350000 }
     ],
     "image": "/images/perfumes/aqva.webp",
     "description": "Hương thơm tinh khiết của quýt và tinh dầu lá chanh hòa quyện với hương huyết phách khơi dậy hương thơm trong lành tươi mới mang hơi thở cùa vùng Địa Trung Hải thanh lịch, thích hợp cho các quý ông có tinh thần mạnh mẽ, phóng khoáng và ưa thích sự mới mẻ.",
@@ -1629,8 +1629,8 @@
     "isFemaleExtract": true,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 230000 },
-      { "value": 100, "price": 1550000 }
+      { "value": "10ml", "price": 230000 },
+      { "value": "100ml", "price": 1550000 }
     ],
     "image": "/images/perfumes/toyboy.webp",
     "description": "Nước hoa nam Moschino gấu đen là hương nước hoa cho nam đầu tiên từ Moschino, diễn giải về một người đàn ông tự tin, năng động, đầy hoài bão và đam mê nhưng không ngại thể hiện khía cạnh hóm hỉnh và hài hước của bản thân. Như gấu Teddy, bạn có thể “chơi” cùng bất cứ lúc nào!",
@@ -1651,8 +1651,8 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 100, "price": 1350000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "100ml", "price": 1350000 }
     ],
     "image": "/images/perfumes/londonmen.webp",
     "description": "Không phải là mùi nồng của thuốc lá như mình thường bắt gặp, nước hoa Burberry London For Men mang đến cảm giác dễ chịu vô cùng. Sẽ khó có thể đụng hàng nếu bạn sử dụng mùi hương nước hoa này đâu. Mùi hương độc quyền, không đại trà mà lại bật thần thái của bậc quân tử, phong trần và đầy mạnh mẽ. ",
@@ -1673,8 +1673,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 170000 },
-      { "value": 105, "price": 850000 }
+      { "value": "10ml", "price": 170000 },
+      { "value": "105ml", "price": 850000 }
     ],
     "image": "/images/perfumes/clubmen.webp",
     "description": "Những nốt hương vừa lạ nhưng vừa quen đậm chất gây thương nhớ của nước hoa nam Armaf Club De Nuit Intense Man khắc hoạ hình ảnh một người đàn ông nam tính và đầy dung dị, khiến đoá hồng mong manh nào cũng muốn tựa vào.",
@@ -1695,8 +1695,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 250000 },
-      { "value": 105, "price": 1850000 }
+      { "value": "10ml", "price": 250000 },
+      { "value": "105ml", "price": 1850000 }
     ],
     "image": "/images/perfumes/clublimited.png",
     "description": "Nước hoa nam Armaf Club De Nuit Limited như mang một nét đẹp phi giới tính chuyển biến qua từng tầng hương. Nét đẹp ấy là sự giao thoa tuyệt vời từ những điều tinh tuý nhất của hoa thơm, của quả ngọt và của đất trời. Một nét đẹp phá bỏ mọi chuẩn mực và chính điều đó khiến người ta say đắm mãi không thôi.",
@@ -1717,8 +1717,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 105, "price": 1150000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "105ml", "price": 1150000 }
     ],
     "image": "/images/perfumes/clubsillage.webp",
     "description": "Sở hữu tone màu nhẹ nhàng, tinh tế. Dáng hình vuông vức của chai nước hoa này còn khiến nó trở nên chắc chắn, vừa tay đối với mọi nam giới. Cổ chai Armaf Club De Nuit Sillag còn được điểm xuyến thêm một sợi dây màu vàng tuyệt đẹp và nắp chai được đính những viên kim cương nhân tạo rất bắt mắt, hấp dẫn. ",
@@ -1739,8 +1739,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 105, "price": 1150000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "105ml", "price": 1150000 }
     ],
     "image": "/images/perfumes/clubico.jpg",
     "description": "Lấy cảm hứng từ những hương thơm được yêu thích của các nghệ sĩ, Armaf Club De Nuit Iconic là một sự pha trộn tươi mát, gợi cảm giữa hương chanh mát lạnh và bạc hà kết hợp với những đóa hoa mịn màng của hoa nhài, được làm nóng bởi nốt hương hổ phách và gỗ đàn hương, mang đến sự cuốn hút của một hương thơm mạnh mẽ.",
@@ -1761,8 +1761,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 240000 },
-      { "value": 100, "price": 1850000 }
+      { "value": "10ml", "price": 240000 },
+      { "value": "100ml", "price": 1850000 }
     ],
     "image": "/images/perfumes/chsexymen.webp",
     "description": "Các nguyên liệu được kết hợp một cách tinh tế hài hòa đã giúp nước hoa nam 212 Sexy Men sở hữu một hương thơm nồng ấm, gợi cảm và tinh tế. Đây sẽ là dòng nước hoa lý tưởng mà bất kỳ người đàn ông hiện đại nào cũng ao ước bổ sung vào bộ sưu tập của mình đấy nhé.",
@@ -1783,8 +1783,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 220000 },
-      { "value": 100, "price": 1800000 }
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1800000 }
     ],
     "image": "/images/perfumes/nycmen.webp",
     "description": "Mang mùi hương ngọt ngào là sự tương phản giữa sự tươi mát của cam, quýt và sự gợi cảm nồng nàn của các loại gỗ và gia vị. Tất cả được bao bọc lên bởi sự nhẹ nhàng xuyên suốt từ hương đầu tới hương cuối.",
@@ -1805,8 +1805,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 220000 },
-      { "value": 100, "price": 1800000 }
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1800000 }
     ],
     "image": "/images/perfumes/chvipmen.webp",
     "description": "212 VIP men khới đầu với mùi hương nồng của chanh da xanh, trứng cá muối, gừng và quả chanh dây. Sau đó, hương thơm chuyển dần sang hương giữa đầy say mê của rượu Vodka và Gin, mang cảm giác tươi mát của các loại gia vị và bạc hà. Cuối cùng mùi hương h.ổ phách và da thuộc làm cho mùi hương trở nên ấm áp và lôi cuốn hơn, đồng thơi hương gỗ thơm góp mặt hỗ trợ cho tổng thể hương nước hoa này trở nên đầy cá tính và sảng khoái.",
@@ -1827,8 +1827,8 @@
     "isFemaleExtract": true,
     "origin": "Đức",
     "capacities": [
-      { "value": 10, "price": 240000 },
-      { "value": 100, "price": 1500000 }
+      { "value": "10ml", "price": 240000 },
+      { "value": "100ml", "price": 1500000 }
     ],
     "image": "/images/perfumes/montblancex.webp",
     "description": "Sở hữu nốt hương đầu mang cảm giác sảng khoái với cam Bergamot tươi mát. Với những Quý Ông sành về nước hoa có thể cảm nhận ngay mùi hương quyến rũ của cỏ hương bài ở tầng giữa và khi lắng xuống ở nốt cuối cùng là mùi hương nổi bật của hoắc hương & hương gỗ nam tính.",
@@ -1850,8 +1850,8 @@
     "isFemaleExtract": true,
     "origin": "Đức",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 100, "price": 1350000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "100ml", "price": 1350000 }
     ],
     "image": "/images/perfumes/legendedt.webp",
     "description": "Nếu chọn khoác lên cơ thể hương thơm nước hoa nam Montblanc Legend vào mùa hè, cái nắng nóng sẽ chẳng thể làm khó được bạn nữa, chỉ có những cô nàng xung quanh mới có thể làm khó được bạn mà thôi.",
@@ -1872,8 +1872,8 @@
     "isFemaleExtract": true,
     "origin": "Đức",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 100, "price": 1450000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "100ml", "price": 1450000 }
     ],
     "image": "/images/perfumes/legendedp.webp",
     "description": "Mang trong mình sự bí ẩn và đầy mạnh mẽ lịch thiệp của người đàn ông. Montblanc Legend hiện lên với thiết kế đơn giản mà sang trọng. Phủ lên thân chai đó là bóng tối của màn đêm đang chờ các chàng khám phá. Nắp chai khắc tên thương hiệu và phủ lên một lớp sơn màu đen bóng làm tăng vẻ cao cấp cho tổng thể.",
@@ -1894,8 +1894,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 90, "price": 2000000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "90ml", "price": 2000000 }
     ],
     "image": "/images/perfumes/guiltynu.jpg",
     "description": "Với tổng thể mùi hương mang đậm chất phương Đông, nước hoa nữ Gucci Guilty Pour Femme EDP là một vườn hoa thơm nhẹ nhàng cùng mùi phấn lan toả, vừa ấm áp lại vừa thanh khiết như đúng với tính cách của người phụ nữ hiện đại.",
@@ -1916,8 +1916,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 290000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 290000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/florahong.webp",
     "description": "Gucci Flora Gorgeous Gardenia EDP là nước hoa của niềm vui được tạo nên bởi sự kết hợp của hoa dành dành, hương hoa nhài mặt trời, hương hoa lê tươi vui và hương đường nâu ngọt ngào, mang một mùi hương ngào ngạt hoa cỏ đầy nữ tính và sắc sảo cho phái đẹp.",
@@ -1938,8 +1938,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 290000 },
-      { "value": 100, "price": 2200000 }
+      { "value": "10ml", "price": 290000 },
+      { "value": "100ml", "price": 2200000 }
     ],
     "image": "/images/perfumes/magnolia.png",
     "description": "Mở đầu chính là sự pha trộn của hương tươi mát và ngọt ngào của dâu tây cùng với nốt hương thơm ngậy của trái dừa tinh tế. Sự kết hợp này đã tạo nên một cảm giác rạng rỡ và sảng khoái khiến bạn như bước vào một khu vườn rực rỡ với những trái cây chín mọng, thơm ngon hấp dẫn.",
@@ -1960,8 +1960,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 100, "price": 2100000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "100ml", "price": 2100000 }
     ],
     "image": "/images/perfumes/jasmine.webp",
     "description": "Mở đầu với mùi hương quả quýt hồng Ý, cam Bergamot, tiêu đen cay nồng đem lại sự mát mẻ và tươi mới cho hương đầu, mang đến cảm giác sảng khoái, quả mọng đỏ tăng thêm sự cuốn hút và sinh động cho mùi hương. Tiếp theo là hương giữa với sự kêt hợp của hoa nhài, hoa nhài Sambac, hoa mộc lan, hoa hồng Đan Mạch là thành phần nổi bật tạo ra một sự nữ tính và quyến rũ. Cuối cùng với sự hòa quyện của Benzoin, gỗ đàn hương Úc, cây hoắc hương tạo nên một dấu ấn đậm nét, khó phai.",
@@ -1983,8 +1983,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 700000 },
-      { "value": 75, "price": 5500000 }
+      { "value": "10ml", "price": 700000 },
+      { "value": "75ml", "price": 5500000 }
     ],
     "image": "/images/perfumes/valayaedp.webp",
     "description": "Được ra mắt vào năm 2023, Nước hoa nữ Parfums De Marly Valaya EDP là một lựa chọn thú vị cho những người phụ nữ yêu thích sự hòa quyện giữa hương trái cây và hương hoa, và muốn tận hưởng một mùi hương đa chiều và phức tạp.",
@@ -2005,8 +2005,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 600000 },
-      { "value": 75, "price": 5200000 }
+      { "value": "10ml", "price": 600000 },
+      { "value": "75ml", "price": 5200000 }
     ],
     "image": "/images/perfumes/delinaedp.webp",
     "description": "Nếu nhà Parfums De Marly cho ra mắt nhưng mùi hương dành cho nam giới mang một sức hút mãnh liệt và kiêu ngạo thì ngược lại, những mùi hương dành cho nữ như nước hoa Delina đều toát lên một vẻ đẹp tao nhã nhưng lại có sức hút đến bất ngờ.",
@@ -2027,8 +2027,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 600000 },
-      { "value": 75, "price": 5500000 }
+      { "value": "10ml", "price": 600000 },
+      { "value": "75ml", "price": 5500000 }
     ],
     "image": "/images/perfumes/delinaex.webp",
     "description": "Nước hoa nữ Parfums De Marly Delina Exclusif EDP vẫn mang trong mình nốt hương hoa hồng và vani nhưng so với Delina EDP thì có phần đậm mùi hoa hồng và vani hơn, tựa như mùi kẹo dẻo hoa hồng chứ không thiên về trái cây nữa.",
@@ -2049,9 +2049,9 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 350000 },
-      { "value": 30, "price": 1800000 },
-      { "value": 90, "price": 2700000 }
+      { "value": "10ml", "price": 350000 },
+      { "value": "30ml", "price": 1800000 },
+      { "value": "90ml", "price": 2700000 }
     ],
     "image": "/images/perfumes/ysllibre.webp",
     "description": "Một mùi hương táo bạo, tự do, gợi cảm, biểu tượng của người phụ nữ hiện đại.",
@@ -2072,8 +2072,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 950000 },
-      { "value": 70, "price": 9200000 }
+      { "value": "10ml", "price": 950000 },
+      { "value": "70ml", "price": 9200000 }
     ],
     "image": "/images/perfumes/mfk540ex.webp",
     "description": "Có thể nói mùi hương của nước hoa Baccarat Rouge 540 Extrait thơm ngọt, thơm lâu, thơm đậm sâu thứ thiệt cùng với độ lưu hương rất lâu - trên 12 giờ, phù hợp cho mọi giới tính để sử dụng hàng ngày.",
@@ -2094,8 +2094,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 850000 },
-      { "value": 100, "price": 7500000 }
+      { "value": "10ml", "price": 850000 },
+      { "value": "100ml", "price": 7500000 }
     ],
     "image": "/images/perfumes/bluetalisman.webp",
     "description": "Bắt đầu đầy tươi mới và đầy sức sống với quả lê ngọt tinh tế và cam quýt, tạo ra một bầu không khí tươi mới và rực rỡ. Cân bằng vị ngọt trong giai đoạn ban đầu là một chút đáng chú ý của mùi gừng cay. Hiện diện ở tầng giữa là hương hoa cam tinh tế và ngọt ngào kết hợp với gỗ tạo thành một sự tương phản đặc biệt trong phần hương thơm này. Sự pha trộn của hai yếu tố này là điều khơi dậy niềm đam mê hơn nữa trong nhiều người hâm mộ Blue Talisman.",
@@ -2116,8 +2116,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 650000 },
-      { "value": 90, "price": 5000000 }
+      { "value": "10ml", "price": 650000 },
+      { "value": "90ml", "price": 5000000 }
     ],
     "image": "/images/perfumes/musktherapy.jpg",
     "description": "Khi nhắc đến hương thơm của Initio Musk Therapy, đó là một hương thơm sạch sẽ và mịn màng của xạ hương và hoa cỏ: hương thơm như đưa ta lạc vào khu vườn hoa trắng muốt với những đoá hoa mộc lan đang đung đưa, toả ra những hương thơm đầy tinh tế như vuốt ve nhẹ nhàng lên sóng mũi - một thứ hương vị thanh lịch đầy cuốn hút.",
@@ -2138,8 +2138,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 400000 },
-      { "value": 100, "price": 3500000 }
+      { "value": "10ml", "price": 400000 },
+      { "value": "100ml", "price": 3500000 }
     ],
     "image": "/images/perfumes/papier.webp",
     "description": "Giống như một cử chỉ dịu dàng hé mở cánh cửa dẫn vào thế giới mộng mơ và duy mỹ - nước hoa Diptyque L'eau Papier EDT chính là nơi chuyến phiêu lưu thơm mùi mực trên giấy mới đã sẵn sàng.",
@@ -2160,8 +2160,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 550000 },
-      { "value": 75, "price": 4200000 }
+      { "value": "10ml", "price": 550000 },
+      { "value": "75ml", "price": 4200000 }
     ],
     "image": "/images/perfumes/orpheon.webp",
     "description": "Diptyque Orphéon EDP không đơn thuần là một mùi hương – đó là ký ức được chưng cất từ ánh đèn vàng, tiếng nhạc jazz và những cuộc trò chuyện thầm thì trong một quán bar Paris thập niên 60. Giữa không khí mờ ảo của khói thuốc, gỗ ấm và hương da thịt vương lại trên áo khoác, Orphéon như lời thầm thì của một thời đã qua – sang trọng, tinh tế, và đầy hoài niệm.",
@@ -2182,8 +2182,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 500000 },
-      { "value": 75, "price": 3800000 }
+      { "value": "10ml", "price": 500000 },
+      { "value": "75ml", "price": 3800000 }
     ],
     "image": "/images/perfumes/tamdao.webp",
     "description": "Rạng rỡ và thanh bình pha với sự trầm tĩnh, Tam Dao như một tác phẩm được trạm trổ một cách công phu. Cho dù khi hương thơm tỏa hương một cách mạnh mẽ nhất, mùi hương vẫn giữ đúng bản chất gỗ của mình, đúng với đặc điểm của các chai nước hoa thuộc hãng Diptque. Đây là một mùi hương rất đáng thử dành cho những ai yêu thích hương gỗ đàn hương.",
@@ -2204,7 +2204,7 @@
     "isMaleExtract": false,
     "isFemaleExtract": false,
     "origin": "Pháp",
-    "capacities": [{ "value": 125, "price": 5500000 }],
+    "capacities": [{ "value": "125ml", "price": 5500000 }],
     "image": "/images/perfumes/castleyedp.jpg",
     "description": "Nước hoa Parfums de Marly Castley là một trong những dòng nước hoa mới nhất của thương hiệu Parfums de Marly, được ra mắt vào năm 2025. Với thiết kế sang trọng và hương thơm mạnh mẽ, Parfums de Marly Castley nhanh chóng trở thành lựa chọn hàng đầu cho những quý ông yêu thích sự quý phái và đẳng cấp.",
     "content": "<p><strong>Thương hiệu:</strong> PARFUMS DE MARLY</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2025</p><p><strong>Độ lưu hương:</strong> 7 giờ - 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Spicy Woody Oriental - Hương Gỗ Cay Phương Đông</p><p><strong>Phong cách:</strong> Mạnh mẽ, Quyến rũ, Tinh tế</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Thu, Đông</p><p><p><strong>Hương đầu:</strong> Cam Bergamot, Tiêu đen, Gừng</p><p><strong>Hương giữa:</strong> Tiêu Timut, Tinh dầu lá cam đắng, Hoa cam Neroli</p><p><strong>Hương cuối:</strong> Labdanum, Benzoin, Akigalawood</p>",
@@ -2224,8 +2224,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/jazzclub.webp",
     "description": "Replica Jazz Club EDT tái hiện không khí quán bar cổ điển với hương rượu rum, thuốc lá và vani. Mùi hương ấm áp, nam tính, thích hợp cho những buổi tối thư giãn hoặc gặp gỡ bạn bè.",
@@ -2246,8 +2246,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 2200000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 2200000 }
     ],
     "image": "/images/perfumes/lazysunday.webp",
     "description": "Replica Lazy Sunday Morning  của hãng Maison Martin Margiela là một loại nước hoa cổ điển gợi lại ký ức về làn da mềm mại, mượt mà được bao bọc trong những lớp vải lanh thoáng mát và dễ chịu thông qua những nốt hương tươi mới của trái Lê, Hoa diên vĩ và xạ hương trắng dịu dàng.",
@@ -2268,8 +2268,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 250000 },
-      { "value": 120, "price": 2050000 }
+      { "value": "10ml", "price": 250000 },
+      { "value": "120ml", "price": 2050000 }
     ],
     "image": "/images/perfumes/cedratboise.webp",
     "description": "Cedrat Boise EDP là sự kết hợp giữa cam chanh, dứa và gỗ đàn hương. Mùi hương tươi mát, năng động, phù hợp cho cả nam và nữ, sử dụng hàng ngày hoặc trong những dịp đặc biệt.",
@@ -2290,8 +2290,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 260000 },
-      { "value": 120, "price": 2100000 }
+      { "value": "10ml", "price": 260000 },
+      { "value": "120ml", "price": 2100000 }
     ],
     "image": "/images/perfumes/sicily.webp",
     "description": "Nước hoa Mancera Sicily EDP là một mùi hương của sự vui tươi, hạnh phúc. Hương thơm của Sicily không đại trà, không dễ bị lẫn vào đám đông nhốn nháo các mùi hương khác, hoàn toàn vượt mặt đàn anh Credat Boise dù nó im lìm và không được quảng cáo rầm rộ.",
@@ -2312,8 +2312,8 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 260000 },
-      { "value": 120, "price": 2100000 }
+      { "value": "10ml", "price": 260000 },
+      { "value": "120ml", "price": 2100000 }
     ],
     "image": "/images/perfumes/instantcrush.webp",
     "description": "Hương thơm mà Mancera Instant Crush đem lại là một sự mới mẽ hoàn toàn, nó làm rung động và thức tỉnh tất cả các giác quan cảm xúc của bất cứ ai ngay lần đầu chạm phải.",
@@ -2334,9 +2334,9 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 250000 },
-      { "value": 30, "price": 1200000 },
-      { "value": 100, "price": 2150000 }
+      { "value": "10ml", "price": 250000 },
+      { "value": "30ml", "price": 1200000 },
+      { "value": "100ml", "price": 2150000 }
     ],
     "image": "/images/perfumes/lenil.webp",
     "description": "Điều khá thú vị là khi tiếp xúc với da, lớp hương giữa trở nên thơm ngát hương hoa. Hương cam và hoa mẫu đơn lại có xu hướng thay phiên nhau thể hiện thế mạnh của mình, hoa sen góp mặt tạo một cảm giác vô cùng tinh tế, tựa như hương vị của nước. Lớp hương cuối đặc trưng hương vị của nhóm nước hoa phương đông, tất cả nhờ vào hương vị trầm hương, quế và bột hoa diên vĩ. Lớp hương cuối đồng thời cũng làm cho mùi hương trở nên hoàn thiện hơn, gói gọn tổ hợp mùi hương này, làm cho nó trở nên hoang dại mang không khí nhẹ nhàng thiêng liêng trong nhà thờ.",
@@ -2357,8 +2357,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 100, "price": 1850000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "100ml", "price": 1850000 }
     ],
     "image": "/images/perfumes/muskkashmir.webp",
     "description": "Mùi hương trong trẻo, chân thật đến mức khiến cho ai sử dụng hương thơm này dần quên mất đây là mùi hương của nước hoa, sẽ cảm tưởng như đây là chính mùi hương của bản thân mình.",
@@ -2379,7 +2379,7 @@
     "isMaleExtract": false,
     "isFemaleExtract": false,
     "origin": "Việt Nam",
-    "capacities": [{ "value": 50, "price": 1200000 }],
+    "capacities": [{ "value": "50ml", "price": 1200000 }],
     "image": "/images/perfumes/kiramatcha.webp",
     "description": "Nước hoa unisex Kira Matcha Latte EDP không phải kiểu nước hoa “làm quá”, cũng chẳng phải mùi hương gây ấn tượng mạnh từ giây đầu tiên. Nhưng một khi bạn đã xịt lên da, nó giống như một bản nhạc nền nhẹ nhàng – lúc nào cũng hiện diện, êm dịu, và khiến người đối diện muốn ở lại gần hơn.",
     "content": "<p><strong>Thương hiệu:</strong> MCM</p><p><strong>Xuất xứ:</strong> Việt Nam</p><p><strong>Năm ra mắt:</strong> 2024</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20 tuổi</p><p><strong>Độ lưu hương:</strong> Trung bình - từ 6 giờ đến 8 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Hương trà</p><p><strong>Phong cách:</strong> Cuốn hút, lôi cuốn, tinh tế</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu, Đông</p><p><strong>Hương đầu:</strong> Trà xanh, Cam quýt</p><p><strong>Hương giữa:</strong> Hoa nhài, Trà Matcha</p><p><strong>Hương cuối:</strong> Sô cô la trắng</p>",
@@ -2398,7 +2398,7 @@
     "isMaleExtract": false,
     "isFemaleExtract": false,
     "origin": "Đức",
-    "capacities": [{ "value": 75, "price": 1400000 }],
+    "capacities": [{ "value": "75ml", "price": 1400000 }],
     "image": "/images/perfumes/mcmedp.webp",
     "description": "Nước hoa MCM là một tổng thể không quá phức tạp nhưng lại rất chiều lòng người. Mùi hương ngọt nhẹ thoang thoảng khiến phái nữ si mê, sự ngọt ở đây thanh thuần chứ không phải kẹo ngọt. Mùi hương chính là quả Mơ, tổng thể đọng trên da là Gỗ đàn hương chứ không phải Vani đậm đà nên phái mạnh yên tâm sử dụng.",
     "content": "<p><strong>Thương hiệu:</strong> MCM</p><p><strong>Xuất xứ:</strong> Đức</p><p><strong>Năm ra mắt:</strong> 2021</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20 tuổi</p><p><strong>Độ lưu hương:</strong> Lâu - từ 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Floral Woody - hương hoa cỏ, gỗ</p><p><strong>Phong cách:</strong> Sành điệu, cá tính, lôi cuốn</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu, Đông</p><p><strong>Hương đầu:</strong> Quả mâm xôi, Quả mơ, Quả táo xanh</p><p><strong>Hương giữa:</strong> Hoa nhài, Hoa mẫu đơn trắng, Lá violet</p><p><strong>Hương cuối:</strong> Rêu trắng, Vanilla, Gỗ đàn hương, Sheer Ambrox</p>",
@@ -2418,8 +2418,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 180000 },
-      { "value": 100, "price": 900000 }
+      { "value": "10ml", "price": 180000 },
+      { "value": "100ml", "price": 900000 }
     ],
     "image": "/images/perfumes/9am.webp",
     "description": "Nước hoa Afnan 9AM rất thích hợp sử dụng hàng ngày, đặc biệt vào tiết trời Xuân, Hạ, Thu. Có một từ ngữ dùng chỉ riêng cho độ bám toả của 9AM chính là ”phảng phất”. Không quá nhẹ, cũng không quá nồng nặc, Afnan 9AM toả hương vừa phải và độ lưu hương được kéo dài khá tốt kèm một chút năng động, mang lại sự tươi mới cho người sử dụng.",
@@ -2440,8 +2440,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 180000 },
-      { "value": 100, "price": 900000 }
+      { "value": "10ml", "price": 180000 },
+      { "value": "100ml", "price": 900000 }
     ],
     "image": "/images/perfumes/9pm.webp",
     "description": "Các đánh giá nước hoa Afnan 9PM phần lớn đều nhận xét đây là một bản clone mùi khá xịn xò của Ultra Male, mà theo tổng quan được đánh giá là giống hơn 80-90%. Vì vậy, ngay từ khi ra mắt, 9PM đã nhận được sự quan tâm và yêu thích rất lớn từ cộng đồng yêu nước hoa ở khắp nơi.",
@@ -2462,8 +2462,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 170000 },
-      { "value": 100, "price": 1200000 }
+      { "value": "10ml", "price": 170000 },
+      { "value": "100ml", "price": 1200000 }
     ],
     "image": "/images/perfumes/spaceage.png",
     "description": "Mở đầu với hương cam quýt tươi mát, sảng khoái kết hợp với táo xanh và cỏ lanh. Sự kết hợp này mang lại cảm giác đầy năng lượng và dễ chịu. Sau đó, hương giữa là sự hòa quyện của hoa hồng, hoa nhài và hoa diên vĩ. Hương hoa nồng nàn, quyến rũ nhưng cũng rất nhẹ nhàng và thanh lịch. Cuối cùng là lớp hương cuối với xạ hương, hoắc hương và gỗ đàn hương. Sự kết hợp này mang lại cảm giác ấm áp và gợi cảm.",
@@ -2484,8 +2484,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 105, "price": 1250000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "105ml", "price": 1250000 }
     ],
     "image": "/images/perfumes/clubuntold.webp",
     "description": "Nếu đàn chị Armaf Club De Nuit Woman EDP đã từng liên tục làm xao xuyến trái tim của các chị em. Thì khi đến với Armaf Club De Nuit Untold EDP, mùi hương này hoàn toàn có thể khiến cho bất cứ ai dùng qua đều say đắm, muốn hương thơm ngọt ngào kỳ ảo này in hằn lên da lên áo, dù bạn là nam hay nữ.",
@@ -2506,8 +2506,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 200000 },
-      { "value": 105, "price": 1100000 }
+      { "value": "10ml", "price": 200000 },
+      { "value": "105ml", "price": 1100000 }
     ],
     "image": "/images/perfumes/clubmilestone.png",
     "description": "Được lấy cảm hứng từ vườn trái cây bên bờ biển thơ mộng, gợi lên hình ảnh của những quốc gia bên bờ biển Địa Trung Hải hoang vắng, mộc mạc, hương thơm unisex của Armaf Club De Nuit Milestone khá tươi mát, thanh lịch và dễ sử dụng mọi lúc mọi nơi. ",
@@ -2528,8 +2528,8 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": 5, "price": 350000 },
-      { "value": 25, "price": 1750000 }
+      { "value": "5ml", "price": 350000 },
+      { "value": "25ml", "price": 1750000 }
     ],
     "image": "/images/perfumes/setpen5ml.jpg",
     "description": "Set Penhaligon'S Little Dollies Miniature là một bộ sưu tập gồm 5 chai nước hoa nhỏ (5ml) thuộc thương hiệu nước hoa nổi tiếng của Anh, Penhaligon's. Bộ sưu tập này là một cách tuyệt vời để bạn khám phá và trải nghiệm nhiều mùi hương khác nhau của Penhaligon's trước khi quyết định mua chai lớn.",
@@ -2551,8 +2551,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 2, "price": 250000 },
-      { "value": 26, "price": 3250000 }
+      { "value": "2ml", "price": 250000 },
+      { "value": "26ml", "price": 3250000 }
     ],
     "image": "/images/perfumes/setlvmini.jpg",
     "description": "Set Nước Hoa Louis Vuitton LV EDP (13 x 2ml) là set nước hoa mini đến từ thương hiệu Louis Vuitton nổi tiếng của Pháp. LV Miniature Set mang 8 hương thơm khác nhau sẽ là trải nghiệm thú vị và ấn tượng dành cho các tín đồ nước hoa nhà LV.",
@@ -2574,8 +2574,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 120000 },
-      { "value": 100, "price": 650000 }
+      { "value": "10ml", "price": 120000 },
+      { "value": "100ml", "price": 650000 }
     ],
     "image": "/images/perfumes/ckbe.webp",
     "description": "Mùi hương gỗ tươi mát, mượt mà và rất gợi cảm - đó là mùi hương phi giới tính với sự mở màn của cam bergamot, quýt hồng, cây bách xù, oải hương, nốt hương đầy mát mẽ của bạc hà và cỏ xanh. Ở lớp hương giữa là thành phần hoa nhài, hoa lan, lan Nam Phi, hoa mộc lan với một chút dịu ngọt tươi mát của quả Đào như đưa ta vào một vườn hoa đầy tươi mát và ngọt ngào.",
@@ -2596,8 +2596,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 120000 },
-      { "value": 100, "price": 650000 }
+      { "value": "10ml", "price": 120000 },
+      { "value": "100ml", "price": 650000 }
     ],
     "image": "/images/perfumes/ckone.webp",
     "description": "Hương thơm ban đầu mang lại nhiều ý tưởng và cam hứng cho người dùng. Sau đó hương thơm nở rộ với hương hoa nhài tươi, mang lại cảm giác tươi mát. Hương trà xanh và h.ổ phách mang lại một chút ấm áp đầy tinh tế cho hỗn hợp nước hoa. Hương đu đủ và dứa hòa huyện cùng với một ít hoa oải hương tạo nên một lớp hương nền đầy sảng khoái và tràn đầy năng lượng. Tất cả tạo nên mùi hương đặc trưng khó quên của CK One.",
@@ -2618,9 +2618,9 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 350000 },
-      { "value": 30, "price": 1700000 },
-      { "value": 90, "price": 2800000 }
+      { "value": "10ml", "price": 350000 },
+      { "value": "30ml", "price": 1700000 },
+      { "value": "90ml", "price": 2800000 }
     ],
     "image": "/images/perfumes/opiumedp.png",
     "description": "Với nốt hương chính là cà phê thật mịn màng và nữ tính, nước hoa YSL Black Opium mang lại cảm giác sảng khoái, tinh tế đầy sang trọng và pha chút bí ẩn cho các nàng tự tin toả sáng.",
@@ -2641,9 +2641,9 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 250000 },
-      { "value": 50, "price": 2150000 },
-      { "value": 90, "price": 2800000 }
+      { "value": "10ml", "price": 250000 },
+      { "value": "50ml", "price": 2150000 },
+      { "value": "90ml", "price": 2800000 }
     ],
     "image": "/images/perfumes/opiumoverred.webp",
     "description": "Một phiên bản mới mà những cô nàng yêu thích kiểu mùi hương quyến rũ, có phần bí ẩn của Yves Saint Lauren Black Opium chắc chắn nên trải nghiệm thử. Khi mùi hương ở Black Opium Over Red đã bớt đi sự ngọt ngào đậm đà và thay vào đó là sự ngọt thanh đến từ trái cây. Khiến hương thơm có phần hiện đại hơn nhưng vẫn giữ được những nét đặc trưng vốn có. ",
@@ -2664,9 +2664,9 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 230000 },
-      { "value": 50, "price": 2150000 },
-      { "value": 90, "price": 2800000 }
+      { "value": "10ml", "price": 230000 },
+      { "value": "50ml", "price": 2150000 },
+      { "value": "90ml", "price": 2800000 }
     ],
     "image": "/images/perfumes/monparis.webp",
     "description": "Yves Saint Laurent Mon Paris mở ra với những nốt hương quả mọng chua chua ngọt ngọt đỏ từ mâm xôi, dâu tây đã nhanh chóng xâm chiếm khứu giác. Hòa quyện với đó là hương chua nhẹ đặc trưng của họ cam quýt và cam bergamot từ vùng Calabria; cùng với hương tươi mát từ trái lê mọng nước. Hương thơm trái cây dễ chịu, mang đến nguồn năng lượng tươi trẻ và êm dịu.",
@@ -2688,8 +2688,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 320000 },
-      { "value": 50, "price": 1800000 }
+      { "value": "10ml", "price": 320000 },
+      { "value": "50ml", "price": 1800000 }
     ],
     "image": "/images/perfumes/diorblooming.webp",
     "description": "Tổng thể mùi hương của nước hoa nữ Miss Dior Blooming Bouquet EDT mang đậm hương thơm hoa cỏ thanh khiết, thể hiện niềm say mê bất tận với vẻ đẹp người phụ nữ đang độ tuổi thanh xuân, tươi trẻ và ngọt ngào. ",
@@ -2710,8 +2710,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 340000 },
-      { "value": 100, "price": 3600000 }
+      { "value": "10ml", "price": 340000 },
+      { "value": "100ml", "price": 3600000 }
     ],
     "image": "/images/perfumes/missdioredp.webp",
     "description": "Nâng cấp và phát triển theo thời gian, nước hoa nữ Miss Dior Eau De Parfum bản 2021 ngày càng tiếp cận được nhiều đối tượng hơn và phù hợp với những cô gái trưởng thành, biết yếu bản thân nhiều hơn. Hương thơm hoa cỏ phương Đông kết hợp cùng làn da mịn màng của Nàng sẽ gây thương nhớ cho bất kì ai chạm phải mùi hương này.",
@@ -2732,8 +2732,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 350000 },
-      { "value": 100, "price": 3800000 }
+      { "value": "10ml", "price": 350000 },
+      { "value": "100ml", "price": 3800000 }
     ],
 
     "image": "/images/perfumes/jadoreedp.jpg",
@@ -2755,8 +2755,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 330000 },
-      { "value": 80, "price": 2250000 }
+      { "value": "10ml", "price": 330000 },
+      { "value": "80ml", "price": 2250000 }
     ],
     "image": "/images/perfumes/jpscandaledp.webp",
     "description": "Khác hoàn toàn với những phiên bản nước hoa trước đây, nước hoa nữ Scandal EDP sở hữu hương thơm ngọt ngào tươi mới đầy thú vị của nhóm hương hoa cỏ Síp, mang đến những điều mới lạ và hiện đại, quyến rũ nhưng cũng vô cùng thanh lịch.",
@@ -2777,8 +2777,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 400000 },
-      { "value": 80, "price": 3000000 }
+      { "value": "10ml", "price": 400000 },
+      { "value": "80ml", "price": 3000000 }
     ],
     "image": "/images/perfumes/jpscandalbynight.webp",
     "description": "Nếu bạn muốn định nghĩa về sự nữ tính và gợi cảm đầy chất ma mị, thì nước hoa nữ Scandal By Night là một định nghĩa mới trong bản đồ tư duy của những cô nàng từng tiếp xúc với nó, một sức hút khó cưỡng, một kiệt tác trong trạng thái thôi thúc sự sa ngã của đối phương.",
@@ -2799,8 +2799,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 340000 },
-      { "value": 75, "price": 2050000 }
+      { "value": "10ml", "price": 340000 },
+      { "value": "75ml", "price": 2050000 }
     ],
     "image": "/images/perfumes/lancomemidnightrose.webp",
     "description": "Mang trong mình tham vọng giữ lại vẻ đẹp, sự tươi trẻ và lãng mạn bậc nhất trong người các cô gái, nước hoa nữ Lancôme Trésor Midnight Rose L'Eau De Parfum mang mùi hương điệu đà, tinh tế nhất đến từ nước Pháp.",
@@ -2822,8 +2822,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 300000 },
-      { "value": 100, "price": 2450000 }
+      { "value": "10ml", "price": 300000 },
+      { "value": "100ml", "price": 2450000 }
     ],
     "image": "/images/perfumes/lancomelavie.webp",
     "description": "Nắm giữ những tầng hương đơn giản nhưng lại vô cùng đồng điệu cùng khả năng lưu hương rất bền mùi, những cảm xúc mà nước hoa La Vie Est Belle L'Eau De Parfum mang lại là thứ mà bất kì cô gái cũng phải mềm lòng.",
@@ -2844,8 +2844,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 310000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 310000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/lancomelanuit.webp",
     "description": "Lancôme đã cho ra mắt dòng nước hoa Lancôme La Nuit Tresor với mùi hương này được đánh giá như là một thứ tình dược mang hương thơm ngọt ngào của bánh kẹo. Mùi hương nước hoa Tresor thể hiện một góc tối ẩn khuất của hoa hồng bằng sự phối hợp giữa hương thơm hồng nhung và hoa phong lan Tahiti.",
@@ -2866,8 +2866,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 370000 },
-      { "value": 100, "price": 1900000 }
+      { "value": "10ml", "price": 370000 },
+      { "value": "100ml", "price": 1900000 }
     ],
     "image": "/images/perfumes/lancomemiracle.webp",
     "description": "Lancôme đã cho ra mắt dòng nước hoa Lancôme La Nuit Tresor với mùi hương này được đánh giá như là một thứ tình dược mang hương thơm ngọt ngào của bánh kẹo. Mùi hương nước hoa Tresor thể hiện một góc tối ẩn khuất của hoa hồng bằng sự phối hợp giữa hương thơm hồng nhung và hoa phong lan Tahiti.",
@@ -2888,7 +2888,7 @@
     "isMaleExtract": true,
     "isFemaleExtract": true,
     "origin": "Mỹ",
-    "capacities": [{ "value": 100, "price": 950000 }],
+    "capacities": [{ "value": "100ml", "price": 950000 }],
     "image": "/images/perfumes/whitetea.jpeg",
     "description": "Nếu thanh thuần, tao nhã là phong cách mà bạn mong muốn sở hữu? Vậy thì đừng ngần ngại mà hãy thử qua mùi hương chai nước hoa Elizabeth Arden White Tea",
     "content": "<p><strong>Thương hiệu:</strong> ELIZABETH ARDEN</p><p><strong>Xuất xứ:</strong> Mỹ</p><p><strong>Năm ra mắt:</strong> 2017</p><p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 3 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Hương Hoa cỏ Gỗ Xạ hương - Floral Woody Musk</p><p><strong>Phong cách:</strong> Tươi mát, nhẹ nhàng, thu hút</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu</p><p><strong>Hương đầu:</strong> Cây dương xỉ, Cây đơn sâm, Hương nước biển, Quả quýt hồng</p><p><strong>Hương giữa:</strong>  Hoa diên vĩ trắng, Trà mate, Trà trắng</p><p><strong>Hương cuối:</strong> Cây vông vang, Đậu Tonka, Hổ phách, Hương gỗ lạ</p>",
@@ -2908,8 +2908,8 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": 10, "price": 230000 },
-      { "value": 100, "price": 1700000 }
+      { "value": "10ml", "price": 230000 },
+      { "value": "100ml", "price": 1700000 }
     ],
     "image": "/images/perfumes/kenzoflower.webp",
     "description": "Từ khi ra mắt vào năm 2000, Flower by Kenzo đã trở thành sự lựa chọn lý tưởng của những ai thích một chút gì đó nhẹ nhàng nhưng độc đáo. Mùi hương thật dễ chịu chính là điều mà các chàng trai phải thốt lên khi cô gái mang trên mình mùi hương Kenzo Flower bước ngang qua.",
@@ -2930,8 +2930,8 @@
     "isFemaleExtract": true,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 210000 },
-      { "value": 100, "price": 1400000 }
+      { "value": "10ml", "price": 210000 },
+      { "value": "100ml", "price": 1400000 }
     ],
     "image": "/images/perfumes/sighong.jpg",
     "description": "Nước hoa nữ Signorina EDP được sinh ra là để tôn vinh những cô gái hiện đại có cá tính mạnh mẽ, yêu thích làm đẹp và luôn tươi trẻ trong mọi hoàn cảnh. Hương thơm mà Signorina mang lại rất tươi sáng và căng đầy sức sống, theo một phong cách rất Italia.",
@@ -2952,8 +2952,8 @@
     "isFemaleExtract": true,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 220000 },
-      { "value": 100, "price": 1450000 }
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1450000 }
     ],
     "image": "/images/perfumes/sigden.webp",
     "description": "Cô nàng Signorina Misteriosa là vậy, trưởng thành, khó đoán và luôn giữ trong mình sự mạnh mẽ và độc lập một cách cần thiết, như chính vẻ bề ngoài đầy bí ẩn của cô.",
@@ -2974,8 +2974,8 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": 10, "price": 310000 },
-      { "value": 100, "price": 2500000 }
+      { "value": "10ml", "price": 310000 },
+      { "value": "100ml", "price": 2500000 }
     ],
     "image": "/images/perfumes/jmenglishpear.webp",
     "description": "Khi sử dụng nước hoa mùi hương dịu nhẹ thanh mát từ trái cây của Jo Malone London English Pear and Freesia, hãy thử nhắm mắt và cảm nhận bạn đang trải qua những vùng trời đẹp nhất của nước Anh, một chút gió của tiết trời đang chuyển mùa từ Hạ sang Thu cực kì tươi mát vờn lên da lên tóc.",
@@ -2996,8 +2996,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 230000 },
-      { "value": 100, "price": 1650000 }
+      { "value": "10ml", "price": 230000 },
+      { "value": "100ml", "price": 1650000 }
     ],
     "image": "/images/perfumes/mjdaisydream.webp",
     "description": "Nhẹ nhàng và mỏng manh, nước hoa nữ Marc Jacobs Daisy Dream EDT với mùi hương ngọt ngào nhẹ nhàng của các nốt hương hoa cỏ và trái cây, mang lại sự nữ tính thanh tao cho các quý cô ở mọi độ tuổi.",
@@ -3018,8 +3018,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 210000 },
-      { "value": 100, "price": 1600000 }
+      { "value": "10ml", "price": 210000 },
+      { "value": "100ml", "price": 1600000 }
     ],
     "image": "/images/perfumes/mjdaisyedt.webp",
     "description": "Lớp hương đầu xuất hiện mở ra phông nền màu xanh đậm từ lá Violet, xen lẫn cùng hương vị dịu dàng, trong trẻo của Bưởi đỏ và Dâu. Hương thơm trái cây từ dâu tây và bưởi đỏ không quá nồng cũng không quá ngọt sẽ được hòa quyện một cách tinh tế cùng sự tươi mát của lá Violet. Sau đó độ tỏa hương từ lớp hương đầu giảm dần để nhường lại cho sự lắng đọng tinh tế của các mùi hương tiếp theo.",
@@ -3040,8 +3040,8 @@
     "isFemaleExtract": true,
     "origin": "Ý",
     "capacities": [
-      { "value": 10, "price": 220000 },
-      { "value": 100, "price": 1550000 }
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1550000 }
     ],
     "image": "/images/perfumes/toy2.webp",
     "description": "Hãy nhắm mắt và tận hưởng cảm giác dưới bầu trời xanh và trên một bãi biển trải đầy nắng vàng, mùi hương của nước hoa Marc Jacobs Daisy Love lấp đầy không khí với một tình yêu cuộc sống tràn đầy bằng hương thơm hoa cỏ trẻ trung và tinh nghịch.",
@@ -3062,8 +3062,8 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": 10, "price": 210000 },
-      { "value": 100, "price": 1350000 }
+      { "value": "10ml", "price": 210000 },
+      { "value": "100ml", "price": 1350000 }
     ],
     "image": "/images/perfumes/londonwomen.webp",
     "description": "Mùi hương của Burberry London tạo sự ấm áp nhưng không quá gắt, chủ yếu là hương của loài hoa, sẽ mang đến một hương thơm riêng biệt cho những cô nàng trẻ trung và sang trọng. Lớp hương lan tỏa dễ chịu, chạm đến khứu giác và trái tim một cách từ từ, chậm rãi, cực kỳ thích hợp với thời tiết se lạnh của mùa thu đông.",
@@ -3084,8 +3084,8 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 100, "price": 2300000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "100ml", "price": 2300000 }
     ],
     "image": "/images/perfumes/burberryher.webp",
     "description": "Rạng rỡ và đầy điểm nhấn, một số review nước hoa Burberry Her EDP nhận xét hương thơm như một bức thư tình được viết dưới ánh nắng của những ngày xuân: hồ hởi, đầy bất ngờ nhưng dịu dàng ấm áp.",
@@ -3106,8 +3106,8 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": 10, "price": 310000 },
-      { "value": 90, "price": 2200000 }
+      { "value": "10ml", "price": 310000 },
+      { "value": "90ml", "price": 2200000 }
     ],
     "image": "/images/perfumes/mybbrblush.webp",
     "description": "Nước hoa nữ My Burberry Blush EDP với mùi hương ngọt ngào dịu nhẹ sẽ cực kì thích hợp với các bạn nữ có phong cách nữ tính và thuần khiết.",
@@ -3128,8 +3128,8 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 90, "price": 2200000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "90ml", "price": 2200000 }
     ],
     "image": "/images/perfumes/mybbrblack.webp",
     "description": "My Burberry Black như là một cô gái lạ với nhiều ẩn số, kích thích trí tưởng tượng của đối phương, khiến các chàng trai chẳng nỡ rời xa vì còn quá nhiều điều chưa thể giải đáp.",
@@ -3150,8 +3150,8 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": 10, "price": 280000 },
-      { "value": 90, "price": 2200000 }
+      { "value": "10ml", "price": 280000 },
+      { "value": "90ml", "price": 2200000 }
     ],
     "image": "/images/perfumes/mybbredp.webp",
     "description": "Nước Hoa Burberry My Burberry EDP là một tuyệt phẩm nước hoa với sự kết hợp tinh tế của các nốt hương, mang đến một trải nghiệm cảm xúc sâu sắc và đầy mê hoặc. Ngay từ đầu, bạn sẽ bị cuốn hút bởi lớp hương đầu của hoa đậu, cam Bergamot, quả quýt hồng.. Mùi hương này tươi mới và thanh thoát, thư thái và dễ chịu. ",
@@ -3172,8 +3172,8 @@
     "isFemaleExtract": true,
     "origin": "Ả Rập",
     "capacities": [
-      { "value": 10, "price": 160000 },
-      { "value": 105, "price": 800000 }
+      { "value": "10ml", "price": 160000 },
+      { "value": "105ml", "price": 800000 }
     ],
     "image": "/images/perfumes/clubwomen.webp",
     "description": "Hương thơm nước hoa Armaf nữ được các chuyên gia đánh giá tương tự như đàn chị Chanel Coco Mademoiselle đã lừng danh bấy lâu nay. Mùi hương dịu dàng nhưng sang chảnh cùng nét quyến rũ đặc trưng chỉ có thể xuất hiện trên cơ thể của những quý cô thanh lịch nhà Chanel.",
@@ -3194,8 +3194,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 240000 },
-      { "value": 100, "price": 1850000 }
+      { "value": "10ml", "price": 240000 },
+      { "value": "100ml", "price": 1850000 }
     ],
     "image": "/images/perfumes/sexywomen.webp",
     "description": "Nước hoa nữ 212 Sexy Women EDP tạo nên một sức hút quyến rũ cho phái đẹp ngay từ lần xịt đầu tiên đến tận nốt hương cuối cùng.",
@@ -3216,8 +3216,8 @@
     "isFemaleExtract": true,
     "origin": "Mỹ",
     "capacities": [
-      { "value": 10, "price": 290000 },
-      { "value": 80, "price": 1950000 }
+      { "value": "10ml", "price": 290000 },
+      { "value": "80ml", "price": 1950000 }
     ],
     "image": "/images/perfumes/vipwomen.webp",
     "description": "Hương thơm đầu tiên của Carolina Herrera 212 VIP đầy tươi mát, quyến rũ với rượu rum và quả lạc tiên. Hương giữa được dẫn dắt nhẹ nhàng chuyển đổi với hương thơm ấm áp của xạ hương và hoa dành dành. Lớp hương cuối nhẹ nhàng với hương vani và hương đậu tonka ngon ngọt.",

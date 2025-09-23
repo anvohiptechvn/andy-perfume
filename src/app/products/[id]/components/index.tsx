@@ -47,7 +47,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ data }) => {
     number | undefined
   >(() => {
     if (data?.capacities && data?.capacities.length > 0) {
-      return data.capacities[0].value;
+      return 0;
     }
     return undefined;
   });
