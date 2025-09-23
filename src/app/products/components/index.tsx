@@ -19,6 +19,8 @@ export default function ProductPage() {
   const [filteredProducts, setFilteredProducts] = useState<Perfume[]>([]);
 
   useEffect(() => {
+    let timer: NodeJS.Timeout | null = null;
+
     const fetchingProducts = async () => {
       let data = [...products] as Perfume[];
 
@@ -112,6 +114,10 @@ export default function ProductPage() {
     };
 
     fetchingProducts();
+
+    return () => {
+      if (timer) clearTimeout(timer);
+    };
   }, [params]);
 
   const displayedProducts = useMemo<Perfume[]>(
@@ -131,7 +137,7 @@ export default function ProductPage() {
   if (!mounted) return null;
 
   return (
-    <div className="container mx-auto grid grid-cols-1 gap-6 px-1.5 py-4 md:grid-cols-[280px_1fr] md:px-0">
+    <div className="container mx-auto grid grid-cols-1 gap-3 md:gap-6 px-1.5 py-4 md:grid-cols-[280px_1fr] md:px-0">
       <PerfumeFilters params={params} setParams={setParams} />
 
       <main className="space-y-6 border">
