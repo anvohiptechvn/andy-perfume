@@ -423,28 +423,6 @@
     ]
   },
   {
-    "name": "Versace Pour Homme EDT",
-    "slug": "versace-pour-homme",
-    "brand": "versace",
-    "createdAt": "2008-01-01T00:00:00.000Z",
-    "sex": ["male"],
-    "isMaleExtract": false,
-    "isFemaleExtract": false,
-    "origin": "Ý",
-    "capacities": [
-      { "value": "10ml", "price": 220000 },
-      { "value": "100ml", "price": 1500000 }
-    ],
-    "image": "/images/perfumes/versacePH.webp",
-    "description": "Nước hoa nam Versace Pour Homme EDT chính là mảnh ghép còn thiếu để tạo nên bức tranh hoàn hảo về người đàn ông hiện đại, lôi cuốn và tràn đầy sự nam tính. Hương thơm có khả năng vương vấn trên cơ thể Anh trung bình từ 3 đến 6 tiếng, độ tỏa hương gần và phù hợp để sử dụng trong tiết trời của mùa xuân và mùa hạ.",
-    "content": "<p><strong>Thương hiệu:</strong> VERSACE</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2008</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 4 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm nước hoa:</strong> Hương thơm dương xỉ</p><p><strong>Phong cách:</strong> Nam tính, tự tin, cổ điển</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Quả chanh vàng, Hoa cam Neroli, Cam Bergamot, Hoa hồng tháng Năm</p><p><strong>Hương giữa:</strong> Hoa Lan dạ hương, Cây đơn sâm, Gỗ tuyết tùng, Hoa phong lữ</p><p><strong>Hương cuối:</strong> Đậu Tonka, Xạ hương, Hổ phách</p>",
-    "detailImages": [
-      "/images/perfumes/versacePH.webp",
-      "/images/perfumes/versacePH1.webp",
-      "/images/perfumes/versacePH2.webp"
-    ]
-  },
-  {
     "name": "Versace Eros For Men EDT",
     "slug": "versace-eros-for-men-edt",
     "brand": "versace",
@@ -486,6 +464,28 @@
       "/images/perfumes/erosvang.png",
       "/images/perfumes/erosvang2.webp",
       "/images/perfumes/erosvang3.webp"
+    ]
+  },
+  {
+    "name": "Versace Pour Homme EDT",
+    "slug": "versace-pour-homme",
+    "brand": "versace",
+    "createdAt": "2008-01-01T00:00:00.000Z",
+    "sex": ["male"],
+    "isMaleExtract": false,
+    "isFemaleExtract": false,
+    "origin": "Ý",
+    "capacities": [
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1500000 }
+    ],
+    "image": "/images/perfumes/versacePH.webp",
+    "description": "Nước hoa nam Versace Pour Homme EDT chính là mảnh ghép còn thiếu để tạo nên bức tranh hoàn hảo về người đàn ông hiện đại, lôi cuốn và tràn đầy sự nam tính. Hương thơm có khả năng vương vấn trên cơ thể Anh trung bình từ 3 đến 6 tiếng, độ tỏa hương gần và phù hợp để sử dụng trong tiết trời của mùa xuân và mùa hạ.",
+    "content": "<p><strong>Thương hiệu:</strong> VERSACE</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2008</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 4 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm nước hoa:</strong> Hương thơm dương xỉ</p><p><strong>Phong cách:</strong> Nam tính, tự tin, cổ điển</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Quả chanh vàng, Hoa cam Neroli, Cam Bergamot, Hoa hồng tháng Năm</p><p><strong>Hương giữa:</strong> Hoa Lan dạ hương, Cây đơn sâm, Gỗ tuyết tùng, Hoa phong lữ</p><p><strong>Hương cuối:</strong> Đậu Tonka, Xạ hương, Hổ phách</p>",
+    "detailImages": [
+      "/images/perfumes/versacePH.webp",
+      "/images/perfumes/versacePH1.webp",
+      "/images/perfumes/versacePH2.webp"
     ]
   },
   {
@@ -635,11 +635,11 @@
       { "value": "10ml", "price": 225000 },
       { "value": "90ml", "price": 1600000 }
     ],
-    "image": "/images/perfumes/vschongnhat.webp",
+    "image": "/images/perfumes/vschongnhat.png",
     "description": "Nước hoa nữ của Versace luôn được săn đón vì độ tinh tế, tính thẩm mỹ và độ quyến rũ của mùi hương. Mỗi dòng nước hoa mang tên Versace đều khoác lên mình nét thanh lịch, lộng lẫy và hấp dẫn và nước hoa Versace Bright Crystal EDT chính là một trong số đó.",
     "content": "<p><strong>Thương hiệu:</strong> VERSACE</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2006</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 4 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Floral Fruity - hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Thơm mát, dịu ngọt</p><p><strong>Thời điểm nên dùng:</strong> Ngày, Đêm, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Quả Yuzu, Quả lựu, Hương nước</p><p><strong>Hương giữa:</strong> Hoa sen, Hoa mộc lan, Hoa mẫu đơn</p><p><strong>Hương cuối:</strong> Xạ hương, Gỗ gụ, Hổ phách</p>",
     "detailImages": [
-      "/images/perfumes/vschongnhat.webp",
+      "/images/perfumes/vschongnhat.png",
       "/images/perfumes/vschongnhat1.webp",
       "/images/perfumes/vschongnhat2.webp",
       "/images/perfumes/vschongnhat3.webp"
