@@ -47,7 +47,7 @@ const SalePage = () => {
       {/* Main content */}
       <main className="border px-2.5 pb-2.5 md:col-span-3">
         <h2 className="py-2.5 text-lg md:text-[22px] font-medium text-[#323c3f]">
-          Khuyến mãi
+          Khuyến Mãi
         </h2>
         <div className="flex flex-col gap-5">
           {displayedBlogs.map((blog, i) => (
