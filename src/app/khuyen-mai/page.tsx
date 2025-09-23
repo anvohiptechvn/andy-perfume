@@ -1,7 +1,7 @@
-import InformationPage from './components';
+import SalePage from "./components";
 
-const InformationContainer = () => {
-	return <InformationPage />;
+const SaleContainer = () => {
+  return <SalePage />;
 };
 
-export default InformationContainer;
+export default SaleContainer;

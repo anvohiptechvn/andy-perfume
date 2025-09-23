@@ -1,17 +1,28 @@
-import BlogDetail from './components';
+import SaleDetail from "@/components/feature/blog/blog-detail";
 
-import blogs from '@/data/knowledge/data.json' assert { type: 'json' };
+import saleBlogs from "@/data/sale/data.json" assert { type: "json" };
+import relatedSaleBlogs from "@/data/related-sale-blogs/data.json" assert { type: "json" };
 
-export default async function InformationPage({ params }: { params: Promise<{ slug: string }> }) {
-	const { slug } = await params;
+export default async function SalePage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
 
-	const blog = blogs.find((p) => p.slug === slug);
+  const saleBlog = saleBlogs.find((p) => p.slug === slug);
 
-	if (!blog) return <></>;
+  if (!saleBlog) return <></>;
 
-	return <BlogDetail data={blog} />;
+  return (
+    <SaleDetail
+      destinationUrl="/khuyen-mai"
+      relatedBlogs={relatedSaleBlogs}
+      data={saleBlog}
+    />
+  );
 }
 
 export async function generateStaticParams() {
-	return blogs.map((p) => ({ slug: p.slug }));
+  return saleBlogs.map((p) => ({ slug: p.slug }));
 }
