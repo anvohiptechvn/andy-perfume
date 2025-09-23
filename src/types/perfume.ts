@@ -5,7 +5,7 @@ import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "./http";
 export type Sex = "male" | "female" | "unisex";
 
 export interface Capacity {
-  value: number;
+  value: string;
   price: number;
 }
 

@@ -31,7 +31,7 @@ const CapacitySection: React.FC<CapacitySectionProps> = ({
                 )}
                 onClick={() => setSelectedCapacityIndex(idx)}
               >
-                {cap.value} ml
+                {cap.value}
               </button>
             ))}
           </div>
