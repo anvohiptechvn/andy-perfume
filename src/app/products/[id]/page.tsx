@@ -1,17 +1,23 @@
-import ProductDetail from './components';
+import { Perfume } from "@/types/perfume";
 
-import products from '@/data/products/data.json' assert { type: 'json' };
+import ProductDetail from "./components";
 
-export default async function PerfumePage({ params }: { params: Promise<{ id: string }> }) {
-	const { id } = await params;
+import products from "@/data/products/data.json" assert { type: "json" };
 
-	const product = products.find((p) => p.slug === id);
+export default async function PerfumePage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
 
-	if (!product) return <></>;
+  const product = products.find((p) => p.slug === id);
 
-	return <ProductDetail data={product} />;
+  if (!product) return <></>;
+
+  return <ProductDetail data={product as Perfume} />;
 }
 
 export async function generateStaticParams() {
-	return products.map((p) => ({ id: p.slug }));
+  return products.map((p) => ({ id: p.slug }));
 }
