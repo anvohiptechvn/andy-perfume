@@ -423,28 +423,6 @@
     ]
   },
   {
-    "name": "Versace Pour Homme EDT",
-    "slug": "versace-pour-homme",
-    "brand": "versace",
-    "createdAt": "2008-01-01T00:00:00.000Z",
-    "sex": ["male"],
-    "isMaleExtract": false,
-    "isFemaleExtract": false,
-    "origin": "Ý",
-    "capacities": [
-      { "value": "10ml", "price": 220000 },
-      { "value": "100ml", "price": 1500000 }
-    ],
-    "image": "/images/perfumes/versacePH.webp",
-    "description": "Nước hoa nam Versace Pour Homme EDT chính là mảnh ghép còn thiếu để tạo nên bức tranh hoàn hảo về người đàn ông hiện đại, lôi cuốn và tràn đầy sự nam tính. Hương thơm có khả năng vương vấn trên cơ thể Anh trung bình từ 3 đến 6 tiếng, độ tỏa hương gần và phù hợp để sử dụng trong tiết trời của mùa xuân và mùa hạ.",
-    "content": "<p><strong>Thương hiệu:</strong> VERSACE</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2008</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 4 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm nước hoa:</strong> Hương thơm dương xỉ</p><p><strong>Phong cách:</strong> Nam tính, tự tin, cổ điển</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Quả chanh vàng, Hoa cam Neroli, Cam Bergamot, Hoa hồng tháng Năm</p><p><strong>Hương giữa:</strong> Hoa Lan dạ hương, Cây đơn sâm, Gỗ tuyết tùng, Hoa phong lữ</p><p><strong>Hương cuối:</strong> Đậu Tonka, Xạ hương, Hổ phách</p>",
-    "detailImages": [
-      "/images/perfumes/versacePH.webp",
-      "/images/perfumes/versacePH1.webp",
-      "/images/perfumes/versacePH2.webp"
-    ]
-  },
-  {
     "name": "Versace Eros For Men EDT",
     "slug": "versace-eros-for-men-edt",
     "brand": "versace",
@@ -479,13 +457,35 @@
       { "value": "10ml", "price": 260000 },
       { "value": "100ml", "price": 2100000 }
     ],
-    "image": "/images/perfumes/erosvang.webp",
+    "image": "/images/perfumes/erosvang.png",
     "description": "Nước hoa nam Versace Eros Energy EDP không chỉ là mùi hương – đó là một điểm nhấn để định hình phong cách của phái mạnh. Chai nước hoa này dành cho người đàn ông hiện đại, năng động, yêu thích sự tươi mới nhưng vẫn muốn giữ lại vẻ lôi cuốn cổ điển. Dù là đi làm, gặp gỡ bạn bè hay hẹn hò buổi tối, mùi hương Versace Eros Vàng luôn sẵn sàng đồng hành cùng bạn, lan tỏa phong độ và sức hút.",
     "content": "<p><strong>Thương hiệu:</strong> VERSACE</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2024</p><p><strong>Độ lưu hương:</strong> Trung bình - 6 giờ đến 8 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Citrus Aromatic - hương thơm cam, chanh, thảo mộc</p><p><strong>Phong cách:</strong> Nam tính, Tươi mát, Tinh tế</p><p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Xuân, Hạ, Thời tiết mát mẻ</p><p><strong>Hương đầu:</strong> Bưởi, Cam đỏ, Cam bergamot Sicilia, chanh, Chanh xanh, Quýt</p><p><strong>Hương giữa:</strong> Hổ phách trắng, nho đen, Tiêu hồng</p><p><strong>Hương cuối:</strong> Vani, Cỏ xạ hương, Cây hoắc hương, Rêu sồi</p>",
     "detailImages": [
-      "/images/perfumes/erosvang.webp",
+      "/images/perfumes/erosvang.png",
       "/images/perfumes/erosvang2.webp",
       "/images/perfumes/erosvang3.webp"
+    ]
+  },
+  {
+    "name": "Versace Pour Homme EDT",
+    "slug": "versace-pour-homme",
+    "brand": "versace",
+    "createdAt": "2008-01-01T00:00:00.000Z",
+    "sex": ["male"],
+    "isMaleExtract": false,
+    "isFemaleExtract": false,
+    "origin": "Ý",
+    "capacities": [
+      { "value": "10ml", "price": 220000 },
+      { "value": "100ml", "price": 1500000 }
+    ],
+    "image": "/images/perfumes/versacePH.webp",
+    "description": "Nước hoa nam Versace Pour Homme EDT chính là mảnh ghép còn thiếu để tạo nên bức tranh hoàn hảo về người đàn ông hiện đại, lôi cuốn và tràn đầy sự nam tính. Hương thơm có khả năng vương vấn trên cơ thể Anh trung bình từ 3 đến 6 tiếng, độ tỏa hương gần và phù hợp để sử dụng trong tiết trời của mùa xuân và mùa hạ.",
+    "content": "<p><strong>Thương hiệu:</strong> VERSACE</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2008</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 4 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm nước hoa:</strong> Hương thơm dương xỉ</p><p><strong>Phong cách:</strong> Nam tính, tự tin, cổ điển</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Quả chanh vàng, Hoa cam Neroli, Cam Bergamot, Hoa hồng tháng Năm</p><p><strong>Hương giữa:</strong> Hoa Lan dạ hương, Cây đơn sâm, Gỗ tuyết tùng, Hoa phong lữ</p><p><strong>Hương cuối:</strong> Đậu Tonka, Xạ hương, Hổ phách</p>",
+    "detailImages": [
+      "/images/perfumes/versacePH.webp",
+      "/images/perfumes/versacePH1.webp",
+      "/images/perfumes/versacePH2.webp"
     ]
   },
   {
@@ -567,7 +567,7 @@
       { "value": "10ml", "price": 330000 },
       { "value": "30ml", "price": 1800000 },
       { "value": "50ml", "price": 2100000 },
-      { "value": "100ml", "price": 2600000 }
+      { "value": "90ml", "price": 2600000 }
     ],
     "image": "/images/perfumes/paradoxe.webp",
     "description": "Prada Paradoxe EDP ra mắt năm 2022 như một hình mẫu lý tưởng của một người phụ nữ hiện đại vừa mềm mại lại mạnh mẽ, vừa cổ điển lại tiên phong, vừa quen thuộc lại không ngừng biến hóa.",
@@ -635,11 +635,11 @@
       { "value": "10ml", "price": 225000 },
       { "value": "90ml", "price": 1600000 }
     ],
-    "image": "/images/perfumes/vschongnhat.webp",
+    "image": "/images/perfumes/vschongnhat.png",
     "description": "Nước hoa nữ của Versace luôn được săn đón vì độ tinh tế, tính thẩm mỹ và độ quyến rũ của mùi hương. Mỗi dòng nước hoa mang tên Versace đều khoác lên mình nét thanh lịch, lộng lẫy và hấp dẫn và nước hoa Versace Bright Crystal EDT chính là một trong số đó.",
     "content": "<p><strong>Thương hiệu:</strong> VERSACE</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2006</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 4 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Floral Fruity - hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Thơm mát, dịu ngọt</p><p><strong>Thời điểm nên dùng:</strong> Ngày, Đêm, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Quả Yuzu, Quả lựu, Hương nước</p><p><strong>Hương giữa:</strong> Hoa sen, Hoa mộc lan, Hoa mẫu đơn</p><p><strong>Hương cuối:</strong> Xạ hương, Gỗ gụ, Hổ phách</p>",
     "detailImages": [
-      "/images/perfumes/vschongnhat.webp",
+      "/images/perfumes/vschongnhat.png",
       "/images/perfumes/vschongnhat1.webp",
       "/images/perfumes/vschongnhat2.webp",
       "/images/perfumes/vschongnhat3.webp"
@@ -926,11 +926,11 @@
       { "value": "10ml", "price": 240000 },
       { "value": "100ml", "price": 1800000 }
     ],
-    "image": "/images/perfumes/narhongnhat.webp",
+    "image": "/images/perfumes/narhongnhat.png",
     "description": "Để mà nói về độ lưu hương thì Narciso Rodriguez là một trong những thương hiệu nước hoa làm tốt nhất việc này. Giữa một rừng thế giới nước hoa với hàng trăm phong cách khác nhau, nước hoa nữ quyến rũ Narciso Rodriguez Poudrée lại thu hút nàng bởi sự nhẹ nhàng, quyến rũ cùng hương thơm cuốn hút bung tỏa trong khoảng cách gần. ",
     "content": "<p><strong>Thương hiệu:</strong> NARCISO RODRIGUEZ</p><p><strong>Xuất xứ:</strong> Mỹ</p><p><strong>Năm ra mắt:</strong> 2006</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - từ 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Floral Woody Musk - hương hoa cỏ, gỗ xạ hương</p><p><strong>Phong cách:</strong> Nữ tính, tươi tắn, gợi cảm</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Thu, Đông</p><p><strong>Hương đầu:</strong> Hoa cam châu Phi, Hoa nhài, Hương ylang-ylang</p><p><strong>Hương giữa:</strong> Xạ hương, Hương hổ phách</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Gỗ cây hoắc hương, Hương vani</p>",
     "detailImages": [
-      "/images/perfumes/narhongnhat.webp",
+      "/images/perfumes/narhongnhat.png",
       "/images/perfumes/narhongnhat2.webp",
       "/images/perfumes/narhongnhat3.webp"
     ]
@@ -971,11 +971,11 @@
       { "value": "10ml", "price": 280000 },
       { "value": "100ml", "price": 1800000 }
     ],
-    "image": "/images/perfumes/narmuscnoir.webp",
+    "image": "/images/perfumes/narmuscnoir.png",
     "description": "Khi đào sâu hơn về ý nghĩa của mùi hương, bóc tách từng lớp, ta sẽ thật sự nhận ra rằng những cá thể đơn lẻ khi hợp lại sẽ tạo nên thứ hương bồng bềnh, vui tươi và dễ yêu như chính sắc hồng mà nước hoa Narciso Musc Noir Rose đang mang.",
     "content": "<p><strong>Thương hiệu:</strong> NARCISO RODRIGUEZ</p><p><strong>Xuất xứ:</strong> Mỹ</p><p><strong>Năm ra mắt:</strong> 2021</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Trung bình - từ 6 giờ đến 8 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng một cánh tay</p><p><strong>Nhóm hương:</strong> Floral Woody Musk - hương hoa cỏ, gỗ xạ hương</p><p><strong>Phong cách:</strong> Gợi cảm, cuốn hút, tinh tế</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Xuân, Thu</p><p><strong>Hương đầu:</strong> Cam Bergamot, Tiêu Hồng</p><p><strong>Hương giữa:</strong> Xạ hương, Hoa Huệ, Mận</p><p><strong>Hương cuối:</strong> Vanilla, Hoắc Hương, Da thuộc </p>",
     "detailImages": [
-      "/images/perfumes/narmuscnoir.webp",
+      "/images/perfumes/narmuscnoir.png",
       "/images/perfumes/narmuscnoir2.webp",
       "/images/perfumes/narmuscnoir3.webp"
     ]
@@ -1258,11 +1258,11 @@
       { "value": "10ml", "price": 350000 },
       { "value": "100ml", "price": 4000000 }
     ],
-    "image": "/images/perfumes/cocomadedp.webp",
+    "image": "/images/perfumes/cocomadedp.png",
     "description": "Một mùi hương thanh lịch, quyến rũ, dành riêng cho phái đẹp yêu thích sự tự tin và hiện đại.",
     "content": "<p><strong>Thương hiệu:</strong> CHANEL</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2001</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Hương hoa cỏ phương Đông</p><p><strong>Phong cách:</strong> Gợi cảm, Quyến rũ, Sang trọng</p></p><p><strong> Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Thu, Đông</p><p><strong>Hương đầu:</strong> Cam Bergamot, Cam Mandarin, Hoa cam</p><p><strong>Hương giữa:</strong> Hoa nhài, Hoa hồng</p><p><strong>Hương cuối:</strong> Hoắc hương, Vanilla, Xạ hương trắng</p>",
     "detailImages": [
-      "/images/perfumes/cocomadedp.webp",
+      "/images/perfumes/cocomadedp.png",
       "/images/perfumes/cocomadedp1.webp",
       "/images/perfumes/cocomadedp2.jpg"
     ]
@@ -1280,11 +1280,11 @@
       { "value": "10ml", "price": 400000 },
       { "value": "100ml", "price": 4300000 }
     ],
-    "image": "/images/perfumes/cocomadintense.webp",
+    "image": "/images/perfumes/cocomadintense.png",
     "description": "Lớp hương cuối hoà quyện với những nốt hương Phương Đông ấm áp, gợi cảm và nồng nàn từ hoắc hương, đậu tonka, vani, xạ hương và nhựa thơm. Đây là lớp hương đầy đặn, dày và dễ để lại thương nhớ của phiên bản Intense. Mạnh mẽ và cá tính, vỏ chai được làm trong suốt để lột tả được sự tinh khiết và tươi trẻ của loại nước hoa cao cấp này. ",
     "content": "<p><strong>Thương hiệu:</strong> CHANEL</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2018</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Oriental Woody - hương gỗ phương đông</p><p><strong>Phong cách:</strong> Gợi cảm, Quyến rũ, Sang trọng</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Thu, Đông</p><p><strong>Hương đầu:</strong> Quả cam Sicili, Cam Bergamot Calabria, Quả chanh vàng</p><p><strong>Hương giữa:</strong> Hoa hồng, Hoa nhài, Hương trái cây</p><p><strong>Hương cuối:</strong> Cây hoắc hương, Đậu Tonka, Hương Va ni Madagascar, Hương Labdanum, Xạ hương trắng</p>",
     "detailImages": [
-      "/images/perfumes/cocomadintense.webp",
+      "/images/perfumes/cocomadintense.png",
       "/images/perfumes/cocomadintense2.webp",
       "/images/perfumes/cocomadintense3.webp"
     ]
@@ -1302,11 +1302,11 @@
       { "value": "10ml", "price": 330000 },
       { "value": "100ml", "price": 3950000 }
     ],
-    "image": "/images/perfumes/no5.webp",
+    "image": "/images/perfumes/no5.png",
     "description": "Nước hoa nữ Chanel No5 huyền thoại cực kì thích hợp sử dụng vào mùa thu đông, sẽ giúp các cô gái nổi bật với độ lưu hương cực lâu, khiến nàng tự tin và quyến rũ hơn trong suốt buổi tiệc hoặc những buổi hẹn hò riêng tư của mình đấy nhé.",
     "content": "<p><strong>Thương hiệu:</strong> DIOR</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 1986</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Floral Aldehyde - hương hoa cỏ An-Đê-Hít</p><p><strong>Phong cách:</strong> Cổ điển, nhẹ nhàng, quyến rũ</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu, Đông</p><p><strong>Hương đầu:</strong> Hương Anđehit, Hoa Ylang-Ylang, Hoa cam Neroli, Cam Bergamot, Quả đào</p><p><strong>Hương giữa:</strong> Diên vĩ, Hoa nhài, Hoa hồng, Hoa Lily</p><p><strong>Hương cuối:</strong> Gỗ đàn hương, Vani, Rêu sồi, Cỏ Vetiver, Quảng hoắc hương</p>",
     "detailImages": [
-      "/images/perfumes/no5.webp",
+      "/images/perfumes/no5.png",
       "/images/perfumes/no5a.webp",
       "/images/perfumes/no5b.webp"
     ]
@@ -1390,11 +1390,11 @@
       { "value": "10ml", "price": 240000 },
       { "value": "90ml", "price": 1750000 }
     ],
-    "image": "/images/perfumes/guiltypourhomme.webp",
+    "image": "/images/perfumes/guiltypourhomme.png",
     "description": "Mở đầu là hương ngọt dịu của hoa huệ và ngọc lan tây. Tầng hương giữa được nhiều cô nàng yêu thích và tìm kiếm, những cánh hoa nhài quen thuộc nay được làm phong phú bởi sự ấm áp và ngọt ngào của hoa Ylang Ylang. Và cuối cùng là gỗ đàn hương ấm cúng, nồng nàn khó quên.",
     "content": "<p><strong>Thương hiệu:</strong> GUCCI</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2011</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20</p><p><strong>Độ lưu hương:</strong> Tạm ổn - Từ 4 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Woody – tông mùi gỗ</p><p><strong>Phong cách:</strong> Mạnh mẽ, nam tính, sang trọng</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Hoa Oải Hương, Quả chanh vàng Amalfi</p><p><strong>Hương giữa:</strong> Hoa cam Châu Phi</p><p><strong>Hương cuối:</strong> Cây hoắc hương, Gỗ tuyết tùng Virginia, Hương Vani</p>",
     "detailImages": [
-      "/images/perfumes/guiltypourhomme.webp",
+      "/images/perfumes/guiltypourhomme.png",
       "/images/perfumes/guiltypourhomme2.webp",
       "/images/perfumes/guiltypourhomme3.webp"
     ]
@@ -1444,6 +1444,28 @@
     ]
   },
   {
+    "name": "Hermès Terre D'Hermès Eau Intense Vétiver EDP",
+    "slug": "hermes-terre-eau-intense-vetiver",
+    "brand": "hermes",
+    "createdAt": "2017-09-16T12:05:00Z",
+    "sex": ["male"],
+    "isMaleExtract": false,
+    "isFemaleExtract": true,
+    "origin": "Pháp",
+    "capacities": [
+      { "value": "10ml", "price": 270000 },
+      { "value": "100ml", "price": 2300000 }
+    ],
+    "image": "/images/perfumes/terrevetiver.png",
+    "description": "Mở đầu là hương chua của quả cam và the the của vỏ bưởi kết hợp cùng hạt tiêu đắng cổ điển rất khơi gợi. Tiếp theo sau đó, hương vị cay dần lên của tiêu đen cùng loại gia vị ớt, và có một hương thơm là lạ từ đá lửa. Đến hương cuối cùng là hương gỗ nồng nàn mạnh mẽ bao phủ lấy cơ thể bạn từ 2 thành phần chính là vetiver và gỗ tuyết tùng.",
+    "content": "<p><strong>Thương hiệu:</strong> HERMÈS</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2018</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 6 giờ đến 8 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Thoang thoảng trên da</p><p><strong>Nhóm hương:</strong> Hương gỗ cay nồng</p><p><strong>Phong cách:</strong> Mạnh mẽ, trẻ trung, hiện đại</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu, Đông</p><p><strong>Hương đầu:</strong> Bergamot và Bưởi</p><p><strong>Hương giữa:</strong> Geranium, cỏ vetiver và hạt tiêu Tứ Xuyên</p><p><strong>Hương cuối:</strong> Gỗ hổ phách</p>",
+    "detailImages": [
+      "/images/perfumes/terrevetiver.png",
+      "/images/perfumes/terrevetiver2.webp",
+      "/images/perfumes/terrevetiver3.webp"
+    ]
+  },
+  {
     "name": "Hermès Terre D'Hermès Paris Parfum Pure Perfume",
     "slug": "hermes-terre-paris-parfum-pure-perfume",
     "brand": "hermes",
@@ -1463,28 +1485,6 @@
       "/images/perfumes/terreparfum.webp",
       "/images/perfumes/terreparfum2.webp",
       "/images/perfumes/terreparfum3.webp"
-    ]
-  },
-  {
-    "name": "Hermès Terre D'Hermès Eau Intense Vétiver EDP",
-    "slug": "hermes-terre-eau-intense-vetiver",
-    "brand": "hermes",
-    "createdAt": "2017-09-16T12:05:00Z",
-    "sex": ["male"],
-    "isMaleExtract": false,
-    "isFemaleExtract": true,
-    "origin": "Pháp",
-    "capacities": [
-      { "value": "10ml", "price": 270000 },
-      { "value": "100ml", "price": 2300000 }
-    ],
-    "image": "/images/perfumes/terrevetiver.webp",
-    "description": "Mở đầu là hương chua của quả cam và the the của vỏ bưởi kết hợp cùng hạt tiêu đắng cổ điển rất khơi gợi. Tiếp theo sau đó, hương vị cay dần lên của tiêu đen cùng loại gia vị ớt, và có một hương thơm là lạ từ đá lửa. Đến hương cuối cùng là hương gỗ nồng nàn mạnh mẽ bao phủ lấy cơ thể bạn từ 2 thành phần chính là vetiver và gỗ tuyết tùng.",
-    "content": "<p><strong>Thương hiệu:</strong> HERMÈS</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2018</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 6 giờ đến 8 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Thoang thoảng trên da</p><p><strong>Nhóm hương:</strong> Hương gỗ cay nồng</p><p><strong>Phong cách:</strong> Mạnh mẽ, trẻ trung, hiện đại</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu, Đông</p><p><strong>Hương đầu:</strong> Bergamot và Bưởi</p><p><strong>Hương giữa:</strong> Geranium, cỏ vetiver và hạt tiêu Tứ Xuyên</p><p><strong>Hương cuối:</strong> Gỗ hổ phách</p>",
-    "detailImages": [
-      "/images/perfumes/terrevetiver.webp",
-      "/images/perfumes/terrevetiver2.webp",
-      "/images/perfumes/terrevetiver3.webp"
     ]
   },
   {
@@ -2217,7 +2217,7 @@
   {
     "name": "Maison Margiela Replica Jazz Club EDT",
     "slug": "maison-margiela-replica-jazz-club-edt",
-    "brand": "replica",
+    "brand": "maison-margiela",
     "createdAt": "2013-01-01T00:00:00.000Z",
     "sex": ["unisex"],
     "isMaleExtract": false,
@@ -2239,7 +2239,7 @@
   {
     "name": "Maison Martin Margiela Replica Lazy Sunday Morning EDT",
     "slug": "maison-margiela-replica-lazy-sunday-morning-edt",
-    "brand": "replica",
+    "brand": "maison-margiela",
     "createdAt": "2013-01-01T00:00:00.000Z",
     "sex": ["unisex"],
     "isMaleExtract": false,
