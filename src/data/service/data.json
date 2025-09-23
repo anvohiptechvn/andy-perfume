@@ -1,0 +1,28 @@
+[
+	{
+		"title": "Giao hàng nhanh chóng",
+		"icon": "/images/perfumes/giaohangnhanhchong.webp",
+		"items": [
+			"✅ Giao hàng nhanh tận nơi toàn quốc: giao hoả tốc hoặc trong vòng 24h khu vực nội thành HCM và Tây Ninh",
+			"✅ Miễn phí giao hàng đối với đơn hàng có giá trị trên 3 triệu đồng."
+		]
+	},
+	{
+		"title": "Bảo đảm chất lượng",
+		"icon": "/images/perfumes/baodamchatluong.webp",
+		"items": ["✅ Cam kết nước hoa chính hãng 100%.", "✅ Nói không với các sản phẩm nước hoa kém chất lượng; nước hoa Auth 1:1 và các thể loại tương tự khác."]
+	},
+	{
+		"title": "Chăm sóc khách hàng tốt",
+		"icon": "/images/perfumes/cskhtot.webp",
+		"items": ["✅ Hotline 24/7: 0909292848", "✅ Chăm sóc khách hàng tận tình trước và sau khi mua hàng."]
+	},
+	{
+		"title": "Đa dạng lựa chọn",
+		"icon": "/images/perfumes/dadangluachon.webp",
+		"items": [
+			"✅ Đa dạng sản phẩm thương hiệu nổi tiếng được yêu thích tại Việt Nam.",
+			"✅ Đa dạng dung tích: Nước hoa Fullbox; Nước hoa Chiết 5ml/10ml; Gốc nước hoa."
+		]
+	}
+]

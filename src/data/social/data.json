@@ -1,0 +1,33 @@
+[
+	{
+		"key": "messenger",
+		"href": "https://m.me/andyparfums",
+		"target": "_blank",
+		"rel": "noopener noreferrer",
+		"ariaLabel": "Messenger",
+		"img": {
+			"src": "https://bizweb.dktcdn.net/100/429/123/themes/824870/assets/icon-menu-right1.png?1755238846140",
+			"alt": "Messenger"
+		}
+	},
+	{
+		"key": "zalo",
+		"href": "https://zalo.me/0909292848",
+		"target": "_blank",
+		"rel": "noopener noreferrer",
+		"ariaLabel": "Zalo",
+		"img": {
+			"src": "https://bizweb.dktcdn.net/100/429/123/themes/824870/assets/icon-menu-right2.png?1755238846140",
+			"alt": "Zalo"
+		}
+	},
+	{
+		"key": "phone",
+		"href": "tel:0909292848",
+		"ariaLabel": "Phone",
+		"img": {
+			"src": "https://bizweb.dktcdn.net/100/429/123/themes/824870/assets/icon-menu-right3.png?1755238846140",
+			"alt": "Phone Number"
+		}
+	}
+]
