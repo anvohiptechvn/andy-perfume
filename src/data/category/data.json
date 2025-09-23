@@ -1,123 +1,454 @@
 [
-	{ "name": "TRANG CHỦ", "link": "/", "slug": "trang-chu" },
-	{ "name": "GIỚI THIỆU", "link": "/gioi-thieu", "slug": "gioi-thieu" },
-	{
-		"name": "THƯƠNG HIỆU",
-		"link": "/",
-		"slug": "thuong-hieu",
-		"children": [
-			{ "name": "AFNAN", "link": "/products?brand=afnan", "slug": "afnan" },
-			{ "name": "CREED", "link": "/products?brand=creed", "slug": "creed" },
-			{ "name": "HUGO BOSS", "link": "/products?brand=hugo-boss", "slug": "hugo-boss" },
-			{ "name": "MAISON MARGIELA", "link": "/products?brand=maison-margiela", "slug": "maison-margiela" },
-			{ "name": "PARFUMS de MARLY", "link": "/products?brand=parfums-de-marly", "slug": "parfums-de-marly" },
-			{ "name": "AL HARAMAIN", "link": "/products?brand=al-haramain", "slug": "al-haramain" },
-			{ "name": "DAVIDOFF", "link": "/products?brand=davidoff", "slug": "davidoff" },
-			{ "name": "INITIO PARFUMS PRIVES", "link": "/products?brand=initio-parfums-prives", "slug": "initio-parfums-prives" },
-			{ "name": "MAISON MATINE", "link": "/products?brand=maison-matine", "slug": "maison-matine" },
-			{ "name": "PENHALIGON'S", "link": "/products?brand=penhaligons", "slug": "penhaligons" },
-			{ "name": "ALEXANDRIA FRAGRANCES", "link": "/products?brand=alexandria-fragrances", "slug": "alexandria-fragrances" },
-			{ "name": "DIESEL", "link": "/products?brand=diesel", "slug": "diesel" },
-			{ "name": "JEAN PAUL GAULTIER", "link": "/products?brand=jean-paul-gaultier", "slug": "jean-paul-gaultier" },
-			{ "name": "MANCERA", "link": "/products?brand=mancera", "slug": "mancera" },
-			{ "name": "PRADA", "link": "/products?brand=prada", "slug": "prada" },
-			{ "name": "ALFRED DUNHILL", "link": "/products?brand=alfred-dunhill", "slug": "alfred-dunhill" },
-			{ "name": "DIOR", "link": "/products?brand=dior", "slug": "dior" },
-			{ "name": "JO MALONE", "link": "/products?brand=jo-malone", "slug": "jo-malone" },
-			{ "name": "MARC JACOBS", "link": "/products?brand=marc-jacobs", "slug": "marc-jacobs" },
-			{ "name": "RALPH LAUREN", "link": "/products?brand=ralph-lauren", "slug": "ralph-lauren" },
-			{ "name": "ALREHAB", "link": "/products?brand=alrehab", "slug": "alrehab" },
-			{ "name": "DIPTYQUE", "link": "/products?brand=diptyque", "slug": "diptyque" },
-			{ "name": "JIMMY CHOO", "link": "/products?brand=jimmy-choo", "slug": "jimmy-choo" },
-			{ "name": "MARIE JEANNE", "link": "/products?brand=marie-jeanne", "slug": "marie-jeanne" },
-			{ "name": "ROJA DOVE", "link": "/products?brand=roja-dove", "slug": "roja-dove" },
-			{ "name": "AMOUAGE", "link": "/products?brand=amouage", "slug": "amouage" },
-			{ "name": "DOLCE & GABBANA", "link": "/products?brand=dolce-gabbana", "slug": "dolce-gabbana" },
-			{ "name": "JULIETTE HAS A GUN", "link": "/products?brand=juliette-has-a-gun", "slug": "juliette-has-a-gun" },
-			{ "name": "MASQUE MILANO", "link": "/products?brand=masque-milano", "slug": "masque-milano" },
-			{ "name": "SALVATORE FERRAGAMO", "link": "/products?brand=salvatore-ferragamo", "slug": "salvatore-ferragamo" },
-			{ "name": "ARMAF", "link": "/products?brand=armaf", "slug": "armaf" },
-			{ "name": "DSQUARED2", "link": "/products?brand=dsquared2", "slug": "dsquared2" },
-			{ "name": "KENZO", "link": "/products?brand=kenzo", "slug": "kenzo" },
-			{ "name": "MAURER & WIRTZ", "link": "/products?brand=maurer-wirtz", "slug": "maurer-wirtz" },
-			{ "name": "SERGE LUTENS", "link": "/products?brand=serge-lutens", "slug": "serge-lutens" },
-			{ "name": "ATELIER DES ORS", "link": "/products?brand=atelier-des-ors", "slug": "atelier-des-ors" },
-			{ "name": "ELIZABETH ARDEN", "link": "/products?brand=elizabeth-arden", "slug": "elizabeth-arden" },
-			{ "name": "KILIAN", "link": "/products?brand=kilian", "slug": "kilian" },
-			{ "name": "MCM", "link": "/products?brand=mcm", "slug": "mcm" },
-			{ "name": "THE MERCHANT OF VENICE", "link": "/products?brand=the-merchant-of-venice", "slug": "the-merchant-of-venice" },
-			{ "name": "ATTAR COLLECTION", "link": "/products?brand=attar-collection", "slug": "attar-collection" },
-			{ "name": "ETAT LIBRE D'ORANGE", "link": "/products?brand=etat-libre-dorange", "slug": "etat-libre-dorange" },
-			{ "name": "KIRA PARFUM", "link": "/products?brand=kira-parfum", "slug": "kira-parfum" },
-			{ "name": "MISSONI", "link": "/products?brand=missoni", "slug": "missoni" },
-			{ "name": "THEODOROS KALOTINIS", "link": "/products?brand=theodoros-kalotinis", "slug": "theodoros-kalotinis" },
-			{ "name": "BOND NO.9", "link": "/products?brand=bond-no-9", "slug": "bond-no-9" },
-			{ "name": "EX NIHILO", "link": "/products?brand=ex-nihilo", "slug": "ex-nihilo" },
-			{ "name": "LACOSTE", "link": "/products?brand=lacoste", "slug": "lacoste" },
-			{ "name": "MONTALE", "link": "/products?brand=montale", "slug": "montale" },
-			{ "name": "THIERRY MUGLER", "link": "/products?brand=thierry-mugler", "slug": "thierry-mugler" },
-			{ "name": "BURBERRY", "link": "/products?brand=burberry", "slug": "burberry" },
-			{ "name": "FLAVIA", "link": "/products?brand=flavia", "slug": "flavia" },
-			{ "name": "LALIQUE", "link": "/products?brand=lalique", "slug": "lalique" },
-			{ "name": "MONTBLANC", "link": "/products?brand=montblanc", "slug": "montblanc" },
-			{ "name": "THOMAS KOSMALA", "link": "/products?brand=thomas-kosmala", "slug": "thomas-kosmala" },
-			{ "name": "BUTTERFLY THAI PERFUME", "link": "/products?brand=butterfly-thai-perfume", "slug": "butterfly-thai-perfume" },
-			{ "name": "FLORIS", "link": "/products?brand=floris", "slug": "floris" },
-			{ "name": "LANCÔME", "link": "/products?brand=lancome", "slug": "lancome" },
-			{ "name": "MOSCHINO", "link": "/products?brand=moschino", "slug": "moschino" },
-			{ "name": "TOM FORD", "link": "/products?brand=tom-ford", "slug": "tom-ford" },
-			{ "name": "BVLGARI", "link": "/products?brand=bvlgari", "slug": "bvlgari" },
-			{ "name": "FRANCK BOCLET", "link": "/products?brand=franck-boclet", "slug": "franck-boclet" },
-			{ "name": "LATTAFA", "link": "/products?brand=lattafa", "slug": "lattafa" },
-			{ "name": "NACHO VIDAL", "link": "/products?brand=nacho-vidal", "slug": "nacho-vidal" },
-			{ "name": "TOMMY HILFIGER", "link": "/products?brand=tommy-hilfiger", "slug": "tommy-hilfiger" },
-			{ "name": "BYREDO", "link": "/products?brand=byredo", "slug": "byredo" },
-			{ "name": "FREDERIC MALLE", "link": "/products?brand=frederic-malle", "slug": "frederic-malle" },
-			{ "name": "LE LABO", "link": "/products?brand=le-labo", "slug": "le-labo" },
-			{ "name": "NARCISO RODRIGUEZ", "link": "/products?brand=narciso-rodriguez", "slug": "narciso-rodriguez" },
-			{ "name": "VALENTINO", "link": "/products?brand=valentino", "slug": "valentino" },
-			{ "name": "CALVIN KLEIN", "link": "/products?brand=calvin-klein", "slug": "calvin-klein" },
-			{ "name": "GHALA ZAYED", "link": "/products?brand=ghala-zayed", "slug": "ghala-zayed" },
-			{ "name": "LES LIQUIDES IMAGINAIRES", "link": "/products?brand=les-liquides-imaginaires", "slug": "les-liquides-imaginaires" },
-			{ "name": "NASOMATTO", "link": "/products?brand=nasomatto", "slug": "nasomatto" },
-			{ "name": "VERSACE", "link": "/products?brand=versace", "slug": "versace" },
-			{ "name": "CAROLINA HERRERA", "link": "/products?brand=carolina-herrera", "slug": "carolina-herrera" },
-			{ "name": "GIARDINI DI TOSCANA", "link": "/products?brand=giardini-di-toscana", "slug": "giardini-di-toscana" },
-			{ "name": "LOEWE", "link": "/products?brand=loewe", "slug": "loewe" },
-			{ "name": "NAUTICA", "link": "/products?brand=nautica", "slug": "nautica" },
-			{ "name": "VICTORIA'S SECRET", "link": "/products?brand=victorias-secret", "slug": "victorias-secret" },
-			{ "name": "CHANEL", "link": "/products?brand=chanel", "slug": "chanel" },
-			{ "name": "GIORGIO ARMANI", "link": "/products?brand=giorgio-armani", "slug": "giorgio-armani" },
-			{ "name": "LOUIS VUITTON", "link": "/products?brand=louis-vuitton", "slug": "louis-vuitton" },
-			{ "name": "NISHANE", "link": "/products?brand=nishane", "slug": "nishane" },
-			{ "name": "VIKTOR & ROLF", "link": "/products?brand=viktor-rolf", "slug": "viktor-rolf" },
-			{ "name": "CHASING SCENTS", "link": "/products?brand=chasing-scents", "slug": "chasing-scents" },
-			{ "name": "GUCCI", "link": "/products?brand=gucci", "slug": "gucci" },
-			{ "name": "MAD ET LEN", "link": "/products?brand=mad-et-len", "slug": "mad-et-len" },
-			{ "name": "ORTO PARISI", "link": "/products?brand=orto-parisi", "slug": "orto-parisi" },
-			{ "name": "XERJOFF", "link": "/products?brand=xerjoff", "slug": "xerjoff" },
-			{ "name": "CHLOÉ", "link": "/products?brand=chloe", "slug": "chloe" },
-			{ "name": "GUERLAIN", "link": "/products?brand=guerlain", "slug": "guerlain" },
-			{ "name": "MAISON FRANCIS KURKDJIAN", "link": "/products?brand=maison-francis-kurkdjian", "slug": "maison-francis-kurkdjian" },
-			{ "name": "PACO RANBANNE", "link": "/products?brand=paco-ranbanne", "slug": "paco-ranbanne" },
-			{ "name": "YVES SAINT LAURENT", "link": "/products?brand=ysl", "slug": "ysl" },
-			{ "name": "CLIVE CHRISTIAN", "link": "/products?brand=clive-christian", "slug": "clive-christian" },
-			{ "name": "HERMES", "link": "/products?brand=hermes", "slug": "hermes" }
+  { "name": "TRANG CHỦ", "link": "/", "slug": "trang-chu" },
+  { "name": "GIỚI THIỆU", "link": "/gioi-thieu", "slug": "gioi-thieu" },
+  {
+    "name": "THƯƠNG HIỆU",
+    "link": "/thuong-hieu",
+    "slug": "thuong-hieu",
+    "children": [
+      { "name": "AFNAN", "link": "/products?brand=afnan", "slug": "afnan" },
+      { "name": "CREED", "link": "/products?brand=creed", "slug": "creed" },
+      {
+        "name": "HUGO BOSS",
+        "link": "/products?brand=hugo-boss",
+        "slug": "hugo-boss"
+      },
+      {
+        "name": "MAISON MARGIELA",
+        "link": "/products?brand=maison-margiela",
+        "slug": "maison-margiela"
+      },
+      {
+        "name": "PARFUMS de MARLY",
+        "link": "/products?brand=parfums-de-marly",
+        "slug": "parfums-de-marly"
+      },
+      {
+        "name": "AL HARAMAIN",
+        "link": "/products?brand=al-haramain",
+        "slug": "al-haramain"
+      },
+      {
+        "name": "DAVIDOFF",
+        "link": "/products?brand=davidoff",
+        "slug": "davidoff"
+      },
+      {
+        "name": "INITIO PARFUMS PRIVES",
+        "link": "/products?brand=initio-parfums-prives",
+        "slug": "initio-parfums-prives"
+      },
+      {
+        "name": "MAISON MATINE",
+        "link": "/products?brand=maison-matine",
+        "slug": "maison-matine"
+      },
+      {
+        "name": "PENHALIGON'S",
+        "link": "/products?brand=penhaligons",
+        "slug": "penhaligons"
+      },
+      {
+        "name": "ALEXANDRIA FRAGRANCES",
+        "link": "/products?brand=alexandria-fragrances",
+        "slug": "alexandria-fragrances"
+      },
+      { "name": "DIESEL", "link": "/products?brand=diesel", "slug": "diesel" },
+      {
+        "name": "JEAN PAUL GAULTIER",
+        "link": "/products?brand=jean-paul-gaultier",
+        "slug": "jean-paul-gaultier"
+      },
+      {
+        "name": "MANCERA",
+        "link": "/products?brand=mancera",
+        "slug": "mancera"
+      },
+      { "name": "PRADA", "link": "/products?brand=prada", "slug": "prada" },
+      {
+        "name": "ALFRED DUNHILL",
+        "link": "/products?brand=alfred-dunhill",
+        "slug": "alfred-dunhill"
+      },
+      { "name": "DIOR", "link": "/products?brand=dior", "slug": "dior" },
+      {
+        "name": "JO MALONE",
+        "link": "/products?brand=jo-malone",
+        "slug": "jo-malone"
+      },
+      {
+        "name": "MARC JACOBS",
+        "link": "/products?brand=marc-jacobs",
+        "slug": "marc-jacobs"
+      },
+      {
+        "name": "RALPH LAUREN",
+        "link": "/products?brand=ralph-lauren",
+        "slug": "ralph-lauren"
+      },
+      {
+        "name": "ALREHAB",
+        "link": "/products?brand=alrehab",
+        "slug": "alrehab"
+      },
+      {
+        "name": "DIPTYQUE",
+        "link": "/products?brand=diptyque",
+        "slug": "diptyque"
+      },
+      {
+        "name": "JIMMY CHOO",
+        "link": "/products?brand=jimmy-choo",
+        "slug": "jimmy-choo"
+      },
+      {
+        "name": "MARIE JEANNE",
+        "link": "/products?brand=marie-jeanne",
+        "slug": "marie-jeanne"
+      },
+      {
+        "name": "ROJA DOVE",
+        "link": "/products?brand=roja-dove",
+        "slug": "roja-dove"
+      },
+      {
+        "name": "AMOUAGE",
+        "link": "/products?brand=amouage",
+        "slug": "amouage"
+      },
+      {
+        "name": "DOLCE & GABBANA",
+        "link": "/products?brand=dolce-gabbana",
+        "slug": "dolce-gabbana"
+      },
+      {
+        "name": "JULIETTE HAS A GUN",
+        "link": "/products?brand=juliette-has-a-gun",
+        "slug": "juliette-has-a-gun"
+      },
+      {
+        "name": "MASQUE MILANO",
+        "link": "/products?brand=masque-milano",
+        "slug": "masque-milano"
+      },
+      {
+        "name": "SALVATORE FERRAGAMO",
+        "link": "/products?brand=salvatore-ferragamo",
+        "slug": "salvatore-ferragamo"
+      },
+      { "name": "ARMAF", "link": "/products?brand=armaf", "slug": "armaf" },
+      {
+        "name": "DSQUARED2",
+        "link": "/products?brand=dsquared2",
+        "slug": "dsquared2"
+      },
+      { "name": "KENZO", "link": "/products?brand=kenzo", "slug": "kenzo" },
+      {
+        "name": "MAURER & WIRTZ",
+        "link": "/products?brand=maurer-wirtz",
+        "slug": "maurer-wirtz"
+      },
+      {
+        "name": "SERGE LUTENS",
+        "link": "/products?brand=serge-lutens",
+        "slug": "serge-lutens"
+      },
+      {
+        "name": "ATELIER DES ORS",
+        "link": "/products?brand=atelier-des-ors",
+        "slug": "atelier-des-ors"
+      },
+      {
+        "name": "ELIZABETH ARDEN",
+        "link": "/products?brand=elizabeth-arden",
+        "slug": "elizabeth-arden"
+      },
+      { "name": "KILIAN", "link": "/products?brand=kilian", "slug": "kilian" },
+      { "name": "MCM", "link": "/products?brand=mcm", "slug": "mcm" },
+      {
+        "name": "THE MERCHANT OF VENICE",
+        "link": "/products?brand=the-merchant-of-venice",
+        "slug": "the-merchant-of-venice"
+      },
+      {
+        "name": "ATTAR COLLECTION",
+        "link": "/products?brand=attar-collection",
+        "slug": "attar-collection"
+      },
+      {
+        "name": "ETAT LIBRE D'ORANGE",
+        "link": "/products?brand=etat-libre-dorange",
+        "slug": "etat-libre-dorange"
+      },
+      {
+        "name": "KIRA PARFUM",
+        "link": "/products?brand=kira-parfum",
+        "slug": "kira-parfum"
+      },
+      {
+        "name": "MISSONI",
+        "link": "/products?brand=missoni",
+        "slug": "missoni"
+      },
+      {
+        "name": "THEODOROS KALOTINIS",
+        "link": "/products?brand=theodoros-kalotinis",
+        "slug": "theodoros-kalotinis"
+      },
+      {
+        "name": "BOND NO.9",
+        "link": "/products?brand=bond-no-9",
+        "slug": "bond-no-9"
+      },
+      {
+        "name": "EX NIHILO",
+        "link": "/products?brand=ex-nihilo",
+        "slug": "ex-nihilo"
+      },
+      {
+        "name": "LACOSTE",
+        "link": "/products?brand=lacoste",
+        "slug": "lacoste"
+      },
+      {
+        "name": "MONTALE",
+        "link": "/products?brand=montale",
+        "slug": "montale"
+      },
+      {
+        "name": "THIERRY MUGLER",
+        "link": "/products?brand=thierry-mugler",
+        "slug": "thierry-mugler"
+      },
+      {
+        "name": "BURBERRY",
+        "link": "/products?brand=burberry",
+        "slug": "burberry"
+      },
+      { "name": "FLAVIA", "link": "/products?brand=flavia", "slug": "flavia" },
+      {
+        "name": "LALIQUE",
+        "link": "/products?brand=lalique",
+        "slug": "lalique"
+      },
+      {
+        "name": "MONTBLANC",
+        "link": "/products?brand=montblanc",
+        "slug": "montblanc"
+      },
+      {
+        "name": "THOMAS KOSMALA",
+        "link": "/products?brand=thomas-kosmala",
+        "slug": "thomas-kosmala"
+      },
+      {
+        "name": "BUTTERFLY THAI PERFUME",
+        "link": "/products?brand=butterfly-thai-perfume",
+        "slug": "butterfly-thai-perfume"
+      },
+      { "name": "FLORIS", "link": "/products?brand=floris", "slug": "floris" },
+      {
+        "name": "LANCÔME",
+        "link": "/products?brand=lancome",
+        "slug": "lancome"
+      },
+      {
+        "name": "MOSCHINO",
+        "link": "/products?brand=moschino",
+        "slug": "moschino"
+      },
+      {
+        "name": "TOM FORD",
+        "link": "/products?brand=tom-ford",
+        "slug": "tom-ford"
+      },
+      {
+        "name": "BVLGARI",
+        "link": "/products?brand=bvlgari",
+        "slug": "bvlgari"
+      },
+      {
+        "name": "FRANCK BOCLET",
+        "link": "/products?brand=franck-boclet",
+        "slug": "franck-boclet"
+      },
+      {
+        "name": "LATTAFA",
+        "link": "/products?brand=lattafa",
+        "slug": "lattafa"
+      },
+      {
+        "name": "NACHO VIDAL",
+        "link": "/products?brand=nacho-vidal",
+        "slug": "nacho-vidal"
+      },
+      {
+        "name": "TOMMY HILFIGER",
+        "link": "/products?brand=tommy-hilfiger",
+        "slug": "tommy-hilfiger"
+      },
+      { "name": "BYREDO", "link": "/products?brand=byredo", "slug": "byredo" },
+      {
+        "name": "FREDERIC MALLE",
+        "link": "/products?brand=frederic-malle",
+        "slug": "frederic-malle"
+      },
+      {
+        "name": "LE LABO",
+        "link": "/products?brand=le-labo",
+        "slug": "le-labo"
+      },
+      {
+        "name": "NARCISO RODRIGUEZ",
+        "link": "/products?brand=narciso-rodriguez",
+        "slug": "narciso-rodriguez"
+      },
+      {
+        "name": "VALENTINO",
+        "link": "/products?brand=valentino",
+        "slug": "valentino"
+      },
+      {
+        "name": "CALVIN KLEIN",
+        "link": "/products?brand=calvin-klein",
+        "slug": "calvin-klein"
+      },
+      {
+        "name": "GHALA ZAYED",
+        "link": "/products?brand=ghala-zayed",
+        "slug": "ghala-zayed"
+      },
+      {
+        "name": "LES LIQUIDES IMAGINAIRES",
+        "link": "/products?brand=les-liquides-imaginaires",
+        "slug": "les-liquides-imaginaires"
+      },
+      {
+        "name": "NASOMATTO",
+        "link": "/products?brand=nasomatto",
+        "slug": "nasomatto"
+      },
+      {
+        "name": "VERSACE",
+        "link": "/products?brand=versace",
+        "slug": "versace"
+      },
+      {
+        "name": "CAROLINA HERRERA",
+        "link": "/products?brand=carolina-herrera",
+        "slug": "carolina-herrera"
+      },
+      {
+        "name": "GIARDINI DI TOSCANA",
+        "link": "/products?brand=giardini-di-toscana",
+        "slug": "giardini-di-toscana"
+      },
+      { "name": "LOEWE", "link": "/products?brand=loewe", "slug": "loewe" },
+      {
+        "name": "NAUTICA",
+        "link": "/products?brand=nautica",
+        "slug": "nautica"
+      },
+      {
+        "name": "VICTORIA'S SECRET",
+        "link": "/products?brand=victorias-secret",
+        "slug": "victorias-secret"
+      },
+      { "name": "CHANEL", "link": "/products?brand=chanel", "slug": "chanel" },
+      {
+        "name": "GIORGIO ARMANI",
+        "link": "/products?brand=giorgio-armani",
+        "slug": "giorgio-armani"
+      },
+      {
+        "name": "LOUIS VUITTON",
+        "link": "/products?brand=louis-vuitton",
+        "slug": "louis-vuitton"
+      },
+      {
+        "name": "NISHANE",
+        "link": "/products?brand=nishane",
+        "slug": "nishane"
+      },
+      {
+        "name": "VIKTOR & ROLF",
+        "link": "/products?brand=viktor-rolf",
+        "slug": "viktor-rolf"
+      },
+      {
+        "name": "CHASING SCENTS",
+        "link": "/products?brand=chasing-scents",
+        "slug": "chasing-scents"
+      },
+      { "name": "GUCCI", "link": "/products?brand=gucci", "slug": "gucci" },
+      {
+        "name": "MAD ET LEN",
+        "link": "/products?brand=mad-et-len",
+        "slug": "mad-et-len"
+      },
+      {
+        "name": "ORTO PARISI",
+        "link": "/products?brand=orto-parisi",
+        "slug": "orto-parisi"
+      },
+      {
+        "name": "XERJOFF",
+        "link": "/products?brand=xerjoff",
+        "slug": "xerjoff"
+      },
+      { "name": "CHLOÉ", "link": "/products?brand=chloe", "slug": "chloe" },
+      {
+        "name": "GUERLAIN",
+        "link": "/products?brand=guerlain",
+        "slug": "guerlain"
+      },
+      {
+        "name": "MAISON FRANCIS KURKDJIAN",
+        "link": "/products?brand=maison-francis-kurkdjian",
+        "slug": "maison-francis-kurkdjian"
+      },
+      {
+        "name": "PACO RANBANNE",
+        "link": "/products?brand=paco-ranbanne",
+        "slug": "paco-ranbanne"
+      },
+      {
+        "name": "YVES SAINT LAURENT",
+        "link": "/products?brand=ysl",
+        "slug": "ysl"
+      },
+      {
+        "name": "CLIVE CHRISTIAN",
+        "link": "/products?brand=clive-christian",
+        "slug": "clive-christian"
+      },
+      { "name": "HERMES", "link": "/products?brand=hermes", "slug": "hermes" }
+    ]
+  },
+  {
+    "name": "NƯỚC HOA",
+    "link": "/products",
+    "slug": "nuoc-hoa",
+    "children": [
+      {
+        "name": "Nước hoa Nam",
+        "link": "/products?sex=male",
+        "slug": "nuoc-hoa-nam"
+      },
+      {
+        "name": "Nước hoa Nữ",
+        "link": "/products?sex=female",
+        "slug": "nuoc-hoa-nu"
+      },
+      {
+        "name": "Nước hoa Unisex",
+        "link": "/products?sex=unisex",
+        "slug": "nuoc-hoa-unisex"
+      }
+    ]
+  },
 
-		]
-	},
-	{
-		"name": "NƯỚC HOA",
-		"link": "/products",
-		"slug": "nuoc-hoa",
-		"children": [
-			{ "name": "Nước hoa Nam", "link": "/products?sex=male", "slug": "nuoc-hoa-nam" },
-			{ "name": "Nước hoa Nữ", "link": "/products?sex=female", "slug": "nuoc-hoa-nu" },
-			{ "name": "Nước hoa Unisex", "link": "/products?sex=unisex", "slug": "nuoc-hoa-unisex" }
-		]
-	},
-	
-	{ "name": "KHUYẾN MÃI", "link": "/khuyen-mai", "slug": "khuyen-mai" },
-	{ "name": "BLOG", "link": "/blog", "slug": "blog" },
-	{ "name": "LIÊN HỆ", "link": "/lien-he", "slug": "lien-he" }
+  { "name": "KHUYẾN MÃI", "link": "/khuyen-mai", "slug": "khuyen-mai" },
+  { "name": "BLOG", "link": "/blog", "slug": "blog" },
+  { "name": "LIÊN HỆ", "link": "/lien-he", "slug": "lien-he" }
 ]

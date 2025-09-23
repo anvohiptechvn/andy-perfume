@@ -1,13 +1,7 @@
-import { Suspense } from 'react';
-
-import ProductsPage from './components';
+import ProductsPage from "./components";
 
 const ProductsContainer = () => {
-	return (
-		<Suspense fallback={<></>}>
-			<ProductsPage />;
-		</Suspense>
-	);
+  return <ProductsPage />;
 };
 
 export default ProductsContainer;
