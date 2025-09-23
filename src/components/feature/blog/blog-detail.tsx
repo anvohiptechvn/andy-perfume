@@ -2,11 +2,19 @@ import { Blog } from "@/types/blog";
 
 import CategorySidebar from "@/components/feature/category/sidebar";
 
-interface SaleDetailProps {
+import RelatedBlogs from "./related-blogs";
+
+interface BlogDetailProps {
+  relatedBlogs: Blog[];
+  destinationUrl: string;
   data: Blog;
 }
 
-const SaleDetail: React.FC<SaleDetailProps> = ({ data }) => {
+const BlogDetail: React.FC<BlogDetailProps> = ({
+  relatedBlogs,
+  destinationUrl,
+  data,
+}) => {
   return (
     <div className="container mx-auto flex flex-col-reverse gap-6 px-1.5 pt-4 pb-10 md:grid md:grid-cols-4 md:px-0">
       <CategorySidebar />
@@ -22,9 +30,11 @@ const SaleDetail: React.FC<SaleDetailProps> = ({ data }) => {
         </p>
 
         <div dangerouslySetInnerHTML={{ __html: data.content }} />
+
+        <RelatedBlogs destinationUrl={destinationUrl} blogs={relatedBlogs} />
       </main>
     </div>
   );
 };
 
-export default SaleDetail;
+export default BlogDetail;

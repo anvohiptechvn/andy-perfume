@@ -1,14 +1,13 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
 import { useQueryStates } from "nuqs";
 
 import { Blog, SEARCH_BLOG_PARAMS } from "@/types/blog";
 
 import { CustomPagination } from "@/components/ui/custom-pagination";
 import CategorySidebar from "@/components/feature/category/sidebar";
+import BlogCard from "@/components/feature/blog/blog-card";
 
 import blogs from "@/data/blogs/data.json" assert { type: "json" };
 
@@ -52,32 +51,7 @@ const BlogPage = () => {
         </h2>
         <div className="flex flex-col gap-5">
           {displayedBlogs.map((blog, i) => (
-            <article key={i} className="flex items-start gap-2.5">
-              <Link href={`/blog/${blog.slug}`}>
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  width={240}
-                  height={192}
-                  className="h-auto w-[240px] object-cover"
-                />
-              </Link>
-              <div className="flex-1">
-                <Link
-                  href={`/blog/${blog.slug}`}
-                  className="hover:text-primary-default text-sm font-semibold text-[#333333] md:text-base"
-                >
-                  {blog.title}
-                </Link>
-                <p className="text-[10px] text-[#9B9B9B] md:text-xs">
-                  {new Date(blog.date).toLocaleDateString("vi-VN")} –{" "}
-                  {blog.author}
-                </p>
-                <p className="mt-2 line-clamp-3 text-xs text-[#4D4D4D] md:text-sm">
-                  {blog.description}
-                </p>
-              </div>
-            </article>
+            <BlogCard key={i} destinationUrl="/blog" blog={blog} />
           ))}
         </div>
 

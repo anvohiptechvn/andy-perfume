@@ -1,6 +1,7 @@
-import SaleDetail from "./components";
+import SaleDetail from "@/components/feature/blog/blog-detail";
 
 import saleBlogs from "@/data/sale/data.json" assert { type: "json" };
+import relatedSaleBlogs from "@/data/related-sale-blogs/data.json" assert { type: "json" };
 
 export default async function SalePage({
   params,
@@ -13,7 +14,13 @@ export default async function SalePage({
 
   if (!saleBlog) return <></>;
 
-  return <SaleDetail data={saleBlog} />;
+  return (
+    <SaleDetail
+      destinationUrl="/khuyen-mai"
+      relatedBlogs={relatedSaleBlogs}
+      data={saleBlog}
+    />
+  );
 }
 
 export async function generateStaticParams() {
