@@ -29,7 +29,7 @@ export default function Home() {
         subtitle: "Nước hoa Nam",
         imageUrl: "/images/perfumes/nuochoanam.jpg",
         perfumes: (products as Perfume[])
-          .filter((p) => p.sex === "male")
+          .filter((p) => p.sex.includes("male"))
           .slice(0, 10),
       },
       {
@@ -38,7 +38,7 @@ export default function Home() {
         subtitle: "Nước hoa Nữ",
         imageUrl: "/images/perfumes/nuochoawomen.jpg",
         perfumes: (products as Perfume[])
-          .filter((p) => p.sex === "female")
+          .filter((p) => p.sex.includes("female"))
           .slice(0, 10),
       },
       {
@@ -47,7 +47,7 @@ export default function Home() {
         subtitle: "Nước hoa Unisex",
         imageUrl: "/images/perfumes/nuochoaunisex.jpg",
         perfumes: (products as Perfume[])
-          .filter((p) => p.sex === "unisex")
+          .filter((p) => p.sex.includes("unisex"))
           .slice(0, 10),
       },
     ],

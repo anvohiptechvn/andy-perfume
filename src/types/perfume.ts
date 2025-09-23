@@ -2,6 +2,8 @@ import { parseAsBoolean, parseAsInteger, parseAsString } from "nuqs";
 
 import { DEFAULT_PAGE, DEFAULT_PER_PAGE } from "./http";
 
+export type Sex = "male" | "female" | "unisex";
+
 export interface Capacity {
   value: number;
   price: number;
@@ -12,7 +14,7 @@ export interface Perfume {
   slug: string;
   brand: string;
   createdAt: string;
-  sex: string; /// 'male' | 'female' | 'unisex';
+  sex: Sex[];
   isMaleExtract: boolean;
   isFemaleExtract: boolean;
   price?:
