@@ -110,7 +110,7 @@ export default function ProductPage() {
 
       setTimeout(() => {
         setFilteredProducts(data);
-      }, 300);
+      }, 100);
     };
 
     fetchingProducts();
