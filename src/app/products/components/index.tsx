@@ -67,7 +67,11 @@ export default function ProductPage() {
 
       // Filter by sex
       if (params.sex) {
-        data = data.filter((p) => p.sex.includes(params.sex as Sex));
+        const sex = params.sex as Sex;
+        data = data.filter((p) => {
+          if (sex === "unisex") return true;
+          return p.sex.includes(params.sex as Sex);
+        });
       }
 
       // Filter by isMaleExtract
