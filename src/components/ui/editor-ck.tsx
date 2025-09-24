@@ -27,9 +27,9 @@ export default function EditorCk() {
             "undo",
             "redo",
           ],
-          simpleUpload: {
-            uploadUrl: "/api/upload",
-          },
+          // simpleUpload: {
+          //   uploadUrl: "/api/upload",
+          // },
         }}
         onChange={(_, editor: any) => {
           setContent(editor.getData());
