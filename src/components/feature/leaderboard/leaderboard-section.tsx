@@ -25,7 +25,7 @@ const LeaderboardSection = () => {
           </thead>
           <tbody>
             {leaderboards
-              .slice(0, 10)
+              .slice(0, 20)
               .map((entry: { rank: number; name: string; score: number }) => (
                 <tr key={entry.rank} className="border-b last:border-b-0">
                   <td
