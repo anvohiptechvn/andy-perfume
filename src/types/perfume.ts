@@ -17,12 +17,7 @@ export interface Perfume {
   sex: Sex[];
   isMaleExtract: boolean;
   isFemaleExtract: boolean;
-  price?:
-    | {
-        from: number;
-        to: number;
-      }
-    | number;
+  price?: number;
   image: string;
   detailImages: string[];
   description: string;

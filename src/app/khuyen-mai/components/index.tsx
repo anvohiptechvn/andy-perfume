@@ -8,6 +8,7 @@ import { Blog, SEARCH_BLOG_PARAMS } from "@/types/blog";
 import { CustomPagination } from "@/components/ui/custom-pagination";
 import CategorySidebar from "@/components/feature/category/sidebar";
 import BlogCard from "@/components/feature/blog/blog-card";
+import LeaderboardSection from "@/components/feature/leaderboard/leaderboard-section";
 
 import saleBlogs from "@/data/sale/data.json" assert { type: "json" };
 
@@ -45,24 +46,28 @@ const SalePage = () => {
       <CategorySidebar />
 
       {/* Main content */}
-      <main className="border px-2.5 pb-2.5 md:col-span-3">
-        <h2 className="py-2.5 text-lg md:text-[22px] font-medium text-[#323c3f]">
-          Khuyến Mãi
-        </h2>
-        <div className="flex flex-col gap-5">
-          {displayedBlogs.map((blog, i) => (
-            <BlogCard key={i} destinationUrl="/khuyen-mai" blog={blog} />
-          ))}
-        </div>
+      <div className="col-span-3 flex flex-col md:flex-row gap-4">
+        <main className="flex-1 border px-2.5 pb-2.5 w-full">
+          <h2 className="py-2.5 text-lg md:text-[22px] font-medium text-[#323c3f]">
+            Khuyến mãi
+          </h2>
+          <div className="flex flex-col gap-5">
+            {displayedBlogs.map((blog, i) => (
+              <BlogCard key={i} destinationUrl="/khuyen-mai" blog={blog} />
+            ))}
+          </div>
 
-        <div className="my-6">
-          <CustomPagination
-            currentPage={params.page}
-            totalPages={totalPage}
-            onPageChange={(page) => setParams({ ...params, page })}
-          />
-        </div>
-      </main>
+          <div className="my-6">
+            <CustomPagination
+              currentPage={params.page}
+              totalPages={totalPage}
+              onPageChange={(page) => setParams({ ...params, page })}
+            />
+          </div>
+        </main>
+
+        <LeaderboardSection />
+      </div>
     </div>
   );
 };
