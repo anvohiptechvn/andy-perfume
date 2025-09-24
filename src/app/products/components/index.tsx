@@ -71,8 +71,10 @@ export default function ProductPage() {
       if (params.sex) {
         const sex = params.sex as Sex;
         data = data.filter((p) => {
-          if (sex === "unisex") return true;
-          return p.sex.includes(params.sex as Sex);
+          if (sex === "unisex") {
+            return p.sex.length === 1 && p.sex.includes("unisex");
+          }
+          return p.sex.includes(params.sex as Sex) || p.sex.includes("unisex");
         });
       }
 
