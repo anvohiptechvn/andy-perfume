@@ -11,8 +11,9 @@ export default function EditorCk() {
     <div>
       <CKEditor
         editor={ClassicEditor as any}
-        data="<p>Hello from CKEditor</p>"
+        data="<p>Hello from CKEditor 🎉 🎉</p>"
         config={{
+          licenseKey: "GPL",
           toolbar: [
             "heading",
             "|",
@@ -27,9 +28,9 @@ export default function EditorCk() {
             "undo",
             "redo",
           ],
-          simpleUpload: {
-            uploadUrl: "/api/upload",
-          },
+          // simpleUpload: {
+          //   uploadUrl: "/api/upload",
+          // },
         }}
         onChange={(_, editor: any) => {
           setContent(editor.getData());
@@ -38,7 +39,7 @@ export default function EditorCk() {
 
       <h3 className="mt-10 font-bold">Raw HTML output:</h3>
       <div className="border p-2">
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        <p className="break-words">{content}</p>
       </div>
     </div>
   );
