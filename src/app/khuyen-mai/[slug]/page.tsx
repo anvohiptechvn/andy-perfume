@@ -1,4 +1,5 @@
 import SaleDetail from "@/components/feature/blog/blog-detail";
+import LeaderboardSection from "@/components/feature/leaderboard/leaderboard-section";
 
 import saleBlogs from "@/data/sale/data.json" assert { type: "json" };
 import relatedSaleBlogs from "@/data/related-sale-blogs/data.json" assert { type: "json" };
@@ -19,6 +20,7 @@ export default async function SalePage({
       destinationUrl="/khuyen-mai"
       relatedBlogs={relatedSaleBlogs}
       data={saleBlog}
+      rightAside={<LeaderboardSection />}
     />
   );
 }
