@@ -2531,7 +2531,7 @@
     "isFemaleExtract": true,
     "origin": "Anh",
     "capacities": [
-      { "value": "5ml", "price": 350000 },
+      { "value": "Via 5ml", "price": 350000 },
       { "value": "Full Set", "price": 1750000 }
     ],
     "image": "/images/perfumes/setpen5ml.jpg",
@@ -2554,7 +2554,7 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": "2ml", "price": 250000 },
+      { "value": "Via 2ml", "price": 250000 },
       { "value": "Full Set", "price": 3250000 }
     ],
     "image": "/images/perfumes/setlvmini.jpg",
