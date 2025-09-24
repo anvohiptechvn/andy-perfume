@@ -1,16 +1,13 @@
 import { Capacity } from "@/types/perfume";
 
+import { getPriceString } from "@/constants/perfume";
+
 interface SummarySectionProps {
   name: string;
   description: string;
   capacities?: Capacity[];
   selectedCapacityIndex?: number;
-  price?:
-    | {
-        from: number;
-        to: number;
-      }
-    | number;
+  price?: number;
   inStock?: boolean;
 }
 
@@ -30,13 +27,13 @@ const SummarySection: React.FC<SummarySectionProps> = ({
       if (typeof selectedCapacityIndex !== "undefined") {
         const selectedCapacity = capacities[selectedCapacityIndex];
         if (selectedCapacity) {
-          return `${selectedCapacity.price.toLocaleString("vi-VN")}đ`;
+          return `${getPriceString(selectedCapacity.price)}`;
         }
       }
-      return `${capacities[0]?.price.toLocaleString("vi-VN")}đ`;
+      return `${getPriceString(capacities[0]?.price || 0)}`;
     }
     if (price) {
-      return `${(price || 0).toLocaleString("vi-VN")}đ`;
+      return `${getPriceString(price || 0)}`;
     }
     return "0đ";
   };

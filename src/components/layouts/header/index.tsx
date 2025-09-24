@@ -55,7 +55,6 @@ const Header = () => {
     return breadcrumbs;
   }, [pathName, routes]);
 
-  console.info("pathName", pathName);
   return (
     <header className="w-full bg-white">
       <TopHeader />

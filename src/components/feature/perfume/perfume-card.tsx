@@ -8,6 +8,7 @@ import { EyeIcon } from "lucide-react";
 import { Perfume } from "@/types/perfume";
 
 import { cn } from "@/utils/style";
+import { getPriceString, MAX_PRICE } from "@/constants/perfume";
 
 interface PerfumeCardProps {
   perfume: Perfume;
@@ -25,10 +26,13 @@ const PerfumeCard: React.FC<PerfumeCardProps> = ({
       const lengthOfCapacities = perfume.capacities.length;
       if (!lengthOfCapacities) return "0đ";
 
-      return `${perfume.capacities[0]?.price.toLocaleString("vi-VN")}đ - ${perfume.capacities?.[lengthOfCapacities - 1]?.price.toLocaleString("vi-VN")}đ`;
+      const fromPrice = perfume.capacities[0]?.price || 0;
+      const toPrice = perfume.capacities?.[lengthOfCapacities - 1]?.price || 0;
+      return `${getPriceString(fromPrice)} - ${getPriceString(toPrice)}`;
     }
     if (perfume?.price) {
-      return `${(perfume?.price || 0).toLocaleString("vi-VN")}đ`;
+      const price = perfume?.price || 0;
+      return getPriceString(price);
     }
     return "0đ";
   };
