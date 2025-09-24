@@ -47,7 +47,7 @@ export default function ProductPage() {
 
         data = data.filter((p) => {
           const price =
-            typeof p.price === "number" ? p.price : p.capacities?.[0].price;
+            typeof p.price === "number" ? p.price : p.capacities?.[0]?.price;
 
           if (typeof price !== "number") return false;
 
@@ -93,9 +93,13 @@ export default function ProductPage() {
         case "low-high":
           data.sort((a, b) => {
             const aPrice =
-              typeof a.price === "number" ? a.price : a.capacities?.[0].price;
+              typeof a.price === "number"
+                ? a.price
+                : a.capacities?.[a.capacities.length - 1].price;
             const bPrice =
-              typeof b.price === "number" ? b.price : b.capacities?.[0].price;
+              typeof b.price === "number"
+                ? b.price
+                : b.capacities?.[b.capacities.length - 1].price;
             if (typeof aPrice !== "number") return 1;
             if (typeof bPrice !== "number") return -1;
             return aPrice - bPrice;
@@ -104,9 +108,13 @@ export default function ProductPage() {
         case "high-low":
           data.sort((a, b) => {
             const aPrice =
-              typeof a.price === "number" ? a.price : a.capacities?.[0].price;
+              typeof a.price === "number"
+                ? a.price
+                : a.capacities?.[a.capacities.length - 1].price;
             const bPrice =
-              typeof b.price === "number" ? b.price : b.capacities?.[0].price;
+              typeof b.price === "number"
+                ? b.price
+                : b.capacities?.[b.capacities.length - 1].price;
             if (typeof bPrice !== "number") return 1;
             if (typeof aPrice !== "number") return -1;
             return bPrice - aPrice;
