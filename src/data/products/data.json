@@ -1409,8 +1409,9 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": "10ml", "price": 230000 },
-      { "value": "90ml", "price": 1850000 }
+      { "value": "Chiết 10ml", "price": 230000 },
+      { "value": "Chiết 20ml", "price": 430000 },
+      { "value": "Full 90ml", "price": 1850000 }
     ],
     "image": "/images/perfumes/guiltyblack.webp",
     "description": "Nếu dòng nước hoa Gucci Guilty là hương thơm của niềm đam mê và thú vui tội lỗi. Thì bây giờ, Gucci Guilty Black còn hơn thế nữa. Đây là hương thơm dành cho những người phá cách, muốn thể hiện bản thân, muốn phá vỡ các nguyên tắc, muốn sự khác biệt.",
@@ -2027,7 +2028,9 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": "10ml", "price": 600000 },
+      { "value": "10ml", "price": 700000 },
+      { "value": "20ml", "price": 1200000 },
+      { "value": "30ml", "price": 1750000 },
       { "value": "75ml", "price": 5500000 }
     ],
     "image": "/images/perfumes/delinaex.webp",
@@ -2529,7 +2532,7 @@
     "origin": "Anh",
     "capacities": [
       { "value": "5ml", "price": 350000 },
-      { "value": "25ml", "price": 1750000 }
+      { "value": "Full Set", "price": 1750000 }
     ],
     "image": "/images/perfumes/setpen5ml.jpg",
     "description": "Set Penhaligon'S Little Dollies Miniature là một bộ sưu tập gồm 5 chai nước hoa nhỏ (5ml) thuộc thương hiệu nước hoa nổi tiếng của Anh, Penhaligon's. Bộ sưu tập này là một cách tuyệt vời để bạn khám phá và trải nghiệm nhiều mùi hương khác nhau của Penhaligon's trước khi quyết định mua chai lớn.",
@@ -2552,7 +2555,7 @@
     "origin": "Pháp",
     "capacities": [
       { "value": "2ml", "price": 250000 },
-      { "value": "26ml", "price": 3250000 }
+      { "value": "Full Set", "price": 3250000 }
     ],
     "image": "/images/perfumes/setlvmini.jpg",
     "description": "Set Nước Hoa Louis Vuitton LV EDP (13 x 2ml) là set nước hoa mini đến từ thương hiệu Louis Vuitton nổi tiếng của Pháp. LV Miniature Set mang 8 hương thơm khác nhau sẽ là trải nghiệm thú vị và ấn tượng dành cho các tín đồ nước hoa nhà LV.",
