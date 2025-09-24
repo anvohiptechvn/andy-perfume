@@ -44,18 +44,20 @@ export default function ProductPage() {
       // Filter by priceRange (assume format "min-max")
       if (params.priceRange) {
         const value = params.priceRange;
+
         data = data.filter((p) => {
-          const price = typeof p.price === "number" ? p.price : p.price?.from;
+          const price =
+            typeof p.price === "number" ? p.price : p.capacities?.[0].price;
+
           if (typeof price !== "number") return false;
+
           if (value.startsWith("lt-")) {
             const num = Number(value.replace("lt-", ""));
             return price < num;
-          }
-          if (value.startsWith("gt-")) {
+          } else if (value.startsWith("gt-")) {
             const num = Number(value.replace("gt-", ""));
             return price > num;
-          }
-          if (value.startsWith("gte-") && value.includes("-lte-")) {
+          } else if (value.startsWith("gte-") && value.includes("-lte-")) {
             const [gtePart, ltePart] = value.split("-lte-");
             const min = Number(gtePart.replace("gte-", ""));
             const max = Number(ltePart);
@@ -89,9 +91,9 @@ export default function ProductPage() {
         case "low-high":
           data.sort((a, b) => {
             const aPrice =
-              typeof a.price === "number" ? a.price : a.price?.from;
+              typeof a.price === "number" ? a.price : a.capacities?.[0].price;
             const bPrice =
-              typeof b.price === "number" ? b.price : b.price?.from;
+              typeof b.price === "number" ? b.price : b.capacities?.[0].price;
             if (typeof aPrice !== "number") return 1;
             if (typeof bPrice !== "number") return -1;
             return aPrice - bPrice;
@@ -100,9 +102,9 @@ export default function ProductPage() {
         case "high-low":
           data.sort((a, b) => {
             const aPrice =
-              typeof a.price === "number" ? a.price : a.price?.from;
+              typeof a.price === "number" ? a.price : a.capacities?.[0].price;
             const bPrice =
-              typeof b.price === "number" ? b.price : b.price?.from;
+              typeof b.price === "number" ? b.price : b.capacities?.[0].price;
             if (typeof bPrice !== "number") return 1;
             if (typeof aPrice !== "number") return -1;
             return bPrice - aPrice;
