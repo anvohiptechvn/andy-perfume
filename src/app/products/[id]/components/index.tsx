@@ -80,7 +80,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ data }) => {
             />
 
             {/* Zoomed Image (only shows on hover) */}
-            <div className="absolute top-0 left-[105%] hidden h-[450px] w-[450px] overflow-hidden border-2 border-[#42495B] bg-white p-5 transition-all duration-200 group-hover:flex">
+            <div className="absolute top-0 left-[105%] hidden h-[450px] w-[450px] overflow-hidden border-2 border-[#42495B] bg-white p-5 transition-all duration-200 group-hover:flex z-30">
               <img
                 src={detailImages[activeImageIndex]}
                 alt={name}
