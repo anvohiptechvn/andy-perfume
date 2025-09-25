@@ -26,19 +26,17 @@ interface ProductDetailProps {
   data: Perfume;
 }
 
-const inStock = true;
-
 const ProductDetail: React.FC<ProductDetailProps> = ({ data }) => {
   const {
     name,
     detailImages,
-    image,
     content,
     origin,
     capacities,
     description,
     sex,
     price,
+    outOfStock,
   } = data;
 
   const [tab, setTab] = useState<"info" | "usage" | "return">("info");
@@ -111,7 +109,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ data }) => {
             description={description}
             capacities={capacities}
             selectedCapacityIndex={selectedCapacityIndex}
-            inStock={inStock}
+            outOfStockFromRoot={outOfStock}
             price={price}
           />
 

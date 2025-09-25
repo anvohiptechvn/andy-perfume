@@ -9,7 +9,7 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": "Chiết 10ml", "price": 300000 },
+      { "value": "Chiết 10ml", "price": 300000, "outOfStock": true },
       { "value": "Full 100ml", "price": 3300000 }
     ],
     "image": "/images/perfumes/diorsauvage.webp",
