@@ -15,10 +15,10 @@ import products from "@/data/products/data.json" assert { type: "json" };
 
 export default function Home() {
   const images = [
-    "/images/slide/slider_1.webp",
-    "/images/slide/slider_2.webp",
-    "/images/slide/slider_3.webp",
-    "/images/slide/slider_4.webp",
+    { url: "/images/slide/slider_1.webp", redirectedUrl: "/khuyen-mai" },
+    { url: "/images/slide/slider_2.webp" },
+    { url: "/images/slide/slider_3.webp" },
+    { url: "/images/slide/slider_4.webp" },
   ];
 
   const perfumeGroups = useMemo(
