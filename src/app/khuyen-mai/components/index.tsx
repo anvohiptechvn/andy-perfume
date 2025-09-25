@@ -8,7 +8,6 @@ import { Blog, SEARCH_BLOG_PARAMS } from "@/types/blog";
 import { CustomPagination } from "@/components/ui/custom-pagination";
 import CategorySidebar from "@/components/feature/category/sidebar";
 import BlogCard from "@/components/feature/blog/blog-card";
-import LeaderboardSection from "@/components/feature/leaderboard/leaderboard-section";
 
 import saleBlogs from "@/data/sale/data.json" assert { type: "json" };
 
@@ -20,7 +19,7 @@ const SalePage = () => {
   useEffect(() => {
     const fetchingProducts = async () => {
       setTimeout(() => {
-        setFilteredBlogs(saleBlogs);
+        setFilteredBlogs(saleBlogs as Blog[]);
       }, 300);
     };
 
@@ -45,29 +44,24 @@ const SalePage = () => {
     <div className="container mx-auto flex flex-col-reverse gap-6 px-1.5 pt-4 pb-10 md:grid md:grid-cols-4 md:px-0">
       <CategorySidebar />
 
-      {/* Main content */}
-      <div className="col-span-3 flex flex-col md:flex-row gap-4">
-        <main className="flex-1 border px-2.5 pb-2.5 w-full">
-          <h2 className="py-2.5 text-lg md:text-[22px] font-medium text-[#323c3f]">
-            Khuyến mãi
-          </h2>
-          <div className="flex flex-col gap-5">
-            {displayedBlogs.map((blog, i) => (
-              <BlogCard key={i} destinationUrl="/khuyen-mai" blog={blog} />
-            ))}
-          </div>
+      <main className="col-span-3 flex-1 border px-2.5 pb-2.5 w-full">
+        <h2 className="py-2.5 text-lg md:text-[22px] font-medium text-[#323c3f]">
+          Khuyến mãi
+        </h2>
+        <div className="flex flex-col gap-5">
+          {displayedBlogs.map((blog, i) => (
+            <BlogCard key={i} destinationUrl="/khuyen-mai" blog={blog} />
+          ))}
+        </div>
 
-          <div className="my-6">
-            <CustomPagination
-              currentPage={params.page}
-              totalPages={totalPage}
-              onPageChange={(page) => setParams({ ...params, page })}
-            />
-          </div>
-        </main>
-
-        <LeaderboardSection />
-      </div>
+        <div className="my-6">
+          <CustomPagination
+            currentPage={params.page}
+            totalPages={totalPage}
+            onPageChange={(page) => setParams({ ...params, page })}
+          />
+        </div>
+      </main>
     </div>
   );
 };
