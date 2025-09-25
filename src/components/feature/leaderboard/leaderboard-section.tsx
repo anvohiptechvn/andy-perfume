@@ -1,13 +1,21 @@
 import React from "react";
 
-import leaderboards from "@/data/leaderboard/data.json" assert { type: "json" };
+import monthlyLeaderboards from "@/data/leaderboard/monthly.json" assert { type: "json" };
+import totalLeaderboards from "@/data/leaderboard/total.json" assert { type: "json" };
+
 import { cn } from "@/utils/style";
 
-const LeaderboardSection = () => {
+interface LeaderboardSectionProps {
+  rank?: "monthly-ranking" | "total-ranking";
+}
+
+const LeaderboardSection: React.FC<LeaderboardSectionProps> = ({
+  rank = "total-ranking",
+}) => {
   return (
     <aside className="border bg-white md:w-72 h-fit">
       <h3 className="text-base md:lg font-medium text-[#323c3f] px-3 py-2 text-center">
-        BẢNG XẾP HẠNG TỔNG
+        BẢNG XẾP HẠNG {rank === "total-ranking" ? "TỔNG" : "THÁNG"}
       </h3>
       <div className="overflow-x-auto">
         <table className="min-w-full text-sm">
@@ -25,7 +33,10 @@ const LeaderboardSection = () => {
             </tr>
           </thead>
           <tbody>
-            {leaderboards
+            {(rank === "total-ranking"
+              ? totalLeaderboards
+              : monthlyLeaderboards
+            )
               .slice(0, 20)
               .map((entry: { rank: number; name: string; score: number }) => (
                 <tr key={entry.rank} className="border-b last:border-b-0">

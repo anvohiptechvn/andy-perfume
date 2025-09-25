@@ -1,3 +1,5 @@
+import { Blog } from "@/types/blog";
+
 import SaleDetail from "@/components/feature/blog/blog-detail";
 import LeaderboardSection from "@/components/feature/leaderboard/leaderboard-section";
 
@@ -19,8 +21,12 @@ export default async function SalePage({
     <SaleDetail
       destinationUrl="/khuyen-mai"
       relatedBlogs={relatedSaleBlogs}
-      data={saleBlog}
-      rightAside={<LeaderboardSection />}
+      data={saleBlog as Blog}
+      rightAside={
+        saleBlog?.type ? (
+          <LeaderboardSection rank={(saleBlog as Blog).type} />
+        ) : undefined
+      }
     />
   );
 }
