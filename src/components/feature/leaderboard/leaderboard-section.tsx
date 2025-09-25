@@ -6,7 +6,7 @@ import { cn } from "@/utils/style";
 const LeaderboardSection = () => {
   return (
     <aside className="border bg-white md:w-72 h-fit">
-      <h3 className="text-base md:lg font-medium text-[#323c3f] px-3 py-2">
+      <h3 className="text-base md:lg font-medium text-[#323c3f] px-3 py-2 text-center">
         BẢNG XẾP HẠNG
       </h3>
       <div className="overflow-x-auto">
