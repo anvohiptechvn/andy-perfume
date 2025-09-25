@@ -592,13 +592,35 @@
       { "value": "Chiết 10ml", "price": 700000 },
       { "value": "Fullbox 50ml", "price": 9999999999999 }
     ],
-    "image": "/images/perfumes/gggb50ml.webp",
+    "image": "/images/perfumes/gggb50ml.jpg",
     "description": "Nước hoa Kilian rắn trắng chính hãng mang một mùi hương quyến rũ, gợi cảm và đầy lôi cuốn dành cho nữ giới, như một quả bom hoa có sức mạnh lan tỏa và lấn át những mùi hương xung quanh một cách khó tin đấy nhé.",
-    "content": "<p><strong>Thương hiệu:</strong> KILIAN</p><p><strong>Xuất xứ:</strong> Pháp</p><p>Năm ra mắt:</strong> 2012</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20</p><p><strong>Độ lưu hương:</strong> Lâu - 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Floral Fruity - hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Sang trọng, quyến rũ, ngọt ngào</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Hoa nhài, Hoa Mộc Lê, Hoa Hông Tháng Năm</p><p><strong>Hương giữa:</strong> Hoa Huệ Trắng Ấn Độ , Hoa Thủy Tiên</p><p><strong>Hương cuối:</strong>  Hổ Phách, Gỗ Tuyết Tùng</p>",
+    "content": "<p><strong>Thương hiệu:</strong> KILIAN</p><p><strong>Xuất xứ:</strong> Pháp</p><p>Năm ra mắt:</strong> 2012</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20</p><p><strong>Độ lưu hương:</strong> Lâu - 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Floral Fruity - hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Sang trọng, quyến rũ, ngọt ngào</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ</p><p><strong>Hương đầu:</strong> Hoa nhài, Hoa Mộc Lê, Hoa Hồng Tháng Năm</p><p><strong>Hương giữa:</strong> Hoa Huệ Trắng Ấn Độ , Hoa Thủy Tiên</p><p><strong>Hương cuối:</strong>  Hổ Phách, Gỗ Tuyết Tùng</p>",
     "detailImages": [
-      "/images/perfumes/gggb50ml.webp",
+      "/images/perfumes/gggb50ml.jpg",
       "/images/perfumes/gggb50ml2.webp",
       "/images/perfumes/gggb50ml3.webp"
+    ]
+  },
+  {
+    "name": "Kilian Good Girl Gone Bad Extreme (Không Hòm)",
+    "slug": "kilian-good-girl-gone-bad-extreme",
+    "brand": "kilian",
+    "createdAt": "2017-09-16T12:20:00Z",
+    "sex": ["female"],
+    "isMaleExtract": true,
+    "isFemaleExtract": true,
+    "origin": "Pháp",
+    "capacities": [
+      { "value": "Chiết 10ml", "price": 700000, "outOfStock": true },
+      { "value": "Fullbox 50ml", "price": 9999999999999 }
+    ],
+    "image": "/images/perfumes/gggbextreme.jpg",
+    "description": "Vẻ trong trắng, ngây thơ được biểu hiện bởi lớp hương thoang thoảng của hoa nhài, ngay sau đó là vị nồng nàn của hoa hồng tháng năm, thêm vào đó là nét thơ ngây của hoa mộc. Hoa mộc, hoa huệ trắng Ấn Độ lúc này trở thành trái tim của mùi hương. Sự nổi loạn, gợi cảm, đồng thời quyến rũ khó cưỡng tới từ hợp huong của gỗ tuyết tùng và hổ phách huyền ảo.",
+    "content": "<p><strong>Thương hiệu:</strong> KILIAN</p><p><strong>Xuất xứ:</strong> Pháp</p><p>Năm ra mắt:</strong> 2017</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 3 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Xa – Trong vòng bán kính 2m</p><p><strong>Nhóm hương:</strong> Floral Woody Musk - hương hoa cỏ, gỗ xạ hương</p><p><strong>Phong cách:</strong> Quyến rũ, gợi cảm, tinh tế</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu, Đông</p><p><strong>Hương đầu:</strong> Hoa hồng tháng năm, Hoa cam</p><p><strong>Hương giữa:</strong> Hoa huệ, Hoa thuỷ tiên, Hoa nhài Sambac, Hoa mộc tê</p><p><strong>Hương cuối:</strong>  Cỏ hương bài, Tuyết tùng, Xạ hương</p>",
+    "detailImages": [
+      "/images/perfumes/gggbextreme.jpg",
+      "/images/perfumes/gggbextreme2.jpg",
+      "/images/perfumes/gggbextreme3.avif"
     ]
   },
   {
