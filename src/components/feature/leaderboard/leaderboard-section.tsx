@@ -7,7 +7,7 @@ const LeaderboardSection = () => {
   return (
     <aside className="border bg-white md:w-72 h-fit">
       <h3 className="text-base md:lg font-medium text-[#323c3f] px-3 py-2 text-center">
-        BẢNG XẾP HẠNG
+        BẢNG XẾP HẠNG TỔNG
       </h3>
       <div className="overflow-x-auto">
         <table className="min-w-full text-sm">
