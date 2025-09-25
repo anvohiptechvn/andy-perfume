@@ -4,10 +4,10 @@ import React, { useEffect, useState } from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Underline from "@tiptap/extension-underline";
-import Image from "@tiptap/extension-image";
 import Heading from "@tiptap/extension-heading";
 import Blockquote from "@tiptap/extension-blockquote";
 import Link from "@tiptap/extension-link";
+import TextAlign from "@tiptap/extension-text-align";
 import {
   Bold,
   Copy,
@@ -19,10 +19,15 @@ import {
   ListOrdered,
   Quote,
   Redo2,
+  TextAlignCenter,
+  TextAlignEnd,
+  TextAlignJustify,
+  TextAlignStart,
   Undo2,
 } from "lucide-react";
 
 import { cn } from "@/utils/style";
+import { CustomImage } from "@/configs/image-editor";
 
 export default function Editor({ initial = "" }: { initial?: string }) {
   const [content, setContent] = useState<string>("");
@@ -33,11 +38,14 @@ export default function Editor({ initial = "" }: { initial?: string }) {
     extensions: [
       StarterKit,
       Underline,
-      Image.configure({ allowBase64: true }),
+      CustomImage.configure({ allowBase64: true }), // ⬅️ use CustomImage
       Heading.configure({ levels: [1, 2, 3] }),
       Blockquote,
       Link.configure({
         openOnClick: false,
+      }),
+      TextAlign.configure({
+        types: ["heading", "paragraph", "image"],
       }),
     ],
     content: initial,
@@ -167,6 +175,62 @@ export default function Editor({ initial = "" }: { initial?: string }) {
             )}
           >
             <ListOrdered size={16} />
+          </button>
+
+          {/* Align Text*/}
+          <button
+            onClick={() => editor.chain().focus().toggleTextAlign("left").run()}
+            className={cn(
+              "p-2 hover:bg-gray-100 transition-all duration-200 cursor-pointer",
+              editor.isActive({ textAlign: "left" })
+                ? "font-bold text-blue-600"
+                : ""
+            )}
+            title="Align Left"
+          >
+            <TextAlignStart size={16} />
+          </button>
+          <button
+            onClick={() =>
+              editor.chain().focus().toggleTextAlign("center").run()
+            }
+            className={cn(
+              "p-2 hover:bg-gray-100 transition-all duration-200 cursor-pointer",
+              editor.isActive({ textAlign: "center" })
+                ? "font-bold text-blue-600"
+                : ""
+            )}
+            title="Align Center"
+          >
+            <TextAlignCenter size={16} />
+          </button>
+          <button
+            onClick={() =>
+              editor.chain().focus().toggleTextAlign("right").run()
+            }
+            className={cn(
+              "p-2 hover:bg-gray-100 transition-all duration-200 cursor-pointer",
+              editor.isActive({ textAlign: "right" })
+                ? "font-bold text-blue-600"
+                : ""
+            )}
+            title="Align Right"
+          >
+            <TextAlignEnd size={16} />
+          </button>
+          <button
+            onClick={() =>
+              editor.chain().focus().toggleTextAlign("justify").run()
+            }
+            className={cn(
+              "p-2 hover:bg-gray-100 transition-all duration-200 cursor-pointer",
+              editor.isActive({ textAlign: "justify" })
+                ? "font-bold text-blue-600"
+                : ""
+            )}
+            title="Justify"
+          >
+            <TextAlignJustify size={16} />
           </button>
 
           {/* Image upload */}
