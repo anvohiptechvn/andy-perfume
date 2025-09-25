@@ -9,7 +9,7 @@
     "isFemaleExtract": false,
     "origin": "Pháp",
     "capacities": [
-      { "value": "Chiết 10ml", "price": 300000, "outOfStock": true },
+      { "value": "Chiết 10ml", "price": 300000 },
       { "value": "Full 100ml", "price": 3300000 }
     ],
     "image": "/images/perfumes/diorsauvage.webp",
@@ -567,7 +567,7 @@
       { "value": "Chiết 10ml", "price": 330000 },
       { "value": "Full 30ml", "price": 1800000 },
       { "value": "Full 50ml", "price": 2100000 },
-      { "value": "Full 90ml", "price": 2600000 }
+      { "value": "Full 90ml", "price": 2600000, "outOfStock": true }
     ],
     "image": "/images/perfumes/paradoxe.webp",
     "description": "Prada Paradoxe EDP ra mắt năm 2022 như một hình mẫu lý tưởng của một người phụ nữ hiện đại vừa mềm mại lại mạnh mẽ, vừa cổ điển lại tiên phong, vừa quen thuộc lại không ngừng biến hóa.",
