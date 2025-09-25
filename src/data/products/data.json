@@ -75,7 +75,8 @@
     "isFemaleExtract": false,
     "origin": "Mỹ",
     "capacities": [
-      { "value": "Chiết 10ml", "price": 400000 },
+      { "value": "Chiết 10ml", "price": 350000 },
+      { "value": "Tester 100ml", "price": 3000000 },
       { "value": "Fullbox 100ml", "price": 3300000 }
     ],
     "image": "/images/perfumes/tfombre.webp",
@@ -924,7 +925,8 @@
     "origin": "Mỹ",
     "capacities": [
       { "value": "Chiết 10ml", "price": 240000 },
-      { "value": "Fullbox 100ml", "price": 1800000 }
+      { "value": "Tester 100ml", "price": 1750000 },
+      { "value": "Fullbox 100ml", "price": 9999999999999 }
     ],
     "image": "/images/perfumes/narhongnhat.png",
     "description": "Để mà nói về độ lưu hương thì Narciso Rodriguez là một trong những thương hiệu nước hoa làm tốt nhất việc này. Giữa một rừng thế giới nước hoa với hàng trăm phong cách khác nhau, nước hoa nữ quyến rũ Narciso Rodriguez Poudrée lại thu hút nàng bởi sự nhẹ nhàng, quyến rũ cùng hương thơm cuốn hút bung tỏa trong khoảng cách gần. ",
@@ -2316,7 +2318,8 @@
     "origin": "Pháp",
     "capacities": [
       { "value": "Chiết 10ml", "price": 260000 },
-      { "value": "Fullbox 120ml", "price": 2100000 }
+      { "value": "Tester 120ml", "price": 1950000 },
+      { "value": "Fullbox 120ml", "price": 9999999999999 }
     ],
     "image": "/images/perfumes/instantcrush.webp",
     "description": "Hương thơm mà Mancera Instant Crush đem lại là một sự mới mẽ hoàn toàn, nó làm rung động và thức tỉnh tất cả các giác quan cảm xúc của bất cứ ai ngay lần đầu chạm phải.",
@@ -2668,8 +2671,8 @@
     "origin": "Pháp",
     "capacities": [
       { "value": "Chiết 10ml", "price": 230000 },
-      { "value": "Fullbox 50ml", "price": 2150000 },
-      { "value": "Fullbox 90ml", "price": 2800000 }
+      { "value": "Tester 90ml", "price": 2400000 },
+      { "value": "Fullbox 90ml", "price": 9999999999999 }
     ],
     "image": "/images/perfumes/monparis.webp",
     "description": "Yves Saint Laurent Mon Paris mở ra với những nốt hương quả mọng chua chua ngọt ngọt đỏ từ mâm xôi, dâu tây đã nhanh chóng xâm chiếm khứu giác. Hòa quyện với đó là hương chua nhẹ đặc trưng của họ cam quýt và cam bergamot từ vùng Calabria; cùng với hương tươi mát từ trái lê mọng nước. Hương thơm trái cây dễ chịu, mang đến nguồn năng lượng tươi trẻ và êm dịu.",
@@ -2736,6 +2739,7 @@
     "origin": "Pháp",
     "capacities": [
       { "value": "Chiết 10ml", "price": 350000 },
+      { "value": "Tester 100ml", "price": 3100000 },
       { "value": "Fullbox 100ml", "price": 3800000 }
     ],
 
