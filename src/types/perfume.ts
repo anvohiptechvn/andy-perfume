@@ -7,6 +7,7 @@ export type Sex = "male" | "female" | "unisex";
 export interface Capacity {
   value: string;
   price: number;
+  outOfStock?: boolean;
 }
 
 export interface Perfume {
@@ -24,6 +25,7 @@ export interface Perfume {
   content: string;
   origin?: string;
   capacities?: Capacity[];
+  outOfStock?: boolean;
 }
 
 export const SEARCH_PRODUCT_PARAMS = {

@@ -1,3 +1,5 @@
+import { useMemo } from "react";
+
 import { Capacity } from "@/types/perfume";
 
 import { getPriceString } from "@/constants/perfume";
@@ -8,7 +10,7 @@ interface SummarySectionProps {
   capacities?: Capacity[];
   selectedCapacityIndex?: number;
   price?: number;
-  inStock?: boolean;
+  outOfStockFromRoot?: boolean;
 }
 
 const SummarySection: React.FC<SummarySectionProps> = ({
@@ -17,7 +19,7 @@ const SummarySection: React.FC<SummarySectionProps> = ({
   capacities,
   selectedCapacityIndex,
   price,
-  inStock,
+  outOfStockFromRoot,
 }) => {
   const renderPrice = () => {
     if (capacities) {
@@ -38,6 +40,21 @@ const SummarySection: React.FC<SummarySectionProps> = ({
     return "0đ";
   };
 
+  const isOutOfStock = useMemo<boolean>(() => {
+    if (capacities && capacities.length > 0) {
+      if (
+        typeof selectedCapacityIndex !== "undefined" &&
+        capacities[selectedCapacityIndex]
+      ) {
+        return Boolean(capacities[selectedCapacityIndex].outOfStock);
+      }
+      // If no selectedCapacityIndex, check if any capacity is in stock
+      return capacities.some((cap) => Boolean(cap.outOfStock));
+    }
+    // If no capacities, fallback to price (if price is defined, assume in stock)
+    return Boolean(outOfStockFromRoot);
+  }, [capacities, selectedCapacityIndex, price]);
+
   return (
     <>
       <div>
@@ -47,7 +64,7 @@ const SummarySection: React.FC<SummarySectionProps> = ({
         <p className="flex gap-1 text-xs font-bold md:text-sm">
           <span className="text-[#42495B]">Tình trạng:</span>
           <span className="text-primary-default font-normal">
-            {inStock ? "Còn hàng" : "Hết hàng"}
+            {!isOutOfStock ? "Còn hàng" : "Hết hàng"}
           </span>
         </p>
       </div>

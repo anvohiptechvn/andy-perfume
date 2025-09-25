@@ -1,6 +1,7 @@
 import { Capacity } from "@/types/perfume";
 
 import { cn } from "@/utils/style";
+import { X } from "lucide-react";
 
 interface CapacitySectionProps {
   capacities?: Capacity[];
@@ -24,14 +25,21 @@ const CapacitySection: React.FC<CapacitySectionProps> = ({
                 key={idx}
                 type="button"
                 className={cn(
-                  "rounded border px-4 py-2 text-sm font-medium transition-colors",
+                  "relative rounded border px-4 py-2 text-sm font-medium transition-colors",
                   selectedCapacityIndex === idx
-                    ? "border-neutral-500 bg-neutral-50 text-[#42495B]"
-                    : "hover:border-primary-default/50 border-[#ACACAC] bg-white text-[#42495B]"
+                    ? "border-primary-default/50 bg-neutral-50 text-[#42495B]"
+                    : "hover:border-primary-default/50 border-[#ACACAC]/60 bg-white text-[#42495B]",
+                  cap?.outOfStock ? "!text-neutral-200" : ""
                 )}
                 onClick={() => setSelectedCapacityIndex(idx)}
               >
                 {cap.value}
+                {cap?.outOfStock && (
+                  <>
+                    <div className="w-20 h-[1px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-neutral-200 rotate-20"></div>
+                    <div className="w-20 h-[1px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-neutral-200 -rotate-20"></div>
+                  </>
+                )}
               </button>
             ))}
           </div>
