@@ -1632,7 +1632,7 @@
     "isFemaleExtract": true,
     "origin": "Ý",
     "capacities": [
-      { "value": "Chiết 10ml", "price": 350000 },
+      { "value": "Chiết 10ml", "price": 350000, "outOfStock": true },
       { "value": "Fullbox 100ml", "price": 2350000 }
     ],
     "image": "/images/perfumes/aqva.webp",
@@ -2362,7 +2362,7 @@
     "isFemaleExtract": true,
     "origin": "Pháp",
     "capacities": [
-      { "value": "Chiết 10ml", "price": 250000 },
+      { "value": "Chiết 10ml", "price": 250000, "outOfStock": true },
       { "value": "Fullbox 30ml", "price": 1200000 },
       { "value": "Fullbox 100ml", "price": 2150000 }
     ],
@@ -2407,7 +2407,10 @@
     "isMaleExtract": false,
     "isFemaleExtract": false,
     "origin": "Việt Nam",
-    "capacities": [{ "value": "Fullbox 50ml", "price": 1200000 }],
+    "capacities": [
+      { "value": "Chiết 10ml", "price": 280000, "outOfStock": true },
+      { "value": "Fullbox 50ml", "price": 1200000 }
+    ],
     "image": "/images/perfumes/kiramatcha.webp",
     "description": "Nước hoa unisex Kira Matcha Latte EDP không phải kiểu nước hoa “làm quá”, cũng chẳng phải mùi hương gây ấn tượng mạnh từ giây đầu tiên. Nhưng một khi bạn đã xịt lên da, nó giống như một bản nhạc nền nhẹ nhàng – lúc nào cũng hiện diện, êm dịu, và khiến người đối diện muốn ở lại gần hơn.",
     "content": "<p><strong>Thương hiệu:</strong> MCM</p><p><strong>Xuất xứ:</strong> Việt Nam</p><p><strong>Năm ra mắt:</strong> 2024</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20 tuổi</p><p><strong>Độ lưu hương:</strong> Trung bình - từ 6 giờ đến 8 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Hương trà</p><p><strong>Phong cách:</strong> Cuốn hút, lôi cuốn, tinh tế</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu, Đông</p><p><strong>Hương đầu:</strong> Trà xanh, Cam quýt</p><p><strong>Hương giữa:</strong> Hoa nhài, Trà Matcha</p><p><strong>Hương cuối:</strong> Sô cô la trắng</p>",
@@ -2557,7 +2560,7 @@
     "origin": "Anh",
     "capacities": [
       { "value": "Via 5ml", "price": 350000 },
-      { "value": "Fullbox Set", "price": 1750000 }
+      { "value": "Fullbox Set", "price": 1700000 }
     ],
     "image": "/images/perfumes/setpen5ml.jpg",
     "description": "Set Penhaligon'S Little Dollies Miniature là một bộ sưu tập gồm 5 chai nước hoa nhỏ (5ml) thuộc thương hiệu nước hoa nổi tiếng của Anh, Penhaligon's. Bộ sưu tập này là một cách tuyệt vời để bạn khám phá và trải nghiệm nhiều mùi hương khác nhau của Penhaligon's trước khi quyết định mua chai lớn.",
