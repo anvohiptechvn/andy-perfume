@@ -1106,7 +1106,7 @@
       { "value": "Fullbox 100ml", "price": 5000000 }
     ],
     "image": "/images/perfumes/blanchebete.webp",
-    "description": "Ombre Nomade không đơn thuần là nước hoa – đó là lời mời gọi bạn bước vào thế giới nơi bóng tối ôm trọn cát vàng, nơi từng nốt trầm hương hòa cùng hương ngọt mọng của mâm xôi tạo nên một khúc ca huyền bí. Mùi hương ấy như một dải lụa trầm ấm quấn lấy bạn, dẫn dắt qua những nốt nhang, an tức hương, hoa hồng… rồi khẽ khép lại bằng dư vị gỗ quý kéo dài bất tận. Đây là hương thơm của quyền lực, của những người không cần nói nhiều nhưng vẫn khiến cả căn phòng phải ngoái nhìn.",
+    "description": "Blanche Bête không phải kiểu “trắng trẻo ngây thơ” như nghe tên, mà là kiểu ngọt sữa – hoa trắng – vani khiến bạn dễ bị “nghiện” hơn cả trà sữa full topping. Xịt một cái là như đang ôm một cốc latte vanilla nóng hổi, lại được tặng thêm bó hoa trắng siêu sang. Đi học, đi làm hay đi hẹn hò, chỉ cần Blanche Bête đồng hành thì yên tâm – bạn sẽ thơm kiểu “ai đi ngang cũng ngoái lại lần hai”. Cẩn thận nha, xịt nhiều quá là bạn bè tưởng mình vừa mở quán cà phê – tiệm hoa mini luôn đó!",
     "content": "<p><strong>Thương hiệu:</strong> LES LIQUIDES IMAGINAIRES</p><p><strong>Xuất xứ:</strong> Pháp</p><p>Năm ra mắt:</strong> 2021</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Floral Woody Musk – Hương hoa gỗ và xạ hương</p><p><strong>Phong cách:</strong> Sang trọng, thu hút, lôi cuốn</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Hạ, Thu, Đông</p><p><strong>Hương đầu:</strong> Hương ambrette, sữa</p><p><strong>Hương giữa:</strong> Hoa huệ, hoa nhài, hương (nhang)</p><p><strong>Hương cuối:</strong> Bột cacao, đậu tonka, vanilla, xạ hương</p>",
     "detailImages": [
       "/images/perfumes/blanchebete.webp",
@@ -1172,11 +1172,11 @@
       { "value": "Chiết 10ml", "price": 1200000 },
       { "value": "Fullbox 100ml", "price": 11500000 }
     ],
-    "image": "/images/perfumes/lvombre.webp",
+    "image": "/images/perfumes/lvombre.png",
     "description": "Ombre Nomade không đơn thuần là nước hoa – đó là lời mời gọi bạn bước vào thế giới nơi bóng tối ôm trọn cát vàng, nơi từng nốt trầm hương hòa cùng hương ngọt mọng của mâm xôi tạo nên một khúc ca huyền bí. Mùi hương ấy như một dải lụa trầm ấm quấn lấy bạn, dẫn dắt qua những nốt nhang, an tức hương, hoa hồng… rồi khẽ khép lại bằng dư vị gỗ quý kéo dài bất tận. Đây là hương thơm của quyền lực, của những người không cần nói nhiều nhưng vẫn khiến cả căn phòng phải ngoái nhìn.",
     "content": "<p><strong>Thương hiệu:</strong> LOUIS VUITTON</p><p><strong>Xuất xứ:</strong> Pháp</p><p>Năm ra mắt:</strong> 2018</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 8 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Amber Woody – Hương gỗ phương đông</p><p><strong>Phong cách:</strong> Sang trọng, thu hút, lôi cuốn</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Thu, Đông</p><p><strong>Hương đầu:</strong> Gỗ trầm hương, Hoa phong lữ, Quả mâm xôi</p><p><strong>Hương giữa:</strong> Amberwood, An tức hương, Hoa hồng</p><p><strong>Hương cuối:</strong> Gỗ Bu-lô, Nghệ tây, Nhang (Hương)</p>",
     "detailImages": [
-      "/images/perfumes/lvombre.webp",
+      "/images/perfumes/lvombre.png",
       "/images/perfumes/lvombre1.webp",
       "/images/perfumes/lvombre2.webp"
     ]
@@ -1348,11 +1348,11 @@
       { "value": "Chiết 10ml", "price": 280000 },
       { "value": "Fullbox 50ml", "price": 1550000 }
     ],
-    "image": "/images/perfumes/guccibloomedp.webp",
+    "image": "/images/perfumes/guccibloomedp.png",
     "description": "Gucci Bloom mang đến cảm giác như một khu vườn đầy hoa nở rộ, ngọt ngào và tinh tế.",
     "content": "<p><strong>Thương hiệu:</strong> GUCCI</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2017</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Hương hoa cỏ, phấn thơm</p><p><strong>Phong cách:</strong> Quyến rũ, thanh lịch, dịu dàng</p></p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Thu, Đông</p><p><strong>Hương đầu:</strong> Hoa nhài</p><p><strong>Hương giữa:</strong> Hoa huệ, Rangoon creeper</p><p><strong>Hương cuối:</strong> Hoa trắng, Xạ hương</p>",
     "detailImages": [
-      "/images/perfumes/guccibloomedp.webp",
+      "/images/perfumes/guccibloomedp.png",
       "/images/perfumes/guccibloomedp1.webp",
       "/images/perfumes/guccibloomedp2.webp"
     ]
@@ -2812,13 +2812,58 @@
       { "value": "Chiết 10ml", "price": 400000 },
       { "value": "Fullbox 80ml", "price": 3000000 }
     ],
-    "image": "/images/perfumes/jpscandalbynight.webp",
+    "image": "/images/perfumes/jpscandalbynight.png",
     "description": "Nếu bạn muốn định nghĩa về sự nữ tính và gợi cảm đầy chất ma mị, thì nước hoa nữ Scandal By Night là một định nghĩa mới trong bản đồ tư duy của những cô nàng từng tiếp xúc với nó, một sức hút khó cưỡng, một kiệt tác trong trạng thái thôi thúc sự sa ngã của đối phương.",
     "content": "<p><strong>Thương hiệu:</strong> JEAN PAUL GAULTIER</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2018</p><p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Rất lâu - trên 12 giờ</p><p><strong>Độ tỏa hương:</strong> Xa – Trong vòng bán kính 2 mét</p><p><strong>Nhóm hương:</strong> Oriental Floral: hoa cỏ phương Đông</p><p><strong>Phong cách:</strong> Gợi cảm, bí ẩn, sang trọng</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Thu, Đông</p><p><strong>Hương đầu:</strong> Mật ong, Chi cam chanh, Cam đắng</p><p><strong>Hương giữa:</strong> Hoa huệ trắng, Cây cam tùng Himalaya, Cherry, Hoa Cam, Trái lê</p><p><strong>Hương cuối:</strong> Đậu Tonka, Cây hoắc hương, Gỗ đàn hương, Vani, Xạ hương</p>",
     "detailImages": [
-      "/images/perfumes/jpscandalbynight.webp",
+      "/images/perfumes/jpscandalbynight.png",
       "/images/perfumes/jpscandalbynight2.jpg",
       "/images/perfumes/jpscandalbynight3.webp"
+    ]
+  },
+  {
+    "name": "Lancôme Miracle EDP",
+    "slug": "lancome-miracle-edp",
+    "brand": "lancome",
+    "createdAt": "2025-09-16T12:25:00Z",
+    "sex": ["female"],
+    "isMaleExtract": true,
+    "isFemaleExtract": true,
+    "origin": "Pháp",
+    "capacities": [
+      { "value": "Chiết 10ml", "price": 370000 },
+      { "value": "Fullbox 100ml", "price": 1900000 }
+    ],
+    "image": "/images/perfumes/lancomemiracle.webp",
+    "description": "Lancôme đã cho ra mắt dòng nước hoa Lancôme La Nuit Tresor với mùi hương này được đánh giá như là một thứ tình dược mang hương thơm ngọt ngào của bánh kẹo. Mùi hương nước hoa Tresor thể hiện một góc tối ẩn khuất của hoa hồng bằng sự phối hợp giữa hương thơm hồng nhung và hoa phong lan Tahiti.",
+    "content": "<p><strong>Thương hiệu:</strong> LANCÔME</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2000</p><p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 3 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Floral – tông hoa, hương hoa cỏ</p><p><strong>Phong cách:</strong> Nữ tính, tinh nghịch, lãng mạn</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Thu, Đông</p><p><strong>Hương đầu:</strong> Quả vải, Hoa lan Nam Phi</p><p><strong>Hương giữa:</strong>  Hoa Mộc Lan, Gừng, Quả Quýt Hồng, Tiêu, Hoa Nhài</p><p><strong>Hương cuối:</strong> Huyết Phách, Xạ Hương, Hoa Nhài</p>",
+    "detailImages": [
+      "/images/perfumes/lancomemiracle.webp",
+      "/images/perfumes/lancomemiracle1.webp",
+      "/images/perfumes/lancomemiracle2.webp",
+      "/images/perfumes/lancomemiracle3.webp"
+    ]
+  },
+  {
+    "name": "Lancôme La Vie Est Belle EDP",
+    "slug": "lancome-la-vie-est-belle-edp",
+    "brand": "lancome",
+    "createdAt": "2025-09-16T12:25:00Z",
+    "sex": ["female"],
+    "isMaleExtract": true,
+    "isFemaleExtract": true,
+    "origin": "Pháp",
+    "capacities": [
+      { "value": "Chiết 10ml", "price": 300000 },
+      { "value": "Fullbox 100ml", "price": 2450000 }
+    ],
+    "image": "/images/perfumes/lancomelavie.webp",
+    "description": "Nắm giữ những tầng hương đơn giản nhưng lại vô cùng đồng điệu cùng khả năng lưu hương rất bền mùi, những cảm xúc mà nước hoa La Vie Est Belle L'Eau De Parfum mang lại là thứ mà bất kì cô gái cũng phải mềm lòng.",
+    "content": "<p><strong>Thương hiệu:</strong> LANCÔME</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2012</p><p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Xa – Trong vòng bán kính 2 mét</p><p><strong>Nhóm hương:</strong> Floral Fruity - Hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Sang trọng, quyến rũ, ngọt ngào</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Thu, Đông</p><p><strong>Hương đầu:</strong> Nho đen Hy Lạp, Quả Lê</p><p><strong>Hương giữa:</strong> Hoa Iris, Hoa Nhài, Hoa Cam</p><p><strong>Hương cuối:</strong> Hoắc Hương, Đậu Tonka, Hương Vanilla, Kẹo Hạnh Nhân</p>",
+    "detailImages": [
+      "/images/perfumes/lancomelavie.webp",
+      "/images/perfumes/lancomelavie2.webp",
+      "/images/perfumes/lancomelavie3.webp"
     ]
   },
   {
@@ -2845,28 +2890,6 @@
     ]
   },
   {
-    "name": "Lancôme La Vie Est Belle EDP",
-    "slug": "lancome-la-vie-est-belle-edp",
-    "brand": "lancome",
-    "createdAt": "2025-09-16T12:25:00Z",
-    "sex": ["female"],
-    "isMaleExtract": true,
-    "isFemaleExtract": true,
-    "origin": "Pháp",
-    "capacities": [
-      { "value": "Chiết 10ml", "price": 300000 },
-      { "value": "Fullbox 100ml", "price": 2450000 }
-    ],
-    "image": "/images/perfumes/lancomelavie.webp",
-    "description": "Nắm giữ những tầng hương đơn giản nhưng lại vô cùng đồng điệu cùng khả năng lưu hương rất bền mùi, những cảm xúc mà nước hoa La Vie Est Belle L'Eau De Parfum mang lại là thứ mà bất kì cô gái cũng phải mềm lòng.",
-    "content": "<p><strong>Thương hiệu:</strong> LANCÔME</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2012</p><p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Xa – Trong vòng bán kính 2 mét</p><p><strong>Nhóm hương:</strong> Floral Fruity - Hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Sang trọng, quyến rũ, ngọt ngào</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Thu, Đông</p><p><strong>Hương đầu:</strong> Nho đen Hy Lạp, Quả Lê</p><p><strong>Hương giữa:</strong> Hoa Iris, Hoa Nhài, Hoa Cam</p><p><strong>Hương cuối:</strong> Hoắc Hương, Đậu Tonka, Hương Vanilla, Kẹo Hạnh Nhân</p>",
-    "detailImages": [
-      "/images/perfumes/lancomelavie.webp",
-      "/images/perfumes/lancomelavie2.webp",
-      "/images/perfumes/lancomelavie3.webp"
-    ]
-  },
-  {
     "name": "Lancôme Tresor La Nuit EDP",
     "slug": "lancome-tresor-la-nuit-edp",
     "brand": "lancome",
@@ -2886,29 +2909,6 @@
       "/images/perfumes/lancomelanuit.webp",
       "/images/perfumes/lancomelanuit2.webp",
       "/images/perfumes/lancomelanuit3.webp"
-    ]
-  },
-  {
-    "name": "Lancôme Miracle EDP",
-    "slug": "lancome-miracle-edp",
-    "brand": "lancome",
-    "createdAt": "2025-09-16T12:25:00Z",
-    "sex": ["female"],
-    "isMaleExtract": true,
-    "isFemaleExtract": true,
-    "origin": "Pháp",
-    "capacities": [
-      { "value": "Chiết 10ml", "price": 370000 },
-      { "value": "Fullbox 100ml", "price": 1900000 }
-    ],
-    "image": "/images/perfumes/lancomemiracle.webp",
-    "description": "Lancôme đã cho ra mắt dòng nước hoa Lancôme La Nuit Tresor với mùi hương này được đánh giá như là một thứ tình dược mang hương thơm ngọt ngào của bánh kẹo. Mùi hương nước hoa Tresor thể hiện một góc tối ẩn khuất của hoa hồng bằng sự phối hợp giữa hương thơm hồng nhung và hoa phong lan Tahiti.",
-    "content": "<p><strong>Thương hiệu:</strong> LANCÔME</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2000</p><p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 3 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Floral – tông hoa, hương hoa cỏ</p><p><strong>Phong cách:</strong> Nữ tính, tinh nghịch, lãng mạn</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân, Thu, Đông</p><p><strong>Hương đầu:</strong> Quả vải, Hoa lan Nam Phi</p><p><strong>Hương giữa:</strong>  Hoa Mộc Lan, Gừng, Quả Quýt Hồng, Tiêu, Hoa Nhài</p><p><strong>Hương cuối:</strong> Huyết Phách, Xạ Hương, Hoa Nhài</p>",
-    "detailImages": [
-      "/images/perfumes/lancomemiracle.webp",
-      "/images/perfumes/lancomemiracle1.webp",
-      "/images/perfumes/lancomemiracle2.webp",
-      "/images/perfumes/lancomemiracle3.webp"
     ]
   },
   {
@@ -2965,11 +2965,11 @@
       { "value": "Chiết 10ml", "price": 210000 },
       { "value": "Fullbox 100ml", "price": 1400000 }
     ],
-    "image": "/images/perfumes/sighong.jpg",
+    "image": "/images/perfumes/sighong.png",
     "description": "Nước hoa nữ Signorina EDP được sinh ra là để tôn vinh những cô gái hiện đại có cá tính mạnh mẽ, yêu thích làm đẹp và luôn tươi trẻ trong mọi hoàn cảnh. Hương thơm mà Signorina mang lại rất tươi sáng và căng đầy sức sống, theo một phong cách rất Italia.",
     "content": "<p><strong>Thương hiệu:</strong> SALVATORE FERRAGAMO</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2011</p><p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 3 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Floral Fruity - hương hoa cỏ trái cây</p><p><strong>Phong cách:</strong> Nữ tính, Tươi tắn, Gợi cảm</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Xuân</p><p><strong>Hương đầu:</strong> Quả lý chua đỏ, Hồ tiêu hồng</p><p><strong>Hương giữa:</strong>  Hoa nhài, Hoa mẫu đơn, Hoa hồng</p><p><strong>Hương cuối:</strong> Hoắc hương, Xạ hương, Hương bánh Panna Cotta</p>",
     "detailImages": [
-      "/images/perfumes/sighong.jpg",
+      "/images/perfumes/sighong.png",
       "/images/perfumes/sighong2.jpg",
       "/images/perfumes/sighong3.jpg"
     ]
@@ -2987,11 +2987,11 @@
       { "value": "Chiết 10ml", "price": 220000 },
       { "value": "Fullbox 100ml", "price": 1450000 }
     ],
-    "image": "/images/perfumes/sigden.webp",
+    "image": "/images/perfumes/sigden.png",
     "description": "Cô nàng Signorina Misteriosa là vậy, trưởng thành, khó đoán và luôn giữ trong mình sự mạnh mẽ và độc lập một cách cần thiết, như chính vẻ bề ngoài đầy bí ẩn của cô.",
     "content": "<p><strong>Thương hiệu:</strong> SALVATORE FERRAGAMO</p><p><strong>Xuất xứ:</strong> Ý</p><p><strong>Năm ra mắt:</strong> 2016</p><p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 20</p><p><strong>Độ lưu hương:</strong> Tạm ổn - 3 giờ đến 6 giờ</p><p><strong>Độ tỏa hương:</strong> Gần – Trong vòng 1 cánh tay</p><p><strong>Nhóm hương:</strong> Oriental Floral: hoa cỏ phương Đông</p><p><strong>Phong cách:</strong> Nữ tính, gợi cảm, quyến rũ</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Đêm, Thu, Đông</p><p><strong>Hương đầu:</strong> Mâm xôi, Dầu hoa cam</p><p><strong>Hương giữa:</strong>  Hoa cam, Hoa huệ</p><p><strong>Hương cuối:</strong> Hoắc hương, Kem sữa tươi, Vanilla</p>",
     "detailImages": [
-      "/images/perfumes/sigden.webp",
+      "/images/perfumes/sigden.png",
       "/images/perfumes/sigden2.webp",
       "/images/perfumes/sigden3.webp"
     ]
