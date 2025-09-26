@@ -23,6 +23,7 @@ import {
   TextAlignEnd,
   TextAlignJustify,
   TextAlignStart,
+  Trash,
   Undo2,
 } from "lucide-react";
 
@@ -285,13 +286,28 @@ export default function Editor({ initial = "" }: { initial?: string }) {
       <div className="flex flex-col gap-4 mt-10">
         <div className="flex items-center justify-between">
           <h3 className="font-bold">Raw HTML output:</h3>
-          <button
-            className="px-3 py-1 border rounded hover:bg-gray-100 text-sm cursor-pointer flex items-center gap-2"
-            onClick={onCopy}
-          >
-            {copied ? <CopyCheck size={16} /> : <Copy size={16} />}
-            <span>{copied ? "Copied" : "Copy"}</span>
-          </button>
+          <div className="flex gap-2">
+            <button
+              className="px-3 py-1 border rounded hover:bg-gray-100 text-sm cursor-pointer flex items-center gap-2"
+              onClick={onCopy}
+            >
+              {copied ? <CopyCheck size={16} /> : <Copy size={16} />}
+              <span>{copied ? "Copied" : "Copy"}</span>
+            </button>
+            <button
+              className="ml-2 px-3 py-1 border rounded hover:bg-gray-100 text-sm cursor-pointer flex items-center gap-2"
+              onClick={() => {
+                setRawHTML((prev) =>
+                  prev.replace(
+                    /(<img[^>]+src=['"])data:image\/[^'"]+(['"][^>]*>)/g,
+                    "$1$2"
+                  )
+                );
+              }}
+            >
+              <Trash size={16} className="text-red-500" /> Remove base64Str
+            </button>
+          </div>
         </div>
 
         <Textarea
