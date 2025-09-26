@@ -568,7 +568,7 @@
       { "value": "Chiết 10ml", "price": 330000 },
       { "value": "Fullbox 30ml", "price": 1800000 },
       { "value": "Fullbox 50ml", "price": 2100000 },
-      { "value": "Fullbox 90ml", "price": 2600000, "outOfStock": true }
+      { "value": "Fullbox 90ml", "price": 9999999999999 }
     ],
     "image": "/images/perfumes/paradoxe.webp",
     "description": "Prada Paradoxe EDP ra mắt năm 2022 như một hình mẫu lý tưởng của một người phụ nữ hiện đại vừa mềm mại lại mạnh mẽ, vừa cổ điển lại tiên phong, vừa quen thuộc lại không ngừng biến hóa.",
