@@ -28,10 +28,12 @@ import {
 
 import { cn } from "@/utils/style";
 import { CustomImage } from "@/configs/image-editor";
+import { Textarea } from "./text-area";
 
 export default function Editor({ initial = "" }: { initial?: string }) {
   const [content, setContent] = useState<string>("");
   const [copied, setCopied] = useState<boolean>(false);
+  const [rawHTML, setRawHTML] = useState<string>("");
 
   const editor = useEditor({
     immediatelyRender: false,
@@ -63,6 +65,10 @@ export default function Editor({ initial = "" }: { initial?: string }) {
       clearTimeout(timer);
     };
   }, [copied]);
+
+  useEffect(() => {
+    setRawHTML(content.replace(/"/g, "'"));
+  }, [content]);
 
   const onAddImage = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -288,9 +294,11 @@ export default function Editor({ initial = "" }: { initial?: string }) {
           </button>
         </div>
 
-        <div className="border p-2 min-h-40">
-          <p className="break-words">{content}</p>
-        </div>
+        <Textarea
+          className="border p-2 min-h-40 resize-none"
+          value={rawHTML}
+          onChange={(e) => setRawHTML(e.target.value)}
+        />
       </div>
     </div>
   );
