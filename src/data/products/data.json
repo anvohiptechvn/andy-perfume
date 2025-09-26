@@ -2122,6 +2122,7 @@
     "origin": "Pháp",
     "capacities": [
       { "value": "Chiết 10ml", "price": 850000 },
+      { "value": "Fullbox 50ml", "price": 9999999999999 },
       { "value": "Fullbox 100ml", "price": 7500000 }
     ],
     "image": "/images/perfumes/bluetalisman.webp",
@@ -2637,6 +2638,28 @@
       "/images/perfumes/ckone.webp",
       "/images/perfumes/ckone2.webp",
       "/images/perfumes/ckone3.webp"
+    ]
+  },
+  {
+    "name": "Christian Dior Gris Dior EDP",
+    "slug": "christian-dior-gris-dior-edp",
+    "brand": "dior",
+    "createdAt": "2017-09-16T12:25:00Z",
+    "sex": ["unisex"],
+    "isMaleExtract": true,
+    "isFemaleExtract": true,
+    "origin": "Pháp",
+    "capacities": [
+      { "value": "Chiết 10ml", "price": 600000, "outOfStock": true },
+      { "value": "Fullbox 100ml", "price": 5500000, "outOfStock": true }
+    ],
+    "image": "/images/perfumes/grisdior.jpg",
+    "description": "Mùi hương của nước hoa Christian Dior Gris Dior là một hành trình đầy mê hoặc và phức tạp, mở ra với một sự kết hợp hoàn hảo giữa sự tươi mới của cam bergamot và sự nồng nàn của hoa hồng. Ngay từ lần đầu tiên mở nắp chai, tôi đã bị cuốn hút bởi sự hòa quyện của hai tầng hương này, như là một cái gật đầu của sự thanh lịch và sang trọng.",
+    "content": "<p><strong>Thương hiệu:</strong> DIOR</p><p><strong>Xuất xứ:</strong> Pháp</p><p><strong>Năm ra mắt:</strong> 2017</p><p><strong>Độ tuổi khuyên dùng:</strong> Trên 25</p><p><strong>Độ lưu hương:</strong> Lâu - Từ 7 giờ đến 12 giờ</p><p><strong>Độ tỏa hương:</strong> Xa – Trong vòng bán kính 2 mét</p><p><strong>Nhóm hương:</strong> Floral Woody Musk - hoa cỏ, gỗ hổ phách</p><p><strong>Phong cách:</strong> Thanh lịch, tinh tế, tự tin, cuốn hút</p><p><strong>Thời điểm khuyên dùng:</strong> Ngày, Xuân, Thu, Đông</p><p><strong>Hương chính:</strong> Cam Bergamot, Hoa hồng, Cây hoắc hương, Hổ phách, Gỗ tuyết tùng, Gỗ đàn hương, Rêu sồi</p><p><strong>Hương đầu:</strong>  Cam bergamot, bưởi, chanh, quýt hồng</p><p><strong>Hương giữa:</strong> Hoa hồng, hoa nhài, ylang-ylang, hoa huệ trắng</p><p><strong>Hương cuối:</strong> Hoắc hương, gỗ đàn hương, hổ phách, rêu sồi, xạ hương</p>",
+    "detailImages": [
+      "/images/perfumes/grisdior.jpg",
+      "/images/perfumes/grisdior2.jpg",
+      "/images/perfumes/grisdior3.jpg"
     ]
   },
   {
