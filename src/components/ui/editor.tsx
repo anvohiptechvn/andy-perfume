@@ -94,7 +94,7 @@ export default function Editor({ initial = "" }: { initial?: string }) {
 
   const onCopy = () => {
     if (navigator && navigator.clipboard) {
-      navigator.clipboard.writeText(content);
+      navigator.clipboard.writeText(rawHTML);
       setCopied(true);
     }
   };
